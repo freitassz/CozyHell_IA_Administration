@@ -60,7 +60,7 @@
 | Fogueira | ✅ | cozinhar no futuro |
 | Paredes, Plataformas, Tetos | ✅ | base |
 | Mesa de Contrato | ❌ agora / ⏭️ NPC | NPC que troca itens por **fichas de raridade** |
-| Caixa de venda | 🔧 | virar estação fabricável |
+| Caixa de venda = **Vendinha** (`shop_stall` + `shop_ui`) | ✅ 🔧 | vende colheita/drops por R$ e **desmancha arma em sucata** (2–30 por raridade); proposta: virar estação fabricável |
 
 ## Armaduras e acessórios
 | Item | Destino | Nota |
@@ -76,6 +76,8 @@
 | Loja (`unlock_pistol`) | ❌ | |
 | Moedas = R$ | ✅ | |
 | Pilar de boss, Monumento | ✅ | |
+| **Santuários** (`SHRINE_DEFS`) | ❓ | ativados por sementes de certo tier; exigências baixadas para 1 (temporário); aguardando descrição |
+| Arma repetida na máquina | ❓ | **não vira sucata**: dá bônus (`grant_weapon_bonus`); aguardando detalhes |
 | Dia/noite + hordas noturnas | ✅ | |
 | Geração procedural | 🔧 | seed variável |
 | Menu principal / criação de mundo | 🔧 | não existe |

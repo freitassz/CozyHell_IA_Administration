@@ -8,6 +8,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_LIMPEZA](limpeza/PROMPT_ZIVA_LIMPEZA.md) | remover o que foi cortado na revisão (F1.6) | 🟡 etapa 0 ✅ |
 | [RESPOSTA_ETAPA0](limpeza/RESPOSTA_ETAPA0.md) | decisões sobre o relatório da etapa 0 | ✅ |
 | [RESPOSTA_LIMPEZA_FINAL](limpeza/RESPOSTA_LIMPEZA_FINAL.md) | santuários, bônus de repetida | ✅ |
+| [RESPOSTA_LIMPEZA_FINAL](limpeza/RESPOSTA_LIMPEZA_FINAL.md) | santuários, bônus de repetida | ✅ |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |
