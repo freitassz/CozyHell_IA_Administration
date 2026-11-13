@@ -1,5 +1,11 @@
 # Visão geral do jogo
 
+> Pitch, público e pilares: [identidade.md](identidade.md).
+
+- **Gênero:** sobrevivência FPS focado em tiro, inspirado em Muck.
+- **Sistemas:** máquina caça-níquel de armas, construção (em desenvolvimento), biomas e geração procedural (quase prontos). Multiplayer: futuro.
+- **Conteúdo planejado:** 5 bosses, ~8 inimigos.
+
 - **Engine:** Godot 4 (GDScript). Código escrito pelo **Ziva AI**.
 - **Câmera:** primeira pessoa.
 - **Estilo:** low-poly facetado, cores vivas e chapadas, grama verde-limão clara, terreno **irregular** (morros).

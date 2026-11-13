@@ -2,6 +2,15 @@
 
 > Atualize este arquivo sempre que uma etapa mudar de status.
 
+## 🎯 Fase atual: revisão geral
+Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de seguir com bosses e armas.
+- Lista de trabalho: [docs/jogo/revisao.md](docs/jogo/revisao.md)
+- Identidade do jogo: [docs/jogo/identidade.md](docs/jogo/identidade.md)
+
+As etapas abaixo ficam **em espera** até a revisão definir loop, estilo e escopo.
+
+## Conteúdo (em espera)
+
 | Etapa | Assunto | Status | Ficha |
 |---|---|---|---|
 | 0 | Base: skills atualizadas, roteiro salvo, este repositório | ✅ | — |
