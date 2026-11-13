@@ -1,19 +1,22 @@
 # Sistema de armas — regras gerais
 
+> ⚠️ **Rascunho.** Boa parte veio da planilha antiga e vai ser revista. O que vale está em [loop.md](../jogo/loop.md) e [decisoes.md](../jogo/decisoes.md).
+
 ## Nichos (12)
 - **Corpo a corpo (5):** Rápida, Equilibrada, Pesada ("espadão"), Lança, Giro / Área.
 - **À distância (7):** Shotgun, Rifle automático, Pistola / revólver, Sniper, Explosivo, Contínuo, Arremesso / Armadilha.
 
-## Stamina
-- Golpe/tiro normal não gasta. Só o **ataque especial** (toda arma tem um), com custo e cooldown próprios.
+## Essência do Sonho ✅ (substitui "stamina de arma" e "energia")
+- Barra única das armas: **recarregar** e **especial / tiro forte** gastam dela.
+- Enche com dano de tiro, soco/corpo a corpo (muito mais) e regeneração natural.
 
-## Energia (recarga)
+## (rascunho antigo) Energia
 - Munição infinita; armas com pente recarregam gastando energia da barra.
 - Valores de partida (a testar, em `@export`): barra 100; 0,5 de energia por ponto de dano.
 - Custo de recarga por nicho: pistola/arremesso 10 · sniper 15 · shotgun 20 · rifle 25 · explosivo 35.
 - A definir: perde energia ao levar dano? Corpo a corpo enche mais?
 
-## Calor (superaquecimento)
+## (rascunho antigo, em revisão) Calor (superaquecimento)
 - Campos: `superaquece` (Sim/Não), tempo até superaquecer, resfriamento.
 - Quem superaquece **não tem pente nem recarga**. Hoje: Mangueira, Lança-Chamas, Liquidificador.
 

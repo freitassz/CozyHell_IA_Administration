@@ -16,6 +16,7 @@ Carregue a skill correspondente antes de modelar ou escrever prompt.
 - Cada arma/inimigo/boss/objeto tem **uma ficha** em `docs/<categoria>/`. Use os modelos de `templates/`.
 - Ao terminar algo, **atualize**: a ficha, o índice da categoria (`README.md` da pasta), o `ROADMAP.md` e, se houve decisão de design, `docs/jogo/decisoes.md`.
 - Prompts entregues ao Ziva vão para `prompts/<assunto>/` com o nome `PROMPT_ZIVA_<ASSUNTO>.md`.
-- Os **números das armas** vivem na planilha "Cozy Hell — Sistema de Armas" (fonte da verdade). Não duplique valores aqui; registre só conceito, estado e decisões.
+- **Prioridade em caso de conflito:** `docs/jogo/decisoes.md` e `docs/jogo/loop.md` > restante deste repo > skills > planilha de armas.
+- A planilha "Cozy Hell — Sistema de Armas" e a lista de 35 armas são **rascunho** (nov/2026). Não trate nada dela como decidido (ex.: calor/superaquecimento, stamina de arma).
 - Trabalhe por etapas, uma mudança por vez, e pense em economia de tokens.
 - Commits em português, curtos e descritivos.

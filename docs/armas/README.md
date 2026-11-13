@@ -1,6 +1,8 @@
 # Armas
 
-**Fonte da verdade dos números:** planilha "Cozy Hell — Sistema de Armas"
+> ⚠️ A planilha e a lista de 35 armas são **rascunho** e vão mudar bastante.
+
+**Números (rascunho):** planilha "Cozy Hell — Sistema de Armas"
 (https://claude.ai/artifact/C6UHKQhy775yxMivAKyWZZ). Aqui ficam conceito, estado e decisões.
 
 - [Sistema (regras gerais)](sistema.md)

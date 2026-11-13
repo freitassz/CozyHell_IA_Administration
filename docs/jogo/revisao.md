@@ -19,19 +19,23 @@
 | P06 | Saltos de poder entre bosses | ✅ |
 | C01 | Quantidade de corpo a corpo | ✅ lista de armas é rascunho, vai mudar |
 | C02 | Escopo das armas | 🔴 |
-| C03 | Munição/energia | ✅ |
-| C04 | Recurso do ataque especial (stamina de arma?) | 🔴 |
+| C03 | Munição/recarga | ✅ Essência do Sonho |
+| C04 | Recurso do ataque especial | ✅ Essência do Sonho (opção B) |
 | C05 | Raridade sem multiplicador | 🟡 |
 | N01 | Os 5 bosses e bioma de cada | ✅ (falta o final) |
 | N02 | ~8 inimigos com papéis diferentes | ⏸️ depois |
 | R01 | Construção: estações × base | ✅ (falta lista de estações) |
 | R02 | Sementes que viram inimigo | 🟡 |
-| M01 | Multiplayer: decidir agora | 🟡 quer muito; bloqueio: Ziva |
-| M02 | Prompts do Ziva prontos para multiplayer | 🔴 |
+| M01 | Multiplayer | ✅ vai ter; Relay do Ziva é só para Web |
+| M02 | Prompts do Ziva prontos para multiplayer | ✅ regra adotada |
 | T01 | Projeto Godot versionado | ✅ |
 | T02 | Prompts antigos fora do repo | 🔴 |
 | P07 | Minérios e picaretas travados por fase do pesadelo | ✅ ideia (falta uso dos minérios) |
 | P08 | Armas exclusivas de boss | ✅ ideia |
+| P09 | Reinvocar boss com oferenda simples | ✅ |
+| P10 | Sistema de armaduras (uso dos minérios) | 🔴 novo |
+| P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
+| A01 | **Inventário do que já existe no jogo** | 🟡 agora |
 
 ---
 

@@ -20,17 +20,21 @@
 - 4 minérios existem desde o início; o acesso é travado pela **picareta**, feita com drops de inimigos de fases do pesadelo.
 - Ordem dos bosses: Tomate → Uva-morcego → Dragão-Pitaya → Batata-golem → Final.
 - Construção ganha mais importância (estações fazem parte da progressão).
-- Morte: dois modos — hardcore (estilo Muck) e leve (renasce perdendo parte dos itens e do dinheiro).
+- Morte: dois modos — **Pesadelo** (hardcore, estilo Muck) e **Soneca** (renasce perdendo parte dos itens e do dinheiro).
+- Boss já derrotado pode ser reinvocado com oferenda **simples, de itens comuns**.
+- Avanço do pesadelo é anunciado com animação pelo mundo + mensagem.
+- Minérios servem para alguns itens e **principalmente armaduras**.
+- **Multiplayer: vai ter**, se possível. Código novo já segue as regras de multiplayer (ver loop.md).
 - Stamina = movimento (correr, pular etc.).
-- Energia de recarga enche com tiros, socos (muito mais) e regeneração natural.
+- **Essência do Sonho** (nome provisório): barra única das armas. Serve para **recarregar** e para o **especial/tiro forte**. Enche com tiros, socos (muito mais) e regeneração natural.
 - A lista de 35 armas é **rascunho**; vai mudar bastante.
 
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
 - Sem limite de slots: carrega quantas o inventário aguentar.
-- **Munição infinita.** Recarregar gasta uma **barra de energia** que enche ao causar dano.
-- Superaquecimento é variável da arma; quem superaquece não tem pente nem recarga.
+- Recarregar gasta **Essência do Sonho** (ver Progressão).
+- ⚠️ A planilha de armas é **rascunho**: superaquecimento/calor e outros detalhes dela estão em revisão.
 - Status reduzidos a 4: Queimar, Atordoar, Eletrizar, Lentidão.
 
 ## ❌ Descartado

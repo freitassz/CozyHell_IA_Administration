@@ -16,7 +16,9 @@ O pesadelo é mostrado como **progressão de jogo** (inimigos novos), não como 
 ## Loop longo: o que cada boss faz ✅
 1. **Dropa uma ficha de raridade e libera essa raridade na máquina.** Ex.: Tomate morto → ficha de item Raro + a máquina passa a sortear Raros.
 2. **Dropa material único**, usado na **próxima oferenda** ou numa **arma exclusiva de boss** (feita na estação, fora da máquina).
+   - **Reinvocar boss ✅:** a primeira oferenda de cada boss é a difícil (usa o material do boss anterior). Depois de derrotado uma vez, a oferenda dele fica **mais simples, feita com itens comuns**, para lutar de novo e farmar material sem refazer a lista de bosses.
 3. Bosses-chave **avançam o pesadelo**: o mundo passa a spawnar **inimigos novos** (como a Plantera no Terraria).
+   - O avanço é anunciado com **uma animação pelo mundo + mensagem na tela** ✅, para o jogador perceber.
 
 ## Ordem dos bosses ✅
 | # | Boss | Bioma | Libera |
@@ -33,14 +35,15 @@ Todos dropam material único (oferenda / arma de boss).
 - **4 minérios**, todos existem no mundo **desde o início** (o sistema de recursos não muda).
 - O que trava é a **picareta**: cada minério exige uma picareta melhor, feita com drops de inimigos que só existem a partir de certa fase do pesadelo.
 - Ex.: minério 3 precisa da picareta 3, que precisa de drop dos inimigos da fase 2 (pós Uva-morcego).
-- 🟡 Falta definir: para que serve cada minério (melhorias na bigorna? armas de boss? construção?).
+- **Uso ✅:** criar alguns itens, mas **principalmente armaduras** e afins.
+- 🟡 Novo sistema a definir: **armaduras** (peças, o que dão, como aparecem em primeira pessoa/multiplayer).
 
 ## Economia 🟡
 | Moeda | Ganha com | Gasta em |
 |---|---|---|
 | R$ | Caixa de Venda | máquina caça-níquel |
 | Sucata | armas repetidas, desmontar | bigorna, construção |
-| Minérios | pedreira (picareta certa) | ferramentas, melhorias, construção |
+| Minérios | pedreira (picareta certa) | **armaduras**, alguns itens |
 | Drops de inimigo | inimigos por fase | picaretas, receitas |
 | Material de boss | boss | oferenda seguinte ou arma de boss |
 
@@ -54,12 +57,25 @@ Todos dropam material único (oferenda / arma de boss).
 |---|---|---|
 | Vida | — | — |
 | Stamina ✅ | correr, pular, esquivar | sozinha |
-| **Energia** ✅ | recarregar armas (🟡 e ataque especial?) | dano com tiro, **soco/corpo a corpo (muito mais)**, regeneração natural lenta |
-| Calor | armas contínuas | esfria sozinho |
+| **Essência do Sonho** ✅ (nome provisório) | **recarregar** armas **e** soltar o **especial / tiro forte** | dano com tiro, **soco/corpo a corpo (muito mais)**, regeneração natural |
 
-🟡 Em discussão: usar a Energia também para o especial (ver C04 em `revisao.md`).
+- É **uma barra só** para as armas (opção B, modelo Hollow Knight: a mesma SOUL cura e solta magia).
+- Ideia do tema: as armas não têm munição de verdade — são **recarregadas com essência do sonho**.
+- A cada momento o jogador escolhe: guardar essência para recarregar ou gastar num tiro forte.
+- 🟡 Nome final a definir.
+- "Calor/superaquecimento" veio da planilha de armas, que é **rascunho**: não faz parte do design até ser rediscutido.
 
 ## Morte ✅ (ideia)
 Dois modos escolhidos ao criar o mundo/personagem:
-- **Hardcore:** parecido com o Muck (morreu, perdeu). 🟡 Definir se apaga o mundo ou o personagem; no co-op, se vira espectador até reviverem.
-- **Modo leve ("baby"):** renasce perdendo parte dos itens e do dinheiro. 🟡 Sugestão de nomes temáticos: **"Soneca"** (leve) e **"Pesadelo"** (hardcore).
+- **Pesadelo** ✅ (hardcore): parecido com o Muck (morreu, perdeu). 🟡 Definir se apaga o mundo ou o personagem; no co-op, se vira espectador até reviverem.
+- **Soneca** ✅ (leve): renasce perdendo parte dos itens e do dinheiro.
+- 🟡 Atenção: "Pesadelo" também é o nome da progressão do mundo (fase 2 do pesadelo). Pode confundir; avaliar chamar a progressão de outra coisa (ex.: "Profundidade do sonho").
+
+## Multiplayer ✅ (vai ter, se possível)
+- Implementação fica para depois, mas o código novo já segue regras de multiplayer:
+  - nada de `Engine.time_scale` (câmera lenta só visual/local);
+  - inimigos e bosses miram o **jogador mais próximo**, nunca "o player";
+  - estado do jogo num lugar só (host/servidor manda);
+  - mundo gerado por **seed**.
+- O "Relay" pago do Ziva é um **relay gerenciado para jogos Godot na Web**. Para PC/Steam não é necessário: o multiplayer do Godot é gratuito (ENet, `MultiplayerSpawner`, `MultiplayerSynchronizer`) e a Steam tem relay grátis (GodotSteam). O Ziva pode escrever esse código pelos prompts normais.
+- 🟡 A decidir depois: roleta e drops por jogador ou compartilhados; vida do boss escala com nº de jogadores; no modo Pesadelo, morto vira espectador?

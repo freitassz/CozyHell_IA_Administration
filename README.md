@@ -11,7 +11,8 @@ Abra uma conversa com o Claude neste repositório e escolha um assunto:
 |---|---|
 | 🗺️ Roteiro / próximas etapas | [ROADMAP.md](ROADMAP.md) |
 | 🧭 Identidade do jogo (pitch, público, pilares) | [docs/jogo/identidade.md](docs/jogo/identidade.md) |
-| 🔍 **Revisão geral (fase atual)** | [docs/jogo/revisao.md](docs/jogo/revisao.md) |
+| 📦 **Inventário do que existe (fase atual)** | [docs/jogo/inventario.md](docs/jogo/inventario.md) |
+| 🔍 Revisão geral | [docs/jogo/revisao.md](docs/jogo/revisao.md) |
 | 🔁 Loop e progressão | [docs/jogo/loop.md](docs/jogo/loop.md) |
 | ⚙️ Sistemas (biomas, construção, venda, spawn) | [docs/sistemas/](docs/sistemas/README.md) |
 | 🎮 Visão geral do jogo | [docs/jogo/visao-geral.md](docs/jogo/visao-geral.md) |

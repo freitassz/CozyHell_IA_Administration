@@ -10,8 +10,9 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 ### Plano de ação
 | Fase | O quê | Status |
 |---|---|---|
-| **F1 — Decisões** | ✅ loop, níveis da máquina, ordem dos bosses, energia, morte, construção. Faltam: recurso do especial (C04), multiplayer (M01), uso dos minérios, lista de estações | 🟡 agora |
-| **F2 — Protótipo do tiro** | `WeaponData` + 3 armas com cubos/placeholder + barra de energia + troca de arma. Testar se é **divertido** antes de fazer arte | ⏳ |
+| **F1 — Decisões** | ✅ loop, níveis da máquina, ordem dos bosses, reinvocação, Essência do Sonho, morte (Soneca/Pesadelo), construção, multiplayer, minérios → armaduras | ✅ quase |
+| **F1.5 — Inventário** | Levantar **tudo o que já existe no jogo** e decidir manter / ajustar / tirar ([inventario.md](docs/jogo/inventario.md)) | 🟡 **agora** |
+| **F2 — Protótipo do tiro** | `WeaponData` + 3 armas com cubos/placeholder + barra de Essência do Sonho + troca de arma. Testar se é **divertido** antes de fazer arte | ⏳ |
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
@@ -38,8 +39,8 @@ As etapas abaixo ficam **em espera** até F1 terminar; serão reordenadas pela o
 |---|---|---|
 | A1 | `WeaponData` (Resource) + inventário + troca com tempo de saque | ⏳ |
 | A2 | Corpo a corpo (preparo/ativo/recuperação, área por tipo) | ⏳ |
-| A3 | À distância (instantâneo, projétil, contínuo, arremesso; pente, recarga, superaquecimento) | ⏳ |
-| A4 | Barra de energia no HUD + custo da recarga | ⏳ |
+| A3 | À distância (instantâneo, projétil, contínuo, arremesso; pente, recarga) | ⏳ |
+| A4 | Barra de Essência do Sonho no HUD (recarga + especial) | ⏳ |
 | A5 | Status (Queimar, Atordoar, Eletrizar, Lentidão/congelar) | ⏳ |
 | A6 | Ataques especiais | ⏳ |
 | A7 | Lendárias, uma por vez | ⏳ |
