@@ -10,7 +10,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 ### Plano de ação
 | Fase | O quê | Status |
 |---|---|---|
-| **F1 — Decisões** | Fechar os itens 🟡/🔴 da revisão: história, loop, níveis da máquina, energia, stamina, multiplayer, ordem dos bosses | 🟡 agora |
+| **F1 — Decisões** | ✅ loop, níveis da máquina, ordem dos bosses, energia, morte, construção. Faltam: recurso do especial (C04), multiplayer (M01), uso dos minérios, lista de estações | 🟡 agora |
 | **F2 — Protótipo do tiro** | `WeaponData` + 3 armas com cubos/placeholder + barra de energia + troca de arma. Testar se é **divertido** antes de fazer arte | ⏳ |
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |

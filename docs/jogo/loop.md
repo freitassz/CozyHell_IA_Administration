@@ -1,67 +1,65 @@
-# Loop e progressão — proposta v1
+# Loop e progressão — v2
 
-> Documento de design central. Status: 🟡 proposta do Claude em cima das ideias do Gustavo; itens marcados ❓ precisam de confirmação.
+> Documento de design central. ✅ = aprovado pelo Gustavo · 🟡 = proposta, falta confirmar.
 
-## A história amarra tudo
-O jogo é o **sonho de um fazendeiro**. As plantas se revoltam contra ele porque ele é quem planta, colhe e come.
-- **Cozy** = o sonho bom do começo: campo claro, colorido, fofo.
-- **Hell** = o sonho virando **pesadelo**. A cada boss derrotado o sonho fica mais fundo e mais estranho.
-- Por ser sonho, **armas absurdas e improvisadas** (rolha, panela de pressão, relógio de cuco) fazem sentido. Isso resolve o choque de estilo: as armas não precisam ser realistas, precisam ser **coisas de fazendeiro que viraram armas no sonho**.
+## História ✅ (ideia) / 🟡 (forma de contar)
+O jogo é o **sonho de um fazendeiro**; as plantas se revoltam contra quem as planta e colhe. Cozy = sonho; Hell = pesadelo que se aprofunda com a progressão.
+O pesadelo é mostrado como **progressão de jogo** (inimigos novos), não como mudança estética do mundo inteiro. ✅
 
-## Loop curto (minuto a minuto)
-1. Explorar, coletar recursos e matar inimigos (spawn natural + pilares de inimigos).
-2. Vender na **Caixa de Venda** → R$.
-3. R$ → **máquina caça-níquel** → armas.
-4. Arma repetida → **sucata** (já existe).
-5. Sucata + materiais → **bigorna** → melhorar armas.
-6. Ficou forte → oferenda no **pilar de boss**.
+## Loop curto
+1. Explorar, coletar recursos, matar inimigos (spawn natural + pilares de inimigos).
+2. Vender na **Caixa de Venda** (estação) → R$.
+3. R$ → **máquina caça-níquel** → armas. Repetida → **sucata**.
+4. Sucata + minérios + drops → **estações** (bancada, bigorna) → ferramentas, melhorias, armas de boss.
+5. Ficou forte → oferenda (semente amaldiçoada 🟡) no **pilar de boss**.
 
-## Loop longo (os saltos de poder, estilo Terraria)
-Cada boss derrotado faz **três coisas**:
+## Loop longo: o que cada boss faz ✅
+1. **Dropa uma ficha de raridade e libera essa raridade na máquina.** Ex.: Tomate morto → ficha de item Raro + a máquina passa a sortear Raros.
+2. **Dropa material único**, usado na **próxima oferenda** ou numa **arma exclusiva de boss** (feita na estação, fora da máquina).
+3. Bosses-chave **avançam o pesadelo**: o mundo passa a spawnar **inimigos novos** (como a Plantera no Terraria).
 
-| O que | Exemplo | Por quê |
-|---|---|---|
-| 1. **Abre um novo nível da máquina** | antes do 1º boss a máquina só sorteia Comum/Raro; depois entra Épico; mais tarde Lendário | o salto de poder vem da máquina, que é o coração do jogo |
-| 2. **Dropa um material único** | "Casca do Tomate", "Escama de Pitaya" | usado na bigorna para melhorar armas e para fazer a **oferenda do próximo boss** (isso define a ordem, como os itens de invocação do Terraria) |
-| 3. **Aprofunda o pesadelo** | céu e névoa mudam de cor, inimigos novos ou mais fortes, minérios novos na pedreira | o mundo muda, o jogador sente que avançou |
-
-Depois do boss final o mundo continua (como no Terraria), no nível máximo de pesadelo.
-
-### Níveis (rascunho ❓)
-| Nível | Liberado por | Máquina sorteia | Mundo |
+## Ordem dos bosses ✅
+| # | Boss | Bioma | Libera |
 |---|---|---|---|
-| 0 — Sonho | início | Comum, Raro | claro, cozy |
-| 1 | Boss 1 | + Épico | primeiros sinais de pesadelo |
-| 2 | Boss 2 | mais chance de Épico | inimigos novos |
-| 3 | Boss 3 | + Lendário | pedreira profunda / minérios novos |
-| 4 | Boss 4 | mais chance de Lendário | noite pesada |
-| Final | Boss 5 (final) | tudo | pesadelo total, mundo continua |
+| 1 | Tomate | Planície | ficha + **Raro** na máquina |
+| 2 | Uva-morcego | Floresta | **Pesadelo fase 2**: inimigos novos passam a spawnar |
+| 3 | Dragão-Pitaya | cava por qualquer bioma | ficha + **Épico** na máquina 🟡 |
+| 4 | Batata-golem | Pedreira | ficha + **Lendário** na máquina 🟡 |
+| 5 | Final (novo) | o pesadelo | fim da "campanha"; o mundo continua ✅ |
 
-## Economia
+Todos dropam material único (oferenda / arma de boss).
+
+## Minérios e picaretas ✅ (ideia) / 🟡 (detalhes)
+- **4 minérios**, todos existem no mundo **desde o início** (o sistema de recursos não muda).
+- O que trava é a **picareta**: cada minério exige uma picareta melhor, feita com drops de inimigos que só existem a partir de certa fase do pesadelo.
+- Ex.: minério 3 precisa da picareta 3, que precisa de drop dos inimigos da fase 2 (pós Uva-morcego).
+- 🟡 Falta definir: para que serve cada minério (melhorias na bigorna? armas de boss? construção?).
+
+## Economia 🟡
 | Moeda | Ganha com | Gasta em |
 |---|---|---|
-| **R$** | vender recursos e drops na Caixa de Venda | máquina caça-níquel |
-| **Sucata** | armas repetidas, desmontar coisas | bigorna (melhorias), construção |
-| **Material de boss** | matar o boss | bigorna (melhoria de nível alto) e oferenda do próximo boss |
+| R$ | Caixa de Venda | máquina caça-níquel |
+| Sucata | armas repetidas, desmontar | bigorna, construção |
+| Minérios | pedreira (picareta certa) | ferramentas, melhorias, construção |
+| Drops de inimigo | inimigos por fase | picaretas, receitas |
+| Material de boss | boss | oferenda seguinte ou arma de boss |
 
-A sucata garante que **o azar não trava a progressão**: toda rodada da máquina vale alguma coisa.
+## Construção ✅ mais importância
+- **Estações** (bancada, bigorna, Caixa de Venda…) fazem parte da progressão.
+- **Base** (paredes, decoração, defesa) continua livre para quem quiser.
+- 🟡 Falta a lista de estações e o que cada uma faz.
 
-## Estações × construção de base
-Separar duas coisas:
-- **Estações** (bancada, bigorna, Caixa de Venda): fazem parte da progressão. São itens que o jogador **coloca onde quiser**, sem precisar de base. A Caixa de Venda vira uma estação que o jogador fabrica (também dá para achar no mapa no começo).
-- **Base** (paredes, chão, decoração, defesa): **opcional**, para quem gosta. Não trava nada.
+## Recursos do jogador
+| Barra | Serve para | Enche com |
+|---|---|---|
+| Vida | — | — |
+| Stamina ✅ | correr, pular, esquivar | sozinha |
+| **Energia** ✅ | recarregar armas (🟡 e ataque especial?) | dano com tiro, **soco/corpo a corpo (muito mais)**, regeneração natural lenta |
+| Calor | armas contínuas | esfria sozinho |
 
-Assim a construção ganha um papel sem virar obrigação.
+🟡 Em discussão: usar a Energia também para o especial (ver C04 em `revisao.md`).
 
-## Armas: munição e energia
-- Munição infinita, mas **recarregar gasta energia** (barra estilo Hollow Knight, enche ao causar dano). ✅ já decidido.
-- **Risco:** errou os tiros → não ganhou energia → pente vazio → não consegue atirar → morre. É uma espiral de frustração.
-- **Rede de segurança proposta:**
-  - golpes corpo a corpo (soco e armas corpo a corpo) enchem **muito** mais energia — "corpo a corpo para recarregar, tiro para matar" (modelo do Doom Eternal, que funciona). Isso dá ao corpo a corpo um **papel claro** num jogo de tiro;
-  - regeneração passiva bem lenta da barra, ou recarga lenta grátis com a barra vazia (escolher uma).
-- **Brecha:** com várias armas, o jogador troca em vez de recarregar. Aceitável (o tempo de saque já pesa), mas o pente **não enche** ao trocar.
-- Armas que superaquecem não usam energia; o resfriamento é o limite delas.
-
-## Stamina
-- **Proposta:** stamina só para **correr/esquivar/pular**, regenera sozinha (como no Muck). O ataque especial passa a usar **só cooldown**.
-- Isso simplifica (um recurso a menos ligado às armas) e elimina a necessidade da máquina de cerveja.
+## Morte ✅ (ideia)
+Dois modos escolhidos ao criar o mundo/personagem:
+- **Hardcore:** parecido com o Muck (morreu, perdeu). 🟡 Definir se apaga o mundo ou o personagem; no co-op, se vira espectador até reviverem.
+- **Modo leve ("baby"):** renasce perdendo parte dos itens e do dinheiro. 🟡 Sugestão de nomes temáticos: **"Soneca"** (leve) e **"Pesadelo"** (hardcore).

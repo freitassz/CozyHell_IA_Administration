@@ -13,6 +13,18 @@
 - 3 biomas: Planície, Floresta, Pedreira.
 - Projeto Godot versionado no GitHub.
 
+## Progressão (nov/2026)
+- Cada boss dropa **ficha de raridade** e **libera essa raridade na máquina** (Tomate → Raro).
+- Cada boss dropa **material único**: próxima oferenda **ou** arma exclusiva de boss.
+- Pesadelo = **progressão de jogo** (inimigos novos após certos bosses, como a Plantera), não mudança estética do mundo.
+- 4 minérios existem desde o início; o acesso é travado pela **picareta**, feita com drops de inimigos de fases do pesadelo.
+- Ordem dos bosses: Tomate → Uva-morcego → Dragão-Pitaya → Batata-golem → Final.
+- Construção ganha mais importância (estações fazem parte da progressão).
+- Morte: dois modos — hardcore (estilo Muck) e leve (renasce perdendo parte dos itens e do dinheiro).
+- Stamina = movimento (correr, pular etc.).
+- Energia de recarga enche com tiros, socos (muito mais) e regeneração natural.
+- A lista de 35 armas é **rascunho**; vai mudar bastante.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
@@ -22,6 +34,8 @@
 - Status reduzidos a 4: Queimar, Atordoar, Eletrizar, Lentidão.
 
 ## ❌ Descartado
+- Máquina de cerveja para recuperar stamina.
+- Mudança estética do mundo inteiro a cada boss (pesadelo vira progressão de inimigos).
 - Durabilidade, conserto com sucata, afiar, sujeira/enguiço.
 - Combustível ou ingrediente para lendárias, fome da arma.
 - Peso e carga, fraquezas por arma.

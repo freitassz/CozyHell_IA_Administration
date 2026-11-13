@@ -11,25 +11,27 @@
 | I02 | O que é o "Hell" | 🟡 resolvido por H01 |
 | I03 | Shading igual em tudo | 🔴 |
 | I04 | Violência e feedback de acerto | 🔴 |
-| P01 | Máquina perde sentido depois de boas armas | 🟡 |
+| P01 | Máquina perde sentido depois de boas armas | ✅ |
 | P02 | Ciclo do jogo / spawn de boss | 🟡 |
 | P03 | Moedas | 🟡 |
 | P04 | Fim da partida | ✅ |
-| P05 | Morte | 🔴 |
-| P06 | Saltos de poder entre bosses | 🟡 |
-| C01 | Quantidade de corpo a corpo | 🟡 |
+| P05 | Morte | ✅ dois modos (detalhes 🟡) |
+| P06 | Saltos de poder entre bosses | ✅ |
+| C01 | Quantidade de corpo a corpo | ✅ lista de armas é rascunho, vai mudar |
 | C02 | Escopo das armas | 🔴 |
-| C03 | Munição/energia | 🟡 |
-| C04 | Stamina e máquina de cerveja | 🟡 |
+| C03 | Munição/energia | ✅ |
+| C04 | Recurso do ataque especial (stamina de arma?) | 🔴 |
 | C05 | Raridade sem multiplicador | 🟡 |
-| N01 | Os 5 bosses e bioma de cada | 🟡 |
-| N02 | ~8 inimigos com papéis diferentes | 🔴 |
-| R01 | Construção: estações × base | 🟡 |
+| N01 | Os 5 bosses e bioma de cada | ✅ (falta o final) |
+| N02 | ~8 inimigos com papéis diferentes | ⏸️ depois |
+| R01 | Construção: estações × base | ✅ (falta lista de estações) |
 | R02 | Sementes que viram inimigo | 🟡 |
-| M01 | Multiplayer: decidir agora | 🔴 |
+| M01 | Multiplayer: decidir agora | 🟡 quer muito; bloqueio: Ziva |
 | M02 | Prompts do Ziva prontos para multiplayer | 🔴 |
 | T01 | Projeto Godot versionado | ✅ |
 | T02 | Prompts antigos fora do repo | 🔴 |
+| P07 | Minérios e picaretas travados por fase do pesadelo | ✅ ideia (falta uso dos minérios) |
+| P08 | Armas exclusivas de boss | ✅ ideia |
 
 ---
 
@@ -92,7 +94,10 @@
 - **Risco de espiral** (errou → sem energia → sem tiro). Proposta: corpo a corpo enche muito + regeneração lenta ou recarga lenta grátis com barra vazia. Pente não enche ao trocar de arma.
 - **Precisa de protótipo** antes de arte: é a mecânica que mais define se o tiro é divertido.
 
-### C04 🟡 Stamina e máquina de cerveja
+### C04 🔴 Recurso do ataque especial
+- **Atualização:** stamina de movimento ✅ (correr, pular). Máquina de cerveja ❌. O Gustavo quer uma barra própria para armas e pediu alternativas — ver a resposta do Claude de nov/2026 e decidir.
+
+#### (histórico) Stamina e máquina de cerveja
 - **Análise:** a máquina de cerveja não combina com o tom (e álcool restringe a classificação etária). Mas o problema real é que stamina ligada a arma é redundante com o cooldown do especial.
 - **Proposta:** stamina só para correr/esquivar/pular, regenera sozinha. Especial só com cooldown. Máquina de cerveja ❌.
 
