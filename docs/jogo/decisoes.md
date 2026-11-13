@@ -42,7 +42,7 @@
 - Sementes de chefe: em aberto.
 - Enxada e pá removidas. Vara de pesca: futuro, prioridade muito baixa.
 - Drops de inimigo (comidas) são placeholders; cozinhar na fogueira no futuro.
-- Acessórios: caça-níquel próprio mantido; **empilham com limite** (5–10) e podem ser retirados.
+- Acessórios: caça-níquel próprio mantido; empilham com **limite por tipo** e **bônus decrescente** por cópia; podem ser retirados.
 - Batata como inimigo: em aberto.
 - Mesa de Contrato vira **NPC futuro** que troca itens por **fichas de raridade**.
 
