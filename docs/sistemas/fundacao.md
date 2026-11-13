@@ -37,6 +37,15 @@ Mundo procedural = **seed + diferenças**: não se salva o terreno inteiro, só 
 4. ✅ Mundos salvos **sem limite**.
 5. ⚙️ Soneca (escolha do Claude, ajustável): perde 30% do R$/sucata e 50% dos recursos; armas, armaduras, acessórios e ferramentas ficam.
 
+## Achados da Etapa 0 (Ziva)
+- Não existia contador de dias → criado `dia` (+1 ao amanhecer).
+- Recursos e monumentos sem ID → **ID = tipo + posição (x, z) arredondada a 0,1 m**.
+- Vacas, máquinas repostas e totem usam RNG global → salvos por tipo + posição.
+- Itens salvos pelo `resource_path` (variantes de raridade compartilham o mesmo `id`).
+- Morte antiga tirava só 10% do R$ → passa para 30% R$/sucata e 50% recursos.
+- Cama só curava → passa a ser **ponto de renascer** e salvar o jogo.
+- Uva e Totem não registravam derrota → passam a registrar (sem mudar regras de progressão; Totem não sobe tier).
+
 ## Regras para multiplayer (já valem aqui)
 - O save pertence ao **host**.
 - Dados de jogador guardados por **ID do jogador**, não "o player".
