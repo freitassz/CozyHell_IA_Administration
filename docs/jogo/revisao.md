@@ -40,6 +40,7 @@
 | E08 | **Rework total dos santuários** (bosses, oferendas, posições; Golem de Raiz ≠ Batata-golem) | 🔴 |
 | T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`) | 🔴 baixa |
 | E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
+| C07 | Fundir: nível por cópia + fusão por soma (nv3+nv2=nv5) | 🔧 aprovado, implementar depois |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
 | E01 | **Salvar/carregar** (não existe) | 🔴 crítico |
 | E02 | Menu principal + criação de mundo (seed, Soneca/Pesadelo) | 🔴 |

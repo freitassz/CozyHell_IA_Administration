@@ -21,7 +21,8 @@
 | Progressão | bosses derrotados, raridades liberadas na máquina, fase de inimigos, vacas-melancia mortas |
 | Mapa (só as **diferenças** da seed) | árvores/pedras/minérios coletados, monumentos limpos, santuários usados |
 | Construções | tudo o que foi construído (posição, rotação, tipo) + conteúdo dos baús |
-| Jogador | posição, vida, inventário, armaduras e acessórios equipados, nível das armas, R$, sucata, cama/ponto de renascer |
+| Jogador | posição, vida, inventário, armaduras e acessórios equipados, R$, sucata, cama/ponto de renascer |
+| Armas | nível de cada arma — o formato deve aceitar **nível por cópia** (ajuste C07 virá depois) |
 
 Mundo procedural = **seed + diferenças**: não se salva o terreno inteiro, só o que mudou.
 

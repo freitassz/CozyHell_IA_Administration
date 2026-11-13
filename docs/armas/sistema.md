@@ -2,6 +2,17 @@
 
 > ⚠️ **Rascunho.** Boa parte veio da planilha antiga e vai ser revista. O que vale está em [loop.md](../jogo/loop.md) e [decisoes.md](../jogo/decisoes.md).
 
+## Fundir e Desmanchar (bigorna)
+**Hoje no jogo (Ajustes 1):** o nível é **por tipo de arma** — revólver +5 deixa todos os revólveres (inclusive os futuros) +5. Melhoria 8/6/5/4/3% no dano.
+
+### 🔧 Ajuste pendente (pedido do Gustavo, a fazer no futuro)
+- O nível passa a ser **de cada cópia** da arma (cada revólver tem o seu nível), não do tipo.
+- **Fusão simples por soma:** toda arma nasce **nível 1**; fundir duas cópias soma os níveis. Ex.: nv3 + nv2 = **nv5**; nv1 + nv1 = nv2.
+- Máximo **nv5**. Se a soma passar de 5, avisar na UI que o excesso se perde (ex.: nv4 + nv3 = nv5).
+- Melhoria por nível a rever (com nv1 como base sobram 4 degraus: ex.: 8/6/5/4% = +23% no nv5).
+- Consequência técnica: armas deixam de **empilhar** no inventário (cada cópia ocupa um slot com seu nível), e o salvamento precisa guardar o nível de cada cópia.
+- Desmanchar continua por cópia.
+
 ## Nichos (12)
 - **Corpo a corpo (5):** Rápida, Equilibrada, Pesada ("espadão"), Lança, Giro / Área.
 - **À distância (7):** Shotgun, Rifle automático, Pistola / revólver, Sniper, Explosivo, Contínuo, Arremesso / Armadilha.

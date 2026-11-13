@@ -47,6 +47,7 @@
 - **Arma repetida não vira sucata automaticamente** e não dá bônus automático (o `grant_weapon_bonus` antigo sai). Na **bigorna** o jogador escolhe:
   - **Fundir:** consome 1 cópia, a arma sobe de nível (máx. **5**); cada nível melhora **um pouco** os status base, com melhoria decrescente (não é 5x de dano).
   - **Desmanchar:** consome 1 cópia e dá sucata.
+  - 🔧 Ajuste futuro aprovado: nível **por cópia** (não por tipo) e fusão **por soma** (nv3 + nv2 = nv5, máx. 5). Ver `docs/armas/sistema.md`.
 - Armas continuam **descartáveis**: o normal é trocar por uma melhor.
 - Santuário **fica no mapa** depois do boss para reinvocar.
 - Santuários terão **rework total** (oferendas, bosses, posições).
