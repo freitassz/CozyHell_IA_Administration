@@ -36,8 +36,8 @@
 | P10 | Sistema de armaduras (uso dos minérios) | 🔴 novo |
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | Inventário do que já existe no jogo | ✅ |
-| E07 | Arma repetida: bônus (existe) × sucata | 🟡 |
-| E08 | Santuários: o que são e onde entram na progressão | 🔴 |
+| E07 | Arma repetida | 🟡 não vira sucata ✅; regra do bônus a definir |
+| E08 | Santuários × plano de bosses | 🔴 |
 | T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; teste "dawn makes horde flee" | 🔴 baixa |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
 | E01 | **Salvar/carregar** (não existe) | 🔴 crítico |

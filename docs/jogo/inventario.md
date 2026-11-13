@@ -20,6 +20,9 @@
 | Pistola, Rifle, Escopeta, Canhão de Batatas, Espada Enferrujada, Espada de Ferro, Foice, Marreta | ❌ | placeholders |
 | Lista oficial | 🔧 | planilha (será atualizada) |
 
+## Plantio
+- **Ação de plantar do jogador: ❌ descontinuada** (junto com enxada e pá). Os inimigos continuam nascendo por spawn natural, monumentos, hordas noturnas e santuários.
+
 ## Inimigos (plantas)
 | Fase | Inimigos | Liberada por |
 |---|---|---|
@@ -60,7 +63,7 @@
 | Fogueira | ✅ | cozinhar no futuro |
 | Paredes, Plataformas, Tetos | ✅ | base |
 | Mesa de Contrato | ❌ agora / ⏭️ NPC | NPC que troca itens por **fichas de raridade** |
-| Caixa de venda = **Vendinha** (`shop_stall` + `shop_ui`) | ✅ 🔧 | vende colheita/drops por R$ e **desmancha arma em sucata** (2–30 por raridade); proposta: virar estação fabricável |
+| Vendinha (`shop_stall` + `shop_ui`) | ❌ → 🔧 | não nasce mais no mapa; vira **construção de venda** que o jogador constrói. O desmanche de arma vai para a **bigorna** |
 
 ## Armaduras e acessórios
 | Item | Destino | Nota |
@@ -76,8 +79,8 @@
 | Loja (`unlock_pistol`) | ❌ | |
 | Moedas = R$ | ✅ | |
 | Pilar de boss, Monumento | ✅ | |
-| **Santuários** (`SHRINE_DEFS`) | ❓ | ativados por sementes de certo tier; exigências baixadas para 1 (temporário); aguardando descrição |
-| Arma repetida na máquina | ❓ | **não vira sucata**: dá bônus (`grant_weapon_bonus`); aguardando detalhes |
+| **Santuários** (`SHRINE_DEFS`) = pilares de boss | 🔧 | ver tabela em [bosses/README](../bosses/README.md); hoje exigem 3 sementes tier ≥1 (temporário) e **somem** depois de usados |
+| Arma repetida na máquina | 🔧 | dá bônus de dano **por categoria**, +0,15 cada, **sem limite**, não salvo; não vira sucata (✅ decidido) |
 | Dia/noite + hordas noturnas | ✅ | |
 | Geração procedural | 🔧 | seed variável |
 | Menu principal / criação de mundo | 🔧 | não existe |

@@ -11,6 +11,20 @@
 
 Modelos antigos (não feitos pelo Claude) que podem virar boss: PepperBoss (+ Fireball/FireBarrier), CowMellonBossTikiTiki.
 
+## Santuários no jogo hoje (`SHRINE_DEFS`) × plano
+| # | Santuário | Cena | Recompensa hoje | No plano? |
+|---|---|---|---|---|
+| 1 | Tomate Gigante | `tomato_boss.tscn` | `boss_seed_1a` | ✅ boss 1 |
+| 2 | Hidra Picante | `hidra_picante.tscn` | `boss_seed_1b` | ❌ placeholder |
+| 3 | Golem de Raiz | `golem_raiz.tscn` | `boss_seed_2a` | ≈ Batata-golem (boss 4)? |
+| 4 | Espantalho Vulcânico | `espantalho_vulcanico.tscn` | `boss_seed_2b` | reserva |
+| 5 | Deus da Colheita Abissal | `deus_colheita.tscn` | Troféu da Colheita | ≈ boss final ("deus no céu") |
+
+- Ativa com E, consome 3 sementes (tier ≥1, temporário) e o santuário **some**.
+- **Uva-morcego** e **Dragão-Pitaya** não têm santuário (só ovo do criativo).
+- ⚠️ "Santuário some" conflita com a decisão de **reinvocar boss** com oferenda simples.
+- Posições com a seed fixa `556677869`: 197–329 m do spawn.
+
 ## Pacote padrão de cada boss
 1. Modelo + rig + animações em etapas, verificadas.
 2. Âncoras FX, `*_dados.json` e mapa FX.

@@ -44,6 +44,10 @@
 - Drops de inimigo (comidas) são placeholders; cozinhar na fogueira no futuro.
 - Acessórios: caça-níquel próprio mantido; empilham com **limite por tipo** e **bônus decrescente** por cópia; podem ser retirados.
 - Batata como inimigo: em aberto.
+- **Arma repetida não vira sucata automaticamente.** O jogador pode desmanchar em sucata na **bigorna** (ou outra estação).
+- **Plantio pelo jogador descontinuado** (com enxada e pá).
+- **Vendinha descontinuada** como objeto do mapa: vender passa a ser uma **construção** que o jogador constrói.
+- Santuários = pilares de boss (5 no jogo hoje).
 - Mesa de Contrato vira **NPC futuro** que troca itens por **fichas de raridade**.
 
 ## Armas

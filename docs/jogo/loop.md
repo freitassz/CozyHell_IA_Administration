@@ -8,7 +8,7 @@ O pesadelo é mostrado como **progressão de jogo** (inimigos novos), não como 
 
 ## Loop curto
 1. Explorar, coletar recursos, matar inimigos (spawn natural + pilares de inimigos).
-2. Vender na **Caixa de Venda** (estação) → R$.
+2. Vender na **construção de venda** (o jogador constrói; não nasce no mapa) → R$.
 3. R$ → **máquina caça-níquel** → armas. Repetida → **sucata**.
 4. Sucata + minérios + drops → **estações** (bancada, bigorna) → ferramentas, melhorias, armas de boss.
 5. Ficou forte → oferenda (semente amaldiçoada 🟡) no **pilar de boss**.
