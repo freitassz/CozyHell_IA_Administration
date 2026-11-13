@@ -12,7 +12,8 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 |---|---|---|
 | **F1 — Decisões** | ✅ loop, níveis da máquina, ordem dos bosses, reinvocação, Essência do Sonho, morte (Soneca/Pesadelo), construção, multiplayer, minérios → armaduras | ✅ quase |
 | **F1.5 — Inventário** | Levantar tudo o que existe e decidir o destino ([inventario.md](docs/jogo/inventario.md)) | ✅ |
-| **F1.6 — Limpeza** | Ziva removeu o que foi cortado (catálogo 101 → 76 itens) ([PROMPT_ZIVA_LIMPEZA](prompts/limpeza/PROMPT_ZIVA_LIMPEZA.md)) | 🟡 falta teste no jogo + commit |
+| **F1.6 — Limpeza** | Ziva removeu o que foi cortado (catálogo 101 → 76 itens) ([PROMPT_ZIVA_LIMPEZA](prompts/limpeza/PROMPT_ZIVA_LIMPEZA.md)) | ✅ |
+| **F1.6b — Ajustes 1** | Fim do plantio, Barraca de Venda, Fundir/Desmanchar, santuário fixo ([PROMPT_ZIVA_AJUSTES_1](prompts/ajustes/PROMPT_ZIVA_AJUSTES_1.md)) | 🟡 **agora** |
 | **F1.7 — Fundação** | Salvar/carregar + menu principal + criação de mundo (seed, Soneca/Pesadelo) | ⏳ próximo |
 | **F2 — Protótipo do tiro** | `WeaponData` + 3 armas com cubos/placeholder + barra de Essência do Sonho + troca de arma. Testar se é **divertido** antes de fazer arte | ⏳ |
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |

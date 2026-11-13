@@ -44,7 +44,12 @@
 - Drops de inimigo (comidas) são placeholders; cozinhar na fogueira no futuro.
 - Acessórios: caça-níquel próprio mantido; empilham com **limite por tipo** e **bônus decrescente** por cópia; podem ser retirados.
 - Batata como inimigo: em aberto.
-- **Arma repetida não vira sucata automaticamente.** O jogador pode desmanchar em sucata na **bigorna** (ou outra estação).
+- **Arma repetida não vira sucata automaticamente** e não dá bônus automático (o `grant_weapon_bonus` antigo sai). Na **bigorna** o jogador escolhe:
+  - **Fundir:** consome 1 cópia, a arma sobe de nível (máx. **5**); cada nível melhora **um pouco** os status base, com melhoria decrescente (não é 5x de dano).
+  - **Desmanchar:** consome 1 cópia e dá sucata.
+- Armas continuam **descartáveis**: o normal é trocar por uma melhor.
+- Santuário **fica no mapa** depois do boss para reinvocar.
+- Santuários terão **rework total** (oferendas, bosses, posições).
 - **Plantio pelo jogador descontinuado** (com enxada e pá).
 - **Vendinha descontinuada** como objeto do mapa: vender passa a ser uma **construção** que o jogador constrói.
 - Santuários = pilares de boss (5 no jogo hoje).

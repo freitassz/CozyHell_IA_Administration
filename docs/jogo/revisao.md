@@ -36,8 +36,8 @@
 | P10 | Sistema de armaduras (uso dos minérios) | 🔴 novo |
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | Inventário do que já existe no jogo | ✅ |
-| E07 | Arma repetida | 🟡 não vira sucata ✅; regra do bônus a definir |
-| E08 | Santuários × plano de bosses | 🔴 |
+| E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |
+| E08 | **Rework total dos santuários** (bosses, oferendas, posições; Golem de Raiz ≠ Batata-golem) | 🔴 |
 | T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; teste "dawn makes horde flee" | 🔴 baixa |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
 | E01 | **Salvar/carregar** (não existe) | 🔴 crítico |
