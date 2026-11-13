@@ -8,6 +8,12 @@ Jogo de **sobrevivência em primeira pessoa focado em tiro**, muito parecido com
 - **construção** (em desenvolvimento), **biomas** e **geração procedural** (quase prontos);
 - **multiplayer**: provável, só no futuro.
 
+## História
+Tudo acontece no **sonho de um fazendeiro**. As plantas se revoltam contra quem as planta e colhe. O sonho começa bom (**Cozy**) e vira pesadelo (**Hell**) conforme o jogador derrota os bosses. Por ser sonho, as armas são coisas de fazendeiro que viraram armas absurdas. (Proposta H01 em [revisao.md](revisao.md).)
+
+## Estrutura
+Mundo **persistente** como Terraria: existe um boss final, mas o mundo continua depois. 3 biomas: Planície, Floresta, Pedreira. Loop completo em [loop.md](loop.md).
+
 ## Fase atual
 **Revisão geral:** ver o que já existe, o que tirar, o que colocar e o que ajustar.
 Lista de trabalho: [revisao.md](revisao.md).
@@ -27,5 +33,5 @@ Quem joga Muck e similares: adolescentes e jovens adultos, muito em **grupo de a
 4. **Simples na essência:** poucas regras, muita variedade.
 
 ## Perguntas em aberto
-- O que exatamente é o "Hell"? (ver I02 na revisão)
-- Como termina uma partida? (ver P04)
+- Multiplayer: decidir agora (M01).
+- O que acontece ao morrer (P05).

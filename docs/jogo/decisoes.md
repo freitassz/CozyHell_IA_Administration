@@ -5,6 +5,14 @@
 ## Princípios
 - O jogo é **simples na essência**. Complexidade só quando deixa o jogo dinâmico.
 
+## Estrutura (nov/2026)
+- Mundo persistente estilo Terraria: boss final existe, mas o mundo continua.
+- Bosses aparecem por **pilares de boss** com oferenda; inimigos por spawn natural + pilares.
+- Construção de base é **opcional**.
+- Arma repetida na máquina vira sucata.
+- 3 biomas: Planície, Floresta, Pedreira.
+- Projeto Godot versionado no GitHub.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

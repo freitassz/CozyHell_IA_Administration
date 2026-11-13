@@ -7,7 +7,17 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 - Lista de trabalho: [docs/jogo/revisao.md](docs/jogo/revisao.md)
 - Identidade do jogo: [docs/jogo/identidade.md](docs/jogo/identidade.md)
 
-As etapas abaixo ficam **em espera** até a revisão definir loop, estilo e escopo.
+### Plano de ação
+| Fase | O quê | Status |
+|---|---|---|
+| **F1 — Decisões** | Fechar os itens 🟡/🔴 da revisão: história, loop, níveis da máquina, energia, stamina, multiplayer, ordem dos bosses | 🟡 agora |
+| **F2 — Protótipo do tiro** | `WeaponData` + 3 armas com cubos/placeholder + barra de energia + troca de arma. Testar se é **divertido** antes de fazer arte | ⏳ |
+| **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
+| **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
+| **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
+| **F6 — História** | Abertura, frases dos bosses, mudança visual do pesadelo, final | ⏳ |
+
+As etapas abaixo ficam **em espera** até F1 terminar; serão reordenadas pela ordem dos bosses.
 
 ## Conteúdo (em espera)
 
