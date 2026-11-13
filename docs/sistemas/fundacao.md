@@ -1,6 +1,6 @@
 # Fundação: salvar/carregar, menu e criação de mundo (F1.7)
 
-> Status: ✅ decidido · Prompt: [PROMPT_ZIVA_FUNDACAO](../../prompts/fundacao/PROMPT_ZIVA_FUNDACAO.md)
+> Status: ✅ **implementado** (nov/2026) · Prompt: [PROMPT_ZIVA_FUNDACAO](../../prompts/fundacao/PROMPT_ZIVA_FUNDACAO.md)
 
 ## Por que agora
 - O mundo é persistente (estilo Terraria), mas hoje **nada é salvo**.
@@ -45,6 +45,22 @@ Mundo procedural = **seed + diferenças**: não se salva o terreno inteiro, só 
 - Morte antiga tirava só 10% do R$ → passa para 30% R$/sucata e 50% recursos.
 - Cama só curava → passa a ser **ponto de renascer** e salvar o jogo.
 - Uva e Totem não registravam derrota → passam a registrar (sem mudar regras de progressão; Totem não sobe tier).
+
+## Como ficou no jogo
+- Autoload `SaveManager`; `user://saves/<id>/mundo.json` + `estado.json`; escrita por arquivo temporário.
+- Nó `MapaMudancas`: recursos coletados (com dia) e monumentos silenciados. Renascem em 3 dias, só com o jogador a 20 m ou mais.
+- Vacas, totem, máquinas repostas, grupos iniciais e clima: RNG com `seed + offset + contador`.
+- Bosses registram derrota (Tomate, Uva, Dragão, Totem) sem mudar o tier.
+- Morte: Soneca 30% R$/sucata e 50% recursos; Pesadelo apaga o mundo. Cama = ponto de renascer + salva.
+
+### Falta validar jogando
+- [ ] Matar um boss pelo ovo do F3 → recarregar → continua derrotado.
+- [ ] Esperar uma reposição de máquina (~15 min) → salvar/carregar → no mesmo lugar.
+- [ ] Fechar o processo no meio de um amanhecer → carrega no estado do amanhecer.
+
+### Observações
+- Jogador assenta ~4 cm no chão ao carregar (física do motor, normal).
+- Malhas de graveto/pedra ainda sorteiam o visual com RNG global (só aparência, posição é fixa).
 
 ## Regras para multiplayer (já valem aqui)
 - O save pertence ao **host**.

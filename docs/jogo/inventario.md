@@ -82,6 +82,6 @@
 | **Santuários** (`SHRINE_DEFS`) = pilares de boss | 🔧 | ver tabela em [bosses/README](../bosses/README.md); hoje exigem 3 sementes tier ≥1 (temporário) e **somem** depois de usados |
 | Arma repetida na máquina | 🔧 | dá bônus de dano **por categoria**, +0,15 cada, **sem limite**, não salvo; não vira sucata (✅ decidido) |
 | Dia/noite + hordas noturnas | ✅ | |
-| Geração procedural | 🔧 | seed variável |
-| Menu principal / criação de mundo | 🔧 | não existe |
-| Salvar / carregar | 🔧 | não existe — crítico |
+| Geração procedural | ✅ | seed escolhida no Novo Mundo; mesma seed = mesmo mundo |
+| Menu principal / criação de mundo | ✅ | |
+| Salvar / carregar | ✅ | ver [fundacao.md](../sistemas/fundacao.md) |
