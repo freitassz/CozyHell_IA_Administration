@@ -36,6 +36,14 @@
 - Plantações **são** os inimigos. Chuva deixa inimigos mais fortes/rápidos; acelerar crescimento foi descartado.
 - Moedas = R$ do HUD. Pilar de boss já existe. Hoje só existe 1 minério (ferro).
 
+- Inimigos por **fases**: 1 = Tomate, Cenoura, Pimentão; 2 = Cebola, Milho, Abóbora; 3 em aberto. Variantes Mutante/Ancestral **descontinuadas**.
+- **Totem de Melancia** = boss secreto (matar 10 vacas-melancia).
+- Boss final: ideia de um deus no céu (a desenvolver); Espantalho Vulcânico como reserva.
+- Sementes de chefe: em aberto.
+- Enxada e pá removidas. Vara de pesca: futuro, prioridade muito baixa.
+- Drops de inimigo (comidas) são placeholders; cozinhar na fogueira no futuro.
+- Mesa de Contrato vira **NPC futuro** que troca itens por **fichas de raridade**.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
@@ -45,6 +53,8 @@
 - Status reduzidos a 4: Queimar, Atordoar, Eletrizar, Lentidão.
 
 ## ❌ Descartado
+- Variantes de inimigo Mutante/Ancestral.
+- Enxada e pá (sistema de plantar).
 - Loja `unlock_pistol`.
 - Chuva acelerando o crescimento das plantações.
 - Armas placeholder antigas.

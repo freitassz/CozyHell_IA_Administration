@@ -1,102 +1,82 @@
 # Inventário do que já existe no jogo
 
-> Fase F1.5. Destino: ✅ manter · 🔧 ajustar · ❌ tirar · ⏭️ futuro · ❓ decidir. Destinos com * são **proposta do Claude**.
+> Fase F1.5 ✅ fechada. Destino: ✅ manter · 🔧 ajustar · ❌ tirar · ⏭️ futuro · ⏸️ em aberto
 > Fonte: levantamento do Ziva + catálogo do modo criativo (F3, 101 itens), nov/2026.
+> Remoções viram pedido ao Ziva em [prompts/limpeza/PROMPT_ZIVA_LIMPEZA.md](../../prompts/limpeza/PROMPT_ZIVA_LIMPEZA.md).
 
-## Ferramentas (10)
+## Ferramentas
 | Item | Destino | Nota |
 |---|---|---|
 | Mãos Nuas | ✅ | braços FPS prontos |
-| Picareta, Picareta de Ferro | 🔧 | vira a escada de picaretas que libera minérios |
-| Machado, Machado de Ferro | ✅* | madeira para construção |
-| Enxada, Enxada de Ferro | ❓ | plantações são inimigos: a enxada ainda serve para quê? |
-| Pá, Pá de Ferro | ❓ | serve para quê hoje? |
-| Vara de Pesca | ❓ | pesca existe? |
+| Picareta, Picareta de Ferro | 🔧 | escada de picaretas que libera minérios |
+| Machado, Machado de Ferro | ✅ | |
+| Enxada, Enxada de Ferro, Pá, Pá de Ferro | ❌ | eram do sistema de plantar |
+| Vara de Pesca | ⏭️ | pesca como bônus, prioridade muito baixa |
 
 ## Armas
 | Item | Destino | Nota |
 |---|---|---|
 | Revólver do Coveiro | 🔧 | único com modelo; redesign de estilo |
-| Pistola, Rifle Automático de Fazendeiro, Escopeta de Cano Duplo, Canhão de Batatas Ancestral | ❌ | placeholders de teste |
-| Espada Enferrujada, Espada de Ferro, Foice de Colheita Brutal, Marreta Pesada | ❌ | placeholders de teste |
-| Lista oficial | 🔧 | seguir a planilha (que ainda será atualizada) |
+| Pistola, Rifle, Escopeta, Canhão de Batatas, Espada Enferrujada, Espada de Ferro, Foice, Marreta | ❌ | placeholders |
+| Lista oficial | 🔧 | planilha (será atualizada) |
 
-## Inimigos: sementes = plantações (24)
-| Planta | Variantes | Destino | Nota |
-|---|---|---|---|
-| Abóbora | Normal, Mutante, Ancestral | ❓ | sem modelo novo |
-| Batata | base, Normal, Mutante, Ancestral | ❓ | |
-| Cenoura | base, Normal, Mutante, Ancestral | ❓ | modelo antigo `Carrot` |
-| Milho | Normal, Mutante, Ancestral | ✅* | modelo novo pronto |
-| Pimenta | base, Normal, Mutante, Ancestral | ❓ | modelo antigo `pepper` |
-| Tomate | base, Normal, Mutante, Ancestral | ❓ | modelo antigo `Tomato` |
-
-- **Normal / Mutante / Ancestral já é uma escada de força.** Proposta*: amarrar ao pesadelo — Normal desde o início, **Mutante a partir da fase 2** (pós Uva-morcego), Ancestral mais tarde. Isso **é** o "inimigos novos" do loop, quase de graça.
-- "Semente base" × "Normal": parece duplicado. ❓
-- Chuva: deixa inimigos **mais fortes ou rápidos** ✅. Acelerar crescimento ❌.
-
-## Bosses: sementes × ovos × plano (⚠️ não batem)
-| Plano (loop.md) | Semente de chefe (jogo) | Ovo (criativo) |
+## Inimigos (plantas)
+| Fase | Inimigos | Liberada por |
 |---|---|---|
-| 1 Tomate | Semente Real do Tomate | Ovo: Tomate Gigante |
-| 2 Uva-morcego | — | Ovo: Uva Gigante |
-| 3 Dragão-Pitaya | — | Ovo: Dragão-Pitaya |
-| 4 Batata-golem | Semente do Golem de Raiz? | — |
-| 5 Final | Semente do Espantalho Vulcânico? | — |
-| — | Semente da Hidra Picante | — |
-| — | — | Ovo: Boss Totem de Melancia (CowMellonBossTikiTiki) |
+| 1 | Tomate, Cenoura, Pimentão | início |
+| 2 | Cebola, Milho, Abóbora | Uva-morcego (boss 2) |
+| 3 | ⏸️ em aberto | ⏸️ |
 
-- As **sementes de chefe já são a oferenda** (a ideia da "semente amaldiçoada" já existe). ✅*
-- Ovos = ferramenta do modo criativo. ✅*
-- ❓ Hidra Picante e Totem de Melancia: cortar, virar mini-boss ou trocar alguém da lista?
-- ❓ O Espantalho Vulcânico é o boss final? (combina com a história do fazendeiro)
+- Variantes **Mutante / Ancestral**: ❌ descontinuadas.
+- Batata (inimigo): ❓ não entrou em nenhuma fase — tirar ou guardar para a fase 3?
+- Vaca-melancia (CowMellon): ✅ criatura especial espalhada pelo mapa; matar **10** invoca o boss secreto.
+- Chuva: deixa inimigos mais fortes/rápidos ✅ (a implementar). Crescimento mais rápido ❌.
 
-## Outros inimigos
+## Bosses
 | Item | Destino | Nota |
 |---|---|---|
-| Cebola (ovo) | ❓ | não tem semente |
-| CowMellon (ovo) | ❓ | |
+| Sementes de chefe (Tomate Real, Hidra Picante, Golem de Raiz, Espantalho Vulcânico) | ⏸️ | ver no futuro; Hidra Picante é placeholder |
+| Totem de Melancia | ✅ | **boss secreto**: aparece depois de matar 10 vacas-melancia |
+| Ovos de invocação | ✅ | ferramenta do modo criativo |
+| Boss final | ⏸️ | ideia: um **deus no céu** que observa e solta poderes; reserva: Espantalho Vulcânico |
 
-## Comidas (8)
+## Drops de inimigos (antigas "comidas")
 | Item | Destino | Nota |
 |---|---|---|
-| Batata Frita, Bolo de Cenoura, Cenoura Ralada, Molho de Pimenta Picante, Molho de Tomate, Purê de Batata, Tomate Picado | ❓ | para que servem? cura? buff? de onde vêm? |
-| Troféu Supremo da Colheita | ❓ | o que é? |
+| Batata Frita, Bolo de Cenoura, Cenoura Ralada, Molhos, Purê, Tomate Picado | 🔧 | placeholders; trocar nomes/função depois (**cozinhar na fogueira no futuro — não implementado**) |
+| Troféu Supremo da Colheita | ⏸️ | |
 
-## Recursos (6)
+## Recursos
 | Item | Destino | Nota |
 |---|---|---|
-| Madeira, Pedra, Fibra, Carvão | ✅* | |
-| Minério de Ferro → Barra de Ferro | ✅ | **único minério hoje**; plano: 4 |
+| Madeira, Pedra, Fibra, Carvão | ✅ | |
+| Minério de Ferro → Barra de Ferro | ✅ | único minério; plano: 4 |
 
-## Construções e estações (13)
+## Construções e estações
 | Item | Destino | Nota |
 |---|---|---|
-| Bancada de Trabalho, Bigorna, Fornalha | ✅ | estações de progressão |
-| Baú | ✅* | |
-| Cama | ✅* | ponto de renascer no modo Soneca |
-| Fogueira | ❓ | cozinhar? luz? |
-| Paredes, Plataformas, Tetos (madeira e pedra) | ✅ | base |
-| Mesa de Contrato (Armeiro) | ❌ agora / ⏭️ futuro | troca de itens por arma vira **NPC** no futuro |
-| Caixa de venda | 🔧 | virar estação fabricável (não aparece no catálogo) |
+| Bancada, Bigorna, Fornalha | ✅ | progressão |
+| Baú, Cama | ✅ | cama = renascer no modo Soneca |
+| Fogueira | ✅ | cozinhar no futuro |
+| Paredes, Plataformas, Tetos | ✅ | base |
+| Mesa de Contrato | ❌ agora / ⏭️ NPC | NPC que troca itens por **fichas de raridade** |
+| Caixa de venda | 🔧 | virar estação fabricável |
 
-## Armaduras (12) e acessórios (5)
+## Armaduras e acessórios
 | Item | Destino | Nota |
 |---|---|---|
-| Capacete, Peitoral, Calça, Botas × Madeira/Pedra/Ferro | 🔧 | ajustar quando houver os 4 minérios |
-| Amuleto de Casco, Botas de Mola, Coração de Ferro, Pena de Pulo Duplo, Sapato de Velocidade | ❓ | como se ganha? proposta*: prêmio de monumento/boss — progressão passiva estilo Muck |
+| Armaduras Madeira/Pedra/Ferro | 🔧 | ajustar aos 4 minérios |
+| 5 acessórios | ⏸️ | têm caça-níquel próprio; ver A02 em revisao.md |
 
 ## Sistemas
 | Coisa | Destino | Nota |
 |---|---|---|
-| Máquina caça-níquel | ✅ 🔧 | níveis por boss |
-| Bigorna (armas por combinação) | ✅ | armas de boss |
-| Loja (`unlock_pistol`) | ❌ | ninguém sabe o que é |
-| Moedas do monumento = R$ do HUD | ✅ | |
-| Pilar de boss | ✅ existe | |
-| Monumento (pilar de inimigos) | ✅ | |
-| Dia/noite + hordas noturnas | ✅* | |
-| Clima (chuva) | 🔧 | só afeta inimigos |
-| Geração procedural (seed fixa) | 🔧 | seed variável |
+| Máquina de armas | ✅ 🔧 | níveis por boss |
+| Máquina de acessórios | ⏸️ | ver A02 |
+| Loja (`unlock_pistol`) | ❌ | |
+| Moedas = R$ | ✅ | |
+| Pilar de boss, Monumento | ✅ | |
+| Dia/noite + hordas noturnas | ✅ | |
+| Geração procedural | 🔧 | seed variável |
 | Menu principal / criação de mundo | 🔧 | não existe |
-| Salvar / carregar | 🔧 | **não existe — crítico** |
+| Salvar / carregar | 🔧 | não existe — crítico |

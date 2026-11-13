@@ -18,6 +18,7 @@ O pesadelo é mostrado como **progressão de jogo** (inimigos novos), não como 
 2. **Dropa material único**, usado na **próxima oferenda** ou numa **arma exclusiva de boss** (feita na estação, fora da máquina).
    - **Reinvocar boss ✅:** a primeira oferenda de cada boss é a difícil (usa o material do boss anterior). Depois de derrotado uma vez, a oferenda dele fica **mais simples, feita com itens comuns**, para lutar de novo e farmar material sem refazer a lista de bosses.
 3. Bosses-chave **avançam o pesadelo**: o mundo passa a spawnar **inimigos novos** (como a Plantera no Terraria).
+   - **Fases de inimigos ✅:** fase 1 = Tomate, Cenoura, Pimentão · fase 2 (pós Uva-morcego) = Cebola, Milho, Abóbora · fase 3 = em aberto. Sem variantes Mutante/Ancestral (descontinuadas): cada fase traz inimigos **diferentes**, não versões mais fortes.
    - O avanço é anunciado com **uma animação pelo mundo + mensagem na tela** ✅, para o jogador perceber.
 
 ## Ordem dos bosses ✅
@@ -27,7 +28,8 @@ O pesadelo é mostrado como **progressão de jogo** (inimigos novos), não como 
 | 2 | Uva-morcego | Floresta | **Pesadelo fase 2**: inimigos novos passam a spawnar |
 | 3 | Dragão-Pitaya | cava por qualquer bioma | ficha + **Épico** na máquina 🟡 |
 | 4 | Batata-golem | Pedreira | ficha + **Lendário** na máquina 🟡 |
-| 5 | Final (novo) | o pesadelo | fim da "campanha"; o mundo continua ✅ |
+| 5 | Final (a criar) | o céu | ideia: um **deus no céu** que observa e solta poderes; reserva: Espantalho Vulcânico |
+| ★ | Totem de Melancia (secreto) | — | aparece ao matar **10 vacas-melancia** espalhadas pelo mapa |
 
 Todos dropam material único (oferenda / arma de boss).
 
@@ -39,6 +41,9 @@ Todos dropam material único (oferenda / arma de boss).
 - 🟡 Novo sistema a definir: **armaduras** (peças, o que dão, como aparecem em primeira pessoa/multiplayer).
 
 ## Economia 🟡
+
+**NPC de troca ⏭️ (futuro):** troca itens por **fichas de raridade**. Outro caminho para uma arma boa sem precisar matar o boss, sem competir com a máquina.
+
 | Moeda | Ganha com | Gasta em |
 |---|---|---|
 | R$ | Caixa de Venda | máquina caça-níquel |

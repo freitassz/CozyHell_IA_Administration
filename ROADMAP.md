@@ -11,7 +11,9 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | Fase | O quê | Status |
 |---|---|---|
 | **F1 — Decisões** | ✅ loop, níveis da máquina, ordem dos bosses, reinvocação, Essência do Sonho, morte (Soneca/Pesadelo), construção, multiplayer, minérios → armaduras | ✅ quase |
-| **F1.5 — Inventário** | Levantar **tudo o que já existe no jogo** e decidir manter / ajustar / tirar ([inventario.md](docs/jogo/inventario.md)) | 🟡 **agora** |
+| **F1.5 — Inventário** | Levantar tudo o que existe e decidir o destino ([inventario.md](docs/jogo/inventario.md)) | ✅ |
+| **F1.6 — Limpeza** | Ziva remove o que foi cortado ([PROMPT_ZIVA_LIMPEZA](prompts/limpeza/PROMPT_ZIVA_LIMPEZA.md)) | 🟡 **agora** |
+| **F1.7 — Fundação** | Salvar/carregar + menu principal + criação de mundo (seed, Soneca/Pesadelo) | ⏳ próximo |
 | **F2 — Protótipo do tiro** | `WeaponData` + 3 armas com cubos/placeholder + barra de Essência do Sonho + troca de arma. Testar se é **divertido** antes de fazer arte | ⏳ |
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |

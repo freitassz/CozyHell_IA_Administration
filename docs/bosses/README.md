@@ -1,6 +1,6 @@
 # Bosses
 
-**Ordem ✅:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, libera pesadelo fase 2) → 3 Dragão-Pitaya → 4 Batata-golem (Pedreira) → 5 Final (a criar). Ver [loop.md](../jogo/loop.md).
+**Ordem ✅:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, libera pesadelo fase 2) → 3 Dragão-Pitaya → 4 Batata-golem (Pedreira) → 5 Final (a criar; ideia: deus no céu) · ★ secreto: Totem de Melancia (10 vacas-melancia). Ver [loop.md](../jogo/loop.md).
 
 | Boss | Modelo | Animações | Sons | Prompt Ziva | No jogo | Ficha |
 |---|---|---|---|---|---|---|

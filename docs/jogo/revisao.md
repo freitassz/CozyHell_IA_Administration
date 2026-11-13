@@ -35,14 +35,17 @@
 | P09 | Reinvocar boss com oferenda simples | ✅ |
 | P10 | Sistema de armaduras (uso dos minérios) | 🔴 novo |
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
-| A01 | **Inventário do que já existe no jogo** | 🟡 agora |
+| A01 | Inventário do que já existe no jogo | ✅ |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
 | E01 | **Salvar/carregar** (não existe) | 🔴 crítico |
 | E02 | Menu principal + criação de mundo (seed, Soneca/Pesadelo) | 🔴 |
 | E03 | Formas de ganhar arma | ✅ máquina + bigorna; Mesa → NPC futuro; loja ❌ |
-| E04 | Bosses: sementes de chefe × ovos × plano não batem | 🔴 |
-| E05 | Comidas, fogueira, enxada, pá, vara de pesca: para que servem? | 🔴 |
-| E06 | Inimigos Normal/Mutante/Ancestral ligados às fases do pesadelo | 🟡 |
+| E04 | Sementes de chefe | ⏸️ ver no futuro |
+| E05 | Comidas, fogueira, enxada, pá, pesca | ✅ resolvido |
+| E06 | Inimigos por fases (sem Mutante/Ancestral) | ✅ |
+| A02 | Máquina de acessórios: manter, ajustar ou tirar | 🟡 |
+| N03 | Boss final (deus no céu?) | ⏸️ |
+| N04 | Inimigos da fase 3 / Batata como inimigo | ⏸️ |
 
 ---
 
