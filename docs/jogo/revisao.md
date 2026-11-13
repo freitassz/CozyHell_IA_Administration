@@ -38,7 +38,8 @@
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |
 | E08 | **Rework total dos santuários** (bosses, oferendas, posições; Golem de Raiz ≠ Batata-golem) | 🔴 |
-| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; teste "dawn makes horde flee" | 🔴 baixa |
+| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`) | 🔴 baixa |
+| E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
 | E01 | **Salvar/carregar** (não existe) | 🔴 crítico |
 | E02 | Menu principal + criação de mundo (seed, Soneca/Pesadelo) | 🔴 |
