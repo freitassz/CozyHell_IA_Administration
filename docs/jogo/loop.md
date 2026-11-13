@@ -63,7 +63,7 @@ Todos dropam material único (oferenda / arma de boss).
 - Ideia do tema: as armas não têm munição de verdade — são **recarregadas com essência do sonho**.
 - A cada momento o jogador escolhe: guardar essência para recarregar ou gastar num tiro forte.
 - 🟡 Nome final a definir.
-- "Calor/superaquecimento" veio da planilha de armas, que é **rascunho**: não faz parte do design até ser rediscutido.
+- **Superaquecimento de arma** 🟡: ideia já discutida, fica **em aberto** (C06). Seria um limite próprio de algumas armas, separado da Essência.
 
 ## Morte ✅ (ideia)
 Dois modos escolhidos ao criar o mundo/personagem:

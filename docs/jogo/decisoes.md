@@ -34,7 +34,7 @@
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
 - Sem limite de slots: carrega quantas o inventário aguentar.
 - Recarregar gasta **Essência do Sonho** (ver Progressão).
-- ⚠️ A planilha de armas é **rascunho**: superaquecimento/calor e outros detalhes dela estão em revisão.
+- ⚠️ A planilha de armas é **rascunho**: superaquecimento (em aberto) e outros detalhes dela estão em revisão.
 - Status reduzidos a 4: Queimar, Atordoar, Eletrizar, Lentidão.
 
 ## ❌ Descartado

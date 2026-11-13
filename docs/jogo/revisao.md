@@ -36,6 +36,10 @@
 | P10 | Sistema de armaduras (uso dos minérios) | 🔴 novo |
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | **Inventário do que já existe no jogo** | 🟡 agora |
+| C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
+| E01 | **Salvar/carregar** (não existe) | 🔴 crítico |
+| E02 | Menu principal + criação de mundo (seed, Soneca/Pesadelo) | 🔴 |
+| E03 | Muitas formas de ganhar arma (máquina, Mesa de Contrato, loja, bigorna) | 🔴 |
 
 ---
 

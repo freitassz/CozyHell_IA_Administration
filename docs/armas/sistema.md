@@ -16,7 +16,7 @@
 - Custo de recarga por nicho: pistola/arremesso 10 · sniper 15 · shotgun 20 · rifle 25 · explosivo 35.
 - A definir: perde energia ao levar dano? Corpo a corpo enche mais?
 
-## (rascunho antigo, em revisão) Calor (superaquecimento)
+## Superaquecimento de arma 🟡 em aberto (C06)
 - Campos: `superaquece` (Sim/Não), tempo até superaquecer, resfriamento.
 - Quem superaquece **não tem pente nem recarga**. Hoje: Mangueira, Lança-Chamas, Liquidificador.
 
