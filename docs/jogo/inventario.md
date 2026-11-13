@@ -28,7 +28,7 @@
 | 3 | ⏸️ em aberto | ⏸️ |
 
 - Variantes **Mutante / Ancestral**: ❌ descontinuadas.
-- Batata (inimigo): ❓ não entrou em nenhuma fase — tirar ou guardar para a fase 3?
+- Batata (inimigo): ⏸️ em aberto até mexermos nas coisas da batata.
 - Vaca-melancia (CowMellon): ✅ criatura especial espalhada pelo mapa; matar **10** invoca o boss secreto.
 - Chuva: deixa inimigos mais fortes/rápidos ✅ (a implementar). Crescimento mais rápido ❌.
 
@@ -66,13 +66,13 @@
 | Item | Destino | Nota |
 |---|---|---|
 | Armaduras Madeira/Pedra/Ferro | 🔧 | ajustar aos 4 minérios |
-| 5 acessórios | ⏸️ | têm caça-níquel próprio; ver A02 em revisao.md |
+| 5 acessórios | ✅ 🔧 | caça-níquel próprio **mantido**; passam a **empilhar com limite** (5 a 10), podem ser retirados |
 
 ## Sistemas
 | Coisa | Destino | Nota |
 |---|---|---|
 | Máquina de armas | ✅ 🔧 | níveis por boss |
-| Máquina de acessórios | ⏸️ | ver A02 |
+| Máquina de acessórios | ✅ | acessórios empilham com limite |
 | Loja (`unlock_pistol`) | ❌ | |
 | Moedas = R$ | ✅ | |
 | Pilar de boss, Monumento | ✅ | |

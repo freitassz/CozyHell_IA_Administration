@@ -52,6 +52,12 @@ Todos dropam material único (oferenda / arma de boss).
 | Drops de inimigo | inimigos por fase | picaretas, receitas |
 | Material de boss | boss | oferenda seguinte ou arma de boss |
 
+## Acessórios ✅
+- Têm **caça-níquel próprio** (mantido).
+- **Empilham com limite** (entre 5 e 10) para o late game ficar mais rápido/pular mais alto sem "virar várzea".
+- Podem ser **retirados** a qualquer momento.
+- 🟡 A definir: limite por tipo ou total; como mostrar (proposta: **um ícone por tipo com contador "×3"**, não 10 espaços iguais); bônus decrescente por cópia?
+
 ## Construção ✅ mais importância
 - **Estações** (bancada, bigorna, Caixa de Venda…) fazem parte da progressão.
 - **Base** (paredes, decoração, defesa) continua livre para quem quiser.

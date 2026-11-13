@@ -43,7 +43,7 @@
 | E04 | Sementes de chefe | ⏸️ ver no futuro |
 | E05 | Comidas, fogueira, enxada, pá, pesca | ✅ resolvido |
 | E06 | Inimigos por fases (sem Mutante/Ancestral) | ✅ |
-| A02 | Máquina de acessórios: manter, ajustar ou tirar | 🟡 |
+| A02 | Máquina de acessórios | ✅ mantém; acessórios empilham com limite (detalhes 🟡) |
 | N03 | Boss final (deus no céu?) | ⏸️ |
 | N04 | Inimigos da fase 3 / Batata como inimigo | ⏸️ |
 
