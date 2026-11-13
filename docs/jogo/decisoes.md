@@ -29,6 +29,13 @@
 - **Essência do Sonho** (nome provisório): barra única das armas. Serve para **recarregar** e para o **especial/tiro forte**. Enche com tiros, socos (muito mais) e regeneração natural.
 - A lista de 35 armas é **rascunho**; vai mudar bastante.
 
+## Inventário (nov/2026)
+- Armas por **máquina caça-níquel** e **bigorna**. Mesa de Contrato sai agora; a troca de itens por arma pode virar **NPC** no futuro.
+- **Loja** (`unlock_pistol`) removida.
+- Armas placeholder removidas (Pistola, Rifle, Escopeta, Canhão de Batatas, Espadas, Foice, Marreta). Fica o **Revólver**; o resto segue a planilha (que ainda será atualizada).
+- Plantações **são** os inimigos. Chuva deixa inimigos mais fortes/rápidos; acelerar crescimento foi descartado.
+- Moedas = R$ do HUD. Pilar de boss já existe. Hoje só existe 1 minério (ferro).
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
@@ -38,6 +45,9 @@
 - Status reduzidos a 4: Queimar, Atordoar, Eletrizar, Lentidão.
 
 ## ❌ Descartado
+- Loja `unlock_pistol`.
+- Chuva acelerando o crescimento das plantações.
+- Armas placeholder antigas.
 - Máquina de cerveja para recuperar stamina.
 - Mudança estética do mundo inteiro a cada boss (pesadelo vira progressão de inimigos).
 - Durabilidade, conserto com sucata, afiar, sujeira/enguiço.

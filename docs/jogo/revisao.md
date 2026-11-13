@@ -25,7 +25,7 @@
 | N01 | Os 5 bosses e bioma de cada | ✅ (falta o final) |
 | N02 | ~8 inimigos com papéis diferentes | ⏸️ depois |
 | R01 | Construção: estações × base | ✅ (falta lista de estações) |
-| R02 | Sementes que viram inimigo | 🟡 |
+| R02 | Sementes que viram inimigo | ✅ são as plantações = sistema de inimigos |
 | M01 | Multiplayer | ✅ vai ter; Relay do Ziva é só para Web |
 | M02 | Prompts do Ziva prontos para multiplayer | ✅ regra adotada |
 | T01 | Projeto Godot versionado | ✅ |
@@ -39,7 +39,10 @@
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
 | E01 | **Salvar/carregar** (não existe) | 🔴 crítico |
 | E02 | Menu principal + criação de mundo (seed, Soneca/Pesadelo) | 🔴 |
-| E03 | Muitas formas de ganhar arma (máquina, Mesa de Contrato, loja, bigorna) | 🔴 |
+| E03 | Formas de ganhar arma | ✅ máquina + bigorna; Mesa → NPC futuro; loja ❌ |
+| E04 | Bosses: sementes de chefe × ovos × plano não batem | 🔴 |
+| E05 | Comidas, fogueira, enxada, pá, vara de pesca: para que servem? | 🔴 |
+| E06 | Inimigos Normal/Mutante/Ancestral ligados às fases do pesadelo | 🟡 |
 
 ---
 
