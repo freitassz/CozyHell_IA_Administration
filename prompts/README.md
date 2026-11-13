@@ -11,6 +11,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [RESPOSTA_LIMPEZA_FINAL](limpeza/RESPOSTA_LIMPEZA_FINAL.md) | santuários, bônus de repetida | ✅ |
 
 | [PROMPT_ZIVA_AJUSTES_1](ajustes/PROMPT_ZIVA_AJUSTES_1.md) | fim do plantio, Barraca de Venda, Fundir/Desmanchar, santuário fixo | ✅ feito |
+| [PROMPT_ZIVA_FUNDACAO](fundacao/PROMPT_ZIVA_FUNDACAO.md) | salvar/carregar, menu, criação de mundo, morte | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

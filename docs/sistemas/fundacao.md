@@ -1,6 +1,6 @@
 # Fundação: salvar/carregar, menu e criação de mundo (F1.7)
 
-> Status: 🟡 proposta do Claude. Itens ❓ precisam de decisão antes do prompt do Ziva.
+> Status: ✅ decidido · Prompt: [PROMPT_ZIVA_FUNDACAO](../../prompts/fundacao/PROMPT_ZIVA_FUNDACAO.md)
 
 ## Por que agora
 - O mundo é persistente (estilo Terraria), mas hoje **nada é salvo**.
@@ -30,14 +30,12 @@ Mundo procedural = **seed + diferenças**: não se salva o terreno inteiro, só 
 - Automático: ao **dormir na cama**, a cada **amanhecer** e ao **sair** pelo menu.
 - Sem "salvar a qualquer momento" no modo Pesadelo (evita salvar/recarregar para fugir da morte).
 
-## Decisões abertas
-1. ❓ **Pesadelo: o que acontece ao morrer?**
-   - A) O mundo é **apagado** (Muck puro).
-   - B) O **personagem** perde tudo e recomeça, mas o mundo e as construções ficam.
-2. ❓ **Personagem separado do mundo** (Terraria: leva o personagem para outro mundo) ou **personagem dentro do mundo** (mais simples; cada mundo tem seu jogador)?
-   - Proposta: **dentro do mundo**. Em multiplayer, o host guarda o inventário de cada jogador no próprio mundo.
-3. ❓ Árvores e pedras coletadas **renascem** com o tempo ou somem para sempre?
-4. ❓ Quantos mundos salvos ao mesmo tempo? (proposta: sem limite)
+## Decisões
+1. ✅ **Pesadelo:** ao morrer, o **mundo é apagado** (Muck puro).
+2. ✅ **Personagem dentro do mundo.** Em multiplayer, o host guarda o inventário de cada jogador no próprio mundo.
+3. ✅ Recursos coletados **renascem** (padrão: 3 dias).
+4. ✅ Mundos salvos **sem limite**.
+5. ⚙️ Soneca (escolha do Claude, ajustável): perde 30% do R$/sucata e 50% dos recursos; armas, armaduras, acessórios e ferramentas ficam.
 
 ## Regras para multiplayer (já valem aqui)
 - O save pertence ao **host**.

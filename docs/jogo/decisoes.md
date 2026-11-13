@@ -54,6 +54,8 @@
 - **Plantio pelo jogador descontinuado** (com enxada e pá).
 - **Vendinha descontinuada** como objeto do mapa: vender passa a ser uma **construção** que o jogador constrói.
 - Santuários = pilares de boss (5 no jogo hoje).
+- **Fundação:** personagem dentro do mundo; mundos sem limite; recursos renascem; salva na cama, ao amanhecer, ao sair e ao fechar; sem salvar manual.
+- **Pesadelo:** morreu, o mundo é apagado. **Soneca:** renasce perdendo parte do R$/sucata e dos recursos.
 - Mesa de Contrato vira **NPC futuro** que troca itens por **fichas de raridade**.
 
 ## Armas
