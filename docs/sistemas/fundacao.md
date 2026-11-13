@@ -40,7 +40,7 @@ Mundo procedural = **seed + diferenças**: não se salva o terreno inteiro, só 
 ## Achados da Etapa 0 (Ziva)
 - Não existia contador de dias → criado `dia` (+1 ao amanhecer).
 - Recursos e monumentos sem ID → **ID = tipo + posição (x, z) arredondada a 0,1 m**.
-- Vacas, máquinas repostas e totem usam RNG global → salvos por tipo + posição.
+- Vacas, máquinas repostas, totem, grupos iniciais de inimigos e clima usavam RNG global → passam a usar a **seed** (mesma seed = mesmo mundo). Hordas noturnas podem continuar aleatórias.
 - Itens salvos pelo `resource_path` (variantes de raridade compartilham o mesmo `id`).
 - Morte antiga tirava só 10% do R$ → passa para 30% R$/sucata e 50% recursos.
 - Cama só curava → passa a ser **ponto de renascer** e salvar o jogo.
