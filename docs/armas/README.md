@@ -8,6 +8,7 @@
 - [Sistema (regras gerais)](sistema.md) — inclui o **ajuste pendente do Fundir** (nível por cópia, fusão por soma)
 - [Lista das 35 armas](lista.md)
 - [Lendárias](lendarias.md)
+- [F2 — Protótipo do tiro](prototipo-tiro.md) 🟡 aguardando aprovação
 - Fichas individuais: `docs/armas/<ID>-<nome>.md` (criar com `templates/ficha-arma.md` quando a arma começar a ser feita)
   - [R08 — Revólver do Coveiro](R08-revolver-do-coveiro.md) ✅ visual na mão
 
