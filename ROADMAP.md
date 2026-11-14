@@ -15,7 +15,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F1.6 — Limpeza** | Ziva removeu o que foi cortado (catálogo 101 → 76 itens) ([PROMPT_ZIVA_LIMPEZA](prompts/limpeza/PROMPT_ZIVA_LIMPEZA.md)) | ✅ |
 | **F1.6b — Ajustes 1** | Fim do plantio, Barraca de Venda, Fundir/Desmanchar, santuário fixo ([PROMPT_ZIVA_AJUSTES_1](prompts/ajustes/PROMPT_ZIVA_AJUSTES_1.md)) | ✅ (falta teste ao vivo) |
 | **F1.7 — Fundação** | Salvar/carregar + menu principal + criação de mundo (seed, Soneca/Pesadelo) — [fundacao.md](docs/sistemas/fundacao.md) · [PROMPT](prompts/fundacao/PROMPT_ZIVA_FUNDACAO.md) | ✅ (faltam 3 testes ao vivo) |
-| **F2 — Protótipo do tiro** ([proposta](docs/armas/prototipo-tiro.md) · [prompt](prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md)) | `WeaponData` + 3 armas com cubos/placeholder + barra de Essência do Sonho + troca de arma. Testar se é **divertido** antes de fazer arte | 🟡 **agora** |
+| **F2 — Protótipo do tiro** ([proposta](docs/armas/prototipo-tiro.md) · [prompt](prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md)) | `WeaponData` + 3 armas com cubos/placeholder + barra de Essência do Sonho + troca de arma. Testar se é **divertido** antes de fazer arte | ✅ implementado · 🟡 **teste de diversão** + visual do tiro (C09) |
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |

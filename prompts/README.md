@@ -13,7 +13,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_AJUSTES_1](ajustes/PROMPT_ZIVA_AJUSTES_1.md) | fim do plantio, Barraca de Venda, Fundir/Desmanchar, santuário fixo | ✅ feito |
 | [PROMPT_ZIVA_FUNDACAO](fundacao/PROMPT_ZIVA_FUNDACAO.md) | salvar/carregar, menu, criação de mundo, morte | ✅ feito |
 | [RESPOSTA_ETAPA0 (fundação)](fundacao/RESPOSTA_ETAPA0.md) | decisões sobre o relatório | ✅ |
-| [PROMPT_ZIVA_PROTOTIPO_TIRO](armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md) | F2: WeaponData, cópias, Essência, soco rápido, mira, especiais, armas de teste | 🟡 entregue |
+| [PROMPT_ZIVA_PROTOTIPO_TIRO](armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md) | F2: WeaponData, cópias, Essência, soco rápido, mira, especiais, armas de teste | ✅ feito |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

@@ -1,6 +1,6 @@
 # F2 — Protótipo do tiro (proposta para aprovação)
 
-> Status: ✅ aprovado com ajustes · Prompt: [PROMPT_ZIVA_PROTOTIPO_TIRO](../../prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md)
+> Status: ✅ **implementado** (9 etapas, 45 checks do Ziva) · falta o **teste de diversão** do Gustavo · Prompt: [PROMPT_ZIVA_PROTOTIPO_TIRO](../../prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md)
 >
 > **Ajustes do Gustavo (valem sobre o texto abaixo):**
 > - **Botão direito = mirar.** Especial na tecla **Q**.
@@ -9,6 +9,15 @@
 > - **Ganho por tiro é variável da arma** (`essencia_por_acerto`): arma rápida devolve pouco por acerto, arma lenta devolve muito.
 > - **Sem números de dano flutuando.** Como mostrar dano em inimigos comuns fica para decidir (I05).
 > - Adicionado pelo Claude: **soco rápido (V)** com a arma na mão, para socar valer a pena sem guardar a arma.
+>
+> **Como ficou no jogo (respostas do Gustavo ao Ziva):**
+> - Especial na tecla **F** (a Q continua soltando item). **V** = soco rápido; o "empurrar" que estava no V foi removido.
+> - Soco rápido usa o fallback **guardar → socar → sacar (2x)**: socar com a esquerda segurando a arma exige `AnimationTree` (fica para depois).
+> - Bônus de nível pela tabela absoluta `[0, 0.08, 0.14, 0.19, 0.23]`.
+> - **Números de dano flutuantes removidos** de todos os inimigos.
+> - Revólver sem queda de dano por enquanto (mantém o comportamento antigo). Dano 45: Tomate/Pimentão em 2 tiros, Cenoura em 1.
+> - Tipo de tiro **"Projétil" não foi implementado**: todas as armas são instantâneas (hitscan) com rastro amarelo.
+> - `BracosFps.empurrar()` ficou sem uso.
 
 ## Objetivo
 Descobrir se **atirar é divertido** com a Essência do Sonho **antes** de gastar com modelos, animações e sons.

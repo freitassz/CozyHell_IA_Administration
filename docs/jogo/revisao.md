@@ -12,7 +12,10 @@
 | I03 | Shading igual em tudo | 🔴 |
 | I04 | Violência e feedback de acerto | 🟡 marcador + piscar no protótipo |
 | I05 | Como mostrar dano em inimigos comuns (sem números, sem barra) | 🔴 |
-| C08 | Soco rápido (V) com arma na mão | 🟡 no protótipo, avaliar |
+| C08 | Soco rápido (V) com arma na mão | 🟡 fallback guardar→socar→sacar; mão esquerda real precisa de `AnimationTree` |
+| C09 | **Visual e comportamento do tiro**: rastro amarelo parece errar; projétil visível (estilo Fortnite)? | 🔴 |
+| N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
+| T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |
 | P01 | Máquina perde sentido depois de boas armas | ✅ |
 | P02 | Ciclo do jogo / spawn de boss | 🟡 |
 | P03 | Moedas | 🟡 |
