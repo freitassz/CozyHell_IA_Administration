@@ -54,6 +54,7 @@
 - **Plantio pelo jogador descontinuado** (com enxada e pá).
 - **Vendinha descontinuada** como objeto do mapa: vender passa a ser uma **construção** que o jogador constrói.
 - Santuários = pilares de boss (5 no jogo hoje).
+- **Tiro (F2):** botão direito = mirar; **Q = especial**; cada arma tem especial próprio e algumas não têm. Soco recupera muita essência (+12), regeneração natural é lenta (0,75/s), e o ganho por tiro é variável de cada arma. Sem números de dano flutuando.
 - **Seed define o mundo inteiro:** mesma seed = mesmo mapa, vacas, totem, máquinas e clima. Para outro mundo, outra seed. Só o que reage ao jogador em tempo real (hordas noturnas) pode variar.
 - **Fundação:** personagem dentro do mundo; mundos sem limite; recursos renascem; salva na cama, ao amanhecer, ao sair e ao fechar; sem salvar manual.
 - **Pesadelo:** morreu, o mundo é apagado. **Soneca:** renasce perdendo parte do R$/sucata e dos recursos.

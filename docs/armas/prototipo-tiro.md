@@ -1,6 +1,14 @@
 # F2 — Protótipo do tiro (proposta para aprovação)
 
-> Status: 🟡 aguardando aprovação do Gustavo. Depois vira `prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md`.
+> Status: ✅ aprovado com ajustes · Prompt: [PROMPT_ZIVA_PROTOTIPO_TIRO](../../prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md)
+>
+> **Ajustes do Gustavo (valem sobre o texto abaixo):**
+> - **Botão direito = mirar.** Especial na tecla **Q**.
+> - **Cada arma tem seu especial**, e **algumas não têm** nenhum. No protótipo: Revólver = Tiro do Coveiro, Escopeta = Coice, Sniper = Tiro Carregado, Pistola = sem especial.
+> - **Regeneração natural menor que o soco:** regen 0,75/s; soco +12 por acerto.
+> - **Ganho por tiro é variável da arma** (`essencia_por_acerto`): arma rápida devolve pouco por acerto, arma lenta devolve muito.
+> - **Sem números de dano flutuando.** Como mostrar dano em inimigos comuns fica para decidir (I05).
+> - Adicionado pelo Claude: **soco rápido (V)** com a arma na mão, para socar valer a pena sem guardar a arma.
 
 ## Objetivo
 Descobrir se **atirar é divertido** com a Essência do Sonho **antes** de gastar com modelos, animações e sons.
