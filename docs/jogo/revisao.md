@@ -12,11 +12,13 @@
 | I03 | Shading igual em tudo | 🔴 |
 | I04 | Violência e feedback de acerto | 🟡 marcador + piscar no protótipo |
 | I05 | Como mostrar dano em inimigos comuns (sem números, sem barra) | 🔴 |
-| C08 | Soco rápido (V) com arma na mão | 🟡 fallback guardar→socar→sacar; mão esquerda real precisa de `AnimationTree` |
+| C08 | Soco rápido (V) com arma na mão | 🟡 fallback guardar→socar→sacar; animação real = C14 |
 | C09 | Visual e comportamento do tiro | ✅ misto: instantâneo com visual melhor + projétil (inclui arco tipo estilingue) |
-| C10 | Recuo com curva (sobe rápido, desce devagar) | 🔴 |
-| C11 | Recarga falha às vezes; mover para R | 🔴 |
-| C12 | Inimigo reagindo ao tiro (impacto) | 🔴 |
+| C10 | Recuo com curva (sobe rápido, desce devagar) | 🟡 prompt F2.1 |
+| C11 | Recarga falha às vezes; mover para R | 🟡 prompt F2.1 |
+| C12 | Inimigo reagindo ao tiro (impacto) | 🟡 prompt F2.1 (variantes para testar) |
+| C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | 🟡 prompt F2.1 |
+| C14 | Animação: soco com a mão esquerda segurando a arma (Blender) | 🔴 aguardando arquivos `bracos_v5.py` e `revolver_anim.py` |
 | N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
 | T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |
 | P01 | Máquina perde sentido depois de boas armas | ✅ |

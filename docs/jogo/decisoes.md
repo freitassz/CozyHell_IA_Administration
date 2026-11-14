@@ -57,6 +57,10 @@
 - **Tiro (F2):** botão direito = mirar; **F = especial** (Q solta item; V = soco rápido; "empurrar" removido); cada arma tem especial próprio e algumas não têm. Soco recupera muita essência (+12), regeneração natural é lenta (0,75/s), e o ganho por tiro é variável de cada arma. Sem números de dano flutuando.
 - **Tiro misto ✅:** cada arma escolhe o tipo: **instantâneo** (com visual melhor: bala curta saindo do cano até o ponto exato) ou **projétil** visível (velocidade, gravidade; ex.: rolha, estilingue com arco). Os dois existirão.
 - Recarga na tecla **R**.
+- **Alcance infinito com queda de dano:** dano cheio até o alcance eficaz; depois cai pela metade a cada X metros, até no mínimo **1**. Tiro muito fraco tem **som diferente** ("plink").
+- Recuo **por código** com curva: sobe rápido, desce devagar.
+- Impacto em teste (escolher jogando): gotas × lascas, achatar, tranco **só visual** (sem mudar posição). Knockback real só pelo campo da arma.
+- Soco com a mão esquerda: **animação nova no Blender** (opção A).
 - **Seed define o mundo inteiro:** mesma seed = mesmo mapa, vacas, totem, máquinas e clima. Para outro mundo, outra seed. Só o que reage ao jogador em tempo real (hordas noturnas) pode variar.
 - **Fundação:** personagem dentro do mundo; mundos sem limite; recursos renascem; salva na cama, ao amanhecer, ao sair e ao fechar; sem salvar manual.
 - **Pesadelo:** morreu, o mundo é apagado. **Soneca:** renasce perdendo parte do R$/sucata e dos recursos.
