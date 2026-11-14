@@ -20,6 +20,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
+| **F-Otimização** | Medir e melhorar FPS em PC fraco + menu de qualidade gráfica real ([otimizacao.md](docs/sistemas/otimizacao.md)) | ⏳ futuro |
 | **F6 — História** | Abertura, frases dos bosses, mudança visual do pesadelo, final | ⏳ |
 
 As etapas abaixo ficam **em espera** até F1 terminar; serão reordenadas pela ordem dos bosses.

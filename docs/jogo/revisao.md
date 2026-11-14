@@ -21,6 +21,7 @@
 | C14 | Animação: soco com a mão esquerda segurando a arma (Blender) | 🟡 pedido enviado ao chat de modelagem ([prompt](../../prompts/blender/PROMPT_BLENDER_SOCO_ESQUERDO.md)) |
 | N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
 | T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |
+| T05 | **Otimização:** FPS baixo e travadas no notebook antigo do Gustavo ([otimizacao.md](../sistemas/otimizacao.md)) | 🔴 futuro |
 | P01 | Máquina perde sentido depois de boas armas | ✅ |
 | P02 | Ciclo do jogo / spawn de boss | 🟡 |
 | P03 | Moedas | 🟡 |

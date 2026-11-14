@@ -13,5 +13,6 @@
 | Bigorna: Fundir / Desmanchar | ✅ | nível de arma até +5 (8/6/5/4/3%) |
 | Santuários (pilares de boss) | 🟡 | ficam no mapa; rework total pendente |
 | **Salvar/carregar, menu, criação de mundo** | ✅ | [fundacao.md](fundacao.md) |
+| **Otimização** | 🔴 futuro | FPS baixo em PC fraco — [otimizacao.md](otimizacao.md) |
 
 Detalhes do loop: [docs/jogo/loop.md](../jogo/loop.md).
