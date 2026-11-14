@@ -136,3 +136,11 @@ Valores de partida: a Etapa 0 traz a vida real dos inimigos e eu ajusto antes de
 6. **Mudaria primeiro:** o **recuo** — a pistola faz uma animação linear e pouco convincente; o certo é **subir rápido e descer devagar** (curva).
 
 Problemas: a **recarga às vezes não funciona** e deve ir para a tecla **R**.
+
+## F2.1 — como ficou (nov/2026)
+- **Recarga:** 3 causas do bug (arma presa no cooldown com pente vazio; apertos ignorados fora da pose; essência conferida tarde). Agora no **R**, com pedido guardado e aviso sempre.
+- **Recuo procedural** (câmera no `Head`, arma no `HandsVisual`), curva em código limitada a 1/30 s por quadro (funciona em FPS baixo). Campo `usa_animacao_tiro` (só o revólver usa a animação de tiro).
+- **Alcance:** `alcance_eficaz_m`, `meia_vida_dano_m`, `dano_minimo`; tiro fraco = ≤10% do dano **ou** preso no mínimo → "plink" + X cinza.
+- **Rastro** do cano ao ponto exato (pool). **Projétil** (`ProjetilPool`): escopeta com 6 rolhas; **Teste — Estilingue** com arco (cai 6,8 m em 40 m).
+- **Impacto** (`ImpactoFx`): Gotas / Lascas / Nenhum (**F6**), achatar e tranco visual — opções no **Inspector do Player** (valem para todos os inimigos).
+- Visual **não conferido a olho** pelo Ziva (o jogo é lento demais na máquina de teste).

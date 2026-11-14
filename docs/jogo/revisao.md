@@ -14,10 +14,12 @@
 | I05 | Como mostrar dano em inimigos comuns (sem números, sem barra) | 🔴 |
 | C08 | Soco rápido (V) com arma na mão | ✅ |
 | C09 | Visual e comportamento do tiro | ✅ misto: instantâneo com visual melhor + projétil (inclui arco tipo estilingue) |
-| C10 | Recuo com curva (sobe rápido, desce devagar) | 🟡 prompt F2.1 |
-| C11 | Recarga falha às vezes; mover para R | 🟡 prompt F2.1 |
-| C12 | Inimigo reagindo ao tiro (impacto) | 🟡 prompt F2.1 (variantes para testar) |
-| C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | 🟡 prompt F2.1 |
+| C10 | Recuo com curva (sobe rápido, desce devagar) | ✅ F2.1 (conferir jogando) |
+| C11 | Recarga falha às vezes; mover para R | ✅ 3 causas corrigidas; recarga no R |
+| C12 | Inimigo reagindo ao tiro (impacto) | 🟡 Gotas/Lascas/achatar/tranco prontos — **escolher jogando** |
+| C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | ✅ |
+| C17 | **Tiro automático** (segurar o botão): hoje nenhuma arma repete o tiro segurando; criar `automatica` no `WeaponData` e acumular recuo nas automáticas | 🔴 |
+| E10 | `vegetable_enemy` tem **knockback próprio (0,3 m)** e **suco antigo** que somam com o impacto novo — conflita com "tranco só visual" | 🔴 decidir |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |
 | C16 | **Soco esquerdo sem graça:** o punho fica escondido; precisa ir **mais para a frente** e aparecer mais. Também avaliar sensação de impacto do soco (tremida de câmera curta, micro-pausa no acerto, som mais forte, inimigo reagindo) | 🔴 futuro |
 | C15 | Soco rápido em **armas de duas mãos** | ✅ ideia: **coronhada** (golpe com a própria arma) · implementar com a 1ª arma de duas mãos |
