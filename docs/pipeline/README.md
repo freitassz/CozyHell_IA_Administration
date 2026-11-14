@@ -3,6 +3,11 @@
 Resumo de como cada coisa é feita. Detalhes técnicos completos estão nas skills
 `lowpoly-game-3d-blender` e `cozyhell-prompts-ziva`.
 
+## Onde cada coisa é feita
+- **Chat de modelagem** (outro chat, skill do Blender): modelos, rigs, animações, sons. Recebe pedidos de `prompts/blender/`.
+- **Este repositório / chat de administração:** design, documentação, pedidos para o chat de modelagem e prompts do Ziva.
+- **Ziva (no Godot):** código.
+
 ## Modelo 3D (Blender via Python)
 1. Analisar a referência (formas, cores, proporções, medidas).
 2. Modelar 100% procedural, low-poly facetado.

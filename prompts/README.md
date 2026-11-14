@@ -1,3 +1,13 @@
+# Prompts
+
+- `prompts/<assunto>/PROMPT_ZIVA_*.md` → para o **Ziva** (código no Godot).
+- `prompts/blender/PROMPT_BLENDER_*.md` → para o **chat de modelagem** (Blender).
+
+## Para o chat de modelagem
+| Pedido | Assunto | Status |
+|---|---|---|
+| [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | 🟡 entregue |
+
 # Prompts entregues ao Ziva
 
 Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
