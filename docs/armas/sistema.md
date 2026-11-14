@@ -2,6 +2,10 @@
 
 > ⚠️ **Rascunho.** Boa parte veio da planilha antiga e vai ser revista. O que vale está em [loop.md](../jogo/loop.md) e [decisoes.md](../jogo/decisoes.md).
 
+## Regra para animações de armas novas
+- Armas de **uma mão**: as animações devem deixar a **mão esquerda escondida na mesma pose do revólver**. Assim o soco rápido (`Soco_Esquerdo_Arma`, só ossos `_L`) funciona com qualquer arma.
+- Armas de **duas mãos**: `usa_duas_maos = true` no `WeaponData`; o soco rápido delas ainda não tem solução (C15).
+
 ## Fundir e Desmanchar (bigorna)
 **Hoje no jogo (Ajustes 1):** o nível é **por tipo de arma** — revólver +5 deixa todos os revólveres (inclusive os futuros) +5. Melhoria 8/6/5/4/3% no dano.
 

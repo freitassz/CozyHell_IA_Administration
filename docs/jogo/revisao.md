@@ -18,7 +18,8 @@
 | C11 | Recarga falha às vezes; mover para R | 🟡 prompt F2.1 |
 | C12 | Inimigo reagindo ao tiro (impacto) | 🟡 prompt F2.1 (variantes para testar) |
 | C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | 🟡 prompt F2.1 |
-| C14 | Animação: soco com a mão esquerda segurando a arma (Blender) | 🟡 pedido enviado ao chat de modelagem ([prompt](../../prompts/blender/PROMPT_BLENDER_SOCO_ESQUERDO.md)) |
+| C14 | Animação: soco com a mão esquerda segurando a arma | ✅ animação feita · 🟡 [prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_SOCO_ESQUERDO.md) |
+| C15 | Soco rápido em **armas de duas mãos** (hoje cai no fallback guardar→socar→sacar) | 🔴 futuro |
 | N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
 | T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |
 | T05 | **Otimização:** FPS baixo e travadas no notebook antigo do Gustavo ([otimizacao.md](../sistemas/otimizacao.md)) | 🔴 futuro |

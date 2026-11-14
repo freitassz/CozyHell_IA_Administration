@@ -60,7 +60,7 @@
 - **Alcance infinito com queda de dano:** dano cheio até o alcance eficaz; depois cai pela metade a cada X metros, até no mínimo **1**. Tiro muito fraco tem **som diferente** ("plink").
 - Recuo **por código** com curva: sobe rápido, desce devagar.
 - Impacto em teste (escolher jogando): gotas × lascas, achatar, tranco **só visual** (sem mudar posição). Knockback real só pelo campo da arma.
-- Soco com a mão esquerda: **animação nova no Blender** (opção A).
+- Soco com a mão esquerda: animação `Soco_Esquerdo_Arma` (só braço esquerdo, serve para toda arma de uma mão), tocada num segundo AnimationPlayer. Armas de uma mão devem esconder a mão esquerda na pose do revólver.
 - **Seed define o mundo inteiro:** mesma seed = mesmo mapa, vacas, totem, máquinas e clima. Para outro mundo, outra seed. Só o que reage ao jogador em tempo real (hordas noturnas) pode variar.
 - **Fundação:** personagem dentro do mundo; mundos sem limite; recursos renascem; salva na cama, ao amanhecer, ao sair e ao fechar; sem salvar manual.
 - **Pesadelo:** morreu, o mundo é apagado. **Soneca:** renasce perdendo parte do R$/sucata e dos recursos.

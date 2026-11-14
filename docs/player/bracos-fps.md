@@ -18,6 +18,10 @@ Hierarquia: `Head/Camera3D/HandPivot` (bobbing) > `HandModels` (escala 3; pulo) 
 ## Animações (30 fps)
 `00_Escondido`, `01_0_Surgir`, `01_Pose_Bater` (loop), `02_0_Surgir_Soco`, `02_1_Soco_Direito`, `02_1_2_Soco_Esquerdo`, `02_1_3_Soco_Direito_Combo`, `02_2_Volta_Direito/Esquerdo`, `03_Pegar_Chao`, `03_2_Pegar_Escondido`, `05_Apontar`, `06_Joinha`, `07_Acenar`, `08_Empurrar`.
 
+**Novo (nov/2026):** `Soco_Esquerdo_Arma` — 0,40 s, impacto 0,167 s, chave **só nos ossos `_L`**; tocado num **segundo AnimationPlayer** (`AnimEsquerda`) por cima da pose da arma.
+
+**Correção de tempo:** os `.glb` dos braços e do revólver começavam com 1 quadro parado; reexportados juntos. Tempos agora: soco 0,167 s, pegar 0,467 s, `Revolver_Atirar` 0,1 s, `Revolver_Pose` 2,0 s. **`bracos.glb` e `revolver.glb` sempre vão juntos.**
+
 ## Estilo aprovado
 Peças arredondadas facetadas (8 lados), mão grande, indicador e polegar separados + bloco dos outros 3 dedos. Pele `#F2A48C`, palma `#E88A78`. Toon + contorno por casco invertido.
 
