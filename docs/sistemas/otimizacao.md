@@ -6,6 +6,9 @@
 No notebook Lenovo antigo do Gustavo (menos potente) o jogo **trava bastante, com FPS bem baixo**.
 Público de jogos tipo Muck/Terraria joga muito em PC fraco: desempenho é requisito, não luxo.
 
+## Observações
+- Nov/2026: os testes automáticos do Ziva rodam a **poucos FPS** na máquina mais lenta do Gustavo; os testes passaram a esperar pela posição da animação em vez do relógio.
+
 ## A preencher quando formos olhar
 - Especificações do notebook (processador, placa de vídeo, RAM) e FPS medido em cada situação (parado, andando, noite com horda, boss).
 - Perfil do Godot (Debugger → Monitores / Profiler) para achar o que pesa de verdade, **antes** de mudar qualquer coisa.

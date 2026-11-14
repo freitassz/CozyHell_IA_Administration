@@ -12,14 +12,14 @@
 | I03 | Shading igual em tudo | 🔴 |
 | I04 | Violência e feedback de acerto | 🟡 marcador + piscar no protótipo |
 | I05 | Como mostrar dano em inimigos comuns (sem números, sem barra) | 🔴 |
-| C08 | Soco rápido (V) com arma na mão | 🟡 fallback guardar→socar→sacar; animação real = C14 |
+| C08 | Soco rápido (V) com arma na mão | ✅ |
 | C09 | Visual e comportamento do tiro | ✅ misto: instantâneo com visual melhor + projétil (inclui arco tipo estilingue) |
 | C10 | Recuo com curva (sobe rápido, desce devagar) | 🟡 prompt F2.1 |
 | C11 | Recarga falha às vezes; mover para R | 🟡 prompt F2.1 |
 | C12 | Inimigo reagindo ao tiro (impacto) | 🟡 prompt F2.1 (variantes para testar) |
 | C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | 🟡 prompt F2.1 |
-| C14 | Animação: soco com a mão esquerda segurando a arma | ✅ animação feita · 🟡 [prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_SOCO_ESQUERDO.md) |
-| C15 | Soco rápido em **armas de duas mãos** (hoje cai no fallback guardar→socar→sacar) | 🔴 futuro |
+| C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |
+| C15 | Soco rápido em **armas de duas mãos** | ✅ ideia: **coronhada** (golpe com a própria arma) · implementar com a 1ª arma de duas mãos |
 | N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
 | T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |
 | T05 | **Otimização:** FPS baixo e travadas no notebook antigo do Gustavo ([otimizacao.md](../sistemas/otimizacao.md)) | 🔴 futuro |
@@ -50,7 +50,7 @@
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |
 | E08 | **Rework total dos santuários** (bosses, oferendas, posições; Golem de Raiz ≠ Batata-golem) | 🔴 |
-| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`) | 🔴 baixa |
+| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar) | 🔴 baixa |
 | E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
 | C07 | Fundir: nível por cópia + fusão por soma (nv3+nv2=nv5) | 🔧 aprovado, implementar depois |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |

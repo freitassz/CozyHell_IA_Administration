@@ -4,7 +4,7 @@
 
 ## Regra para animações de armas novas
 - Armas de **uma mão**: as animações devem deixar a **mão esquerda escondida na mesma pose do revólver**. Assim o soco rápido (`Soco_Esquerdo_Arma`, só ossos `_L`) funciona com qualquer arma.
-- Armas de **duas mãos**: `usa_duas_maos = true` no `WeaponData`; o soco rápido delas ainda não tem solução (C15).
+- Armas de **duas mãos**: `usa_duas_maos = true` no `WeaponData`; o V vira **coronhada** (animação própria de cada arma, golpe com a coronha/cabo). Até existir, usa o fallback guardar → socar → sacar.
 
 ## Fundir e Desmanchar (bigorna)
 **Hoje no jogo (Ajustes 1):** o nível é **por tipo de arma** — revólver +5 deixa todos os revólveres (inclusive os futuros) +5. Melhoria 8/6/5/4/3% no dano.
