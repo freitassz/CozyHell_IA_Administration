@@ -124,3 +124,15 @@ Valores de partida: a Etapa 0 traz a vida real dos inimigos e eu ajusto antes de
 4. Socar para encher a barra fez sentido ou ninguém faria isso?
 5. As 3 armas de teste pareceram armas **diferentes**?
 6. Qual valor mudaria primeiro?
+
+---
+
+## Resultado do teste de diversão (Gustavo, nov/2026)
+1. **Atirar é gostoso?** Sim, melhorou. Falta **impacto / inimigo reagindo**; o som já fez diferença.
+2. **Essência:** mecânica legal, polir aos poucos.
+3. **Ficou sem essência?** Sim, por gastar especiais à toa — e isso é bom: faz pensar antes de usar.
+4. **Socar para encher:** faz sentido. Precisa da animação com a **mão esquerda** de verdade.
+5. **Armas diferentes?** Sim, principalmente a sniper (zoom).
+6. **Mudaria primeiro:** o **recuo** — a pistola faz uma animação linear e pouco convincente; o certo é **subir rápido e descer devagar** (curva).
+
+Problemas: a **recarga às vezes não funciona** e deve ir para a tecla **R**.
