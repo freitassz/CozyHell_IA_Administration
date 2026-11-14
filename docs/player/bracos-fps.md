@@ -29,4 +29,5 @@ Peças arredondadas facetadas (8 lados), mão grande, indicador e polegar separa
 `PROMPT_ZIVA_MAOS.md` → `_V2` → `_V3`.
 
 ## Pendente
+- [ ] **Soco esquerdo com arma (C16):** punho escondido demais; ajustar no Blender para avançar mais para a frente/centro e ficar visível, sem tapar a mira. Junto: reforçar o impacto (tremida curta de câmera, micro-pausa de ~0,05 s no acerto, som, reação do inimigo).
 - [ ] Poses próprias por item/arma

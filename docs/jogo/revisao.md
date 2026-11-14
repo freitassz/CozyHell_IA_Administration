@@ -19,6 +19,7 @@
 | C12 | Inimigo reagindo ao tiro (impacto) | 🟡 prompt F2.1 (variantes para testar) |
 | C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | 🟡 prompt F2.1 |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |
+| C16 | **Soco esquerdo sem graça:** o punho fica escondido; precisa ir **mais para a frente** e aparecer mais. Também avaliar sensação de impacto do soco (tremida de câmera curta, micro-pausa no acerto, som mais forte, inimigo reagindo) | 🔴 futuro |
 | C15 | Soco rápido em **armas de duas mãos** | ✅ ideia: **coronhada** (golpe com a própria arma) · implementar com a 1ª arma de duas mãos |
 | N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
 | T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |
