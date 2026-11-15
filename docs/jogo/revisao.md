@@ -21,6 +21,7 @@
 | C17 | Tiro automático (`automatica`) | 🟡 prompt F2.2 |
 | C18 | Armas carregáveis (`carregavel`: estilingue, arco) | 🟡 prompt F2.2 |
 | C19 | Recuo por arma (`forca_recuo`) e rastro visível de dia | 🟡 prompt F2.2 |
+| A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |
 | E10 | Knockback e suco antigos dos inimigos | ✅ remover (prompt F2.2) |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |
 | C16 | **Soco esquerdo sem graça:** o punho fica escondido; precisa ir **mais para a frente** e aparecer mais. Também avaliar sensação de impacto do soco (tremida de câmera curta, micro-pausa no acerto, som mais forte, inimigo reagindo) | 🔴 futuro |

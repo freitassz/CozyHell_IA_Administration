@@ -20,6 +20,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F2.2 — Ajustes finais do tiro** | Lascas, bosses só piscam, recuo por arma, rastro de dia, automática, carregável ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md)) | 🟡 **agora** |
 | **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
+| **Antes da F5** | Atualizar a planilha de armas com os campos de [ficha-campos.md](docs/armas/ficha-campos.md) e revisar a lista oficial | ⏳ |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
 | **F-Otimização** | Medir e melhorar FPS em PC fraco + menu de qualidade gráfica real ([otimizacao.md](docs/sistemas/otimizacao.md)) | ⏳ futuro |
 | **F6 — História** | Abertura, frases dos bosses, mudança visual do pesadelo, final | ⏳ |
