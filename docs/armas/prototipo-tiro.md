@@ -159,3 +159,9 @@ Problemas: a **recarga às vezes não funciona** e deve ir para a tecla **R**.
 - Recuo: armas diferentes ✅. **Automática sem limite**: a arma subia até sumir e a mão esquerda escondida aparecia → F2.3.
 - Estilingue carregável: perfeito.
 - Lascas: ainda pequenas (polir depois). Rastro: melhor, polir depois junto com os efeitos do jogo.
+
+## F2.3 — como ficou (fase fechada)
+- Limites `recuo_arma_max_graus`, `recuo_arma_max_m`, `recuo_camera_max_graus` com soma saturada. Pistola em 3 pentes: arma 22°, câmera 6°. Mão esquerda nunca aparece (capturas em `dev/`).
+- Automática retoma após a recarga se o botão continuar segurado (mudança do Ziva).
+- Validadores: `validate_tiro` 45/45, `validate_f21` e `validate_f22` sem falhas, `validate_soco_esq` 39/39, `validate_recuo_max` 5/5.
+- Pendente pequeno: recuo fica no topo **durante a recarga** (proposta: voltar durante a recarga). Pistola de teste ficou com `automatica = true`.

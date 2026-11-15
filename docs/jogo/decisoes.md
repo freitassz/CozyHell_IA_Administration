@@ -60,6 +60,7 @@
 - **Impacto:** só **Lascas** (maiores). Achatar e tranco visual **só em inimigos comuns**; bosses só **piscam**. Knockback e suco antigos dos inimigos removidos.
 - **Recuo por arma** com `forca_recuo`: pistola sobe rápido e leve, revólver mais, sniper muito.
 - Rastro maior e visível de dia.
+- **Automática:** segurando o botão, a rajada **retoma sozinha depois da recarga**. Recuo acumulado tem **limite por arma** com saturação suave; a mão esquerda escondida nunca aparece.
 - **Tiro normal não empurra** (`knockback_m = 0` em todas as armas atuais). Empurrão real só em especiais com `empurrao_m` próprio: Coveiro 4 m, Coice 6 m, **Tiro Carregado até 3 m** (proporcional à carga).
 - Campos novos na ficha: **`automatica`** (segurar atira) e **`carregavel`** (segurar puxa, vai mais longe — estilingue/arco). Regras de interação entre carga, automática, mira, recarga, soco, especial e troca de arma ficam no prompt F2.2.
 - **Alcance infinito com queda de dano:** dano cheio até o alcance eficaz; depois cai pela metade a cada X metros, até no mínimo **1**. Tiro muito fraco tem **som diferente** ("plink").

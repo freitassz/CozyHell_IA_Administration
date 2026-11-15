@@ -18,8 +18,8 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F2 — Protótipo do tiro** ([proposta](docs/armas/prototipo-tiro.md) · [prompt](prompts/armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md)) | `WeaponData` + 3 armas com cubos/placeholder + barra de Essência do Sonho + troca de arma. Testar se é **divertido** antes de fazer arte | ✅ implementado e testado |
 | **F2.1 — Ajustes do tiro** | Recarga R, recuo com curva, alcance infinito com queda, rastro novo, projétil + estilingue, impacto ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO.md)) · animação do soco esquerdo (Blender) | ✅ testado |
 | **F2.2 — Ajustes finais do tiro** | Lascas, bosses só piscam, recuo por arma, rastro de dia, automática, carregável ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md)) | ✅ testado |
-| **F2.3 — Fecha o tiro** | Limite do recuo na rajada (mão esquerda aparecia) + testes antigos ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO_3.md)) | 🟡 **agora** |
-| **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | ⏳ |
+| **F2.3 — Fecha o tiro** | Limite do recuo na rajada (mão esquerda aparecia) + testes antigos ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO_3.md)) | ✅ — **fase do tiro (F2) fechada** |
+| **F3 — Guia de estilo** | Guia de armas (paleta, proporções, material toon) + redesign do R08 como teste + padrão de shading para todos (I03) | 🟡 **próxima** |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
 | **Antes da F5** | Atualizar a planilha de armas com os campos de [ficha-campos.md](docs/armas/ficha-campos.md) e revisar a lista oficial | ⏳ |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |

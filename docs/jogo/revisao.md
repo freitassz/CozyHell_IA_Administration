@@ -20,7 +20,8 @@
 | C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | ✅ |
 | C17 | Tiro automático (`automatica`) | ✅ |
 | C18 | Armas carregáveis (`carregavel`: estilingue, arco) | ✅ |
-| C19 | Recuo por arma (`forca_recuo`) | ✅ (limite na rajada: prompt F2.3) |
+| C19 | Recuo por arma (`forca_recuo`) | ✅ com limite na rajada |
+| C21 | Recuo fica no topo durante a recarga da automática (proposta: voltar ao recarregar) | 🟡 |
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
 | A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |
@@ -58,7 +59,7 @@
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |
 | E08 | **Rework total dos santuários** (bosses, oferendas, posições; Golem de Raiz ≠ Batata-golem) | 🔴 |
-| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar); `dev/validate_f21.gd` falha de propósito com os valores novos de recuo/empurrão | 🔴 baixa |
+| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar); `dev/test_soco_esquerdo.gd` sem uso | 🔴 baixa |
 | E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
 | C07 | Fundir: nível por cópia + fusão por soma (nv3+nv2=nv5) | 🔧 aprovado, implementar depois |
 | C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
