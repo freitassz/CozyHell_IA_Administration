@@ -75,7 +75,7 @@ Botão esquerdo atira · **direito mira** (FOV `fov_mira`, dispersão × `mult_d
 ### Escrevendo prompt de arma
 - Peça campos novos **no `WeaponData`** e atualize `docs/armas/ficha-campos.md`.
 - Toda arma nova de **uma mão** deve esconder a mão esquerda na pose do revólver (soco `Soco_Esquerdo_Arma`); de **duas mãos**: `usa_duas_maos = true` e o V vira **coronhada** (animação própria).
-- Se a arma tiver **peça mágica** (`EssenciaMagica`), ela acende na recarga e no especial.
+- **Peça mágica é opcional** (criatividade livre). Se a arma tiver uma (`EssenciaMagica`), ela acende na recarga e no especial.
 - Siga os padrões do jogo e "Não mude o que não está pedido".
 
 ## Formato do prompt (sempre)

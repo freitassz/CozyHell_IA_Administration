@@ -79,8 +79,8 @@
 - **Fosco e sem reflexo** em tudo (armas, inimigos, bosses). Não há material padrão obrigatório para inimigos/bosses.
 - **Raridade só na cor do nome** (Terraria); o poder vem dos números e da mecânica.
 - Paleta: metal pintado azul/verde-menta claro descascando, ferrugem laranja chapada, madeira mel, fitas coloridas, nada perto do preto.
-- **Peça mágica lilás** onde a Essência entra (frasco/pote/cristal), que acende na recarga e no especial — em muitas armas, não obrigatória em todas. Ideia guardada: **cristal que escurece** a cada tiro e brilha de novo na recarga.
-- Revólver será **recriado** no estilo novo (tambor = pote de vidro lilás); referências enviadas direto no chat de modelagem.
+- **Peça mágica lilás** (frasco/pote/cristal onde a Essência entra) é **opcional**: nenhuma arma é obrigada a ter magia visível; **criatividade livre** — uma ideia divertida não é descartada por "não seguir o tema". Ideia guardada: **cristal que escurece** a cada tiro e brilha de novo na recarga.
+- Revólver/pistola do fazendeiro será **recriado** no estilo novo: só **enferrujado**, sem peça mágica; o Gustavo descreve a aparência no chat de modelagem.
 
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.

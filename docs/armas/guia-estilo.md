@@ -38,8 +38,9 @@ Cores de raridade **não** aparecem na arma (ver item 5).
 - Aparece **só na cor do nome** da arma (como no Terraria). O modelo não muda de cor por raridade.
 - Quem diz se uma arma "merece" ser rara são o **dano e a mecânica**, não o visual.
 
-## 6. Peça mágica ✅ (em muitas armas, não obrigatória em todas)
-A arma tem **uma peça onde a Essência do Sonho entra**: um frasco, um cristal, um pote de vidro, uma câmara — em **lilás**. Não precisa existir em **todas** as armas: algumas podem mostrar a magia de outro jeito.
+## 6. Peça mágica — **opcional, criatividade livre** ✅
+**Nenhuma regra obriga** uma arma a ter magia visível. Uma arma pode ser só uma arma de fazendeiro (ex.: a pistola enferrujada), se colocar um cristal ou frasco deixaria chamativo demais ou sem sentido. **A ideia divertida vale mais do que seguir o tema à força.**
+Quando fizer sentido, a arma pode ter **uma peça onde a Essência do Sonho entra**: um frasco, um cristal, um pote de vidro — em **lilás**.
 - Explica a mecânica sem texto: a arma é "recarregada com essência" → a peça lilás **acende** na recarga e no especial (efeito no Godot).
 - Cria uma assinatura visual comum, mesmo com armas muito diferentes.
 - Deve ser um **objeto/material separado** no modelo (ex.: `EssenciaMagica`) para o Godot controlar o brilho.

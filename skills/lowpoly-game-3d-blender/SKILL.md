@@ -318,7 +318,7 @@ O **pulo não é animação**: é uma mola no código, aplicada no `HandModels`.
 - **Paleta "sonho feliz":** cores **fortes e claras**; nada perto do preto (só o contorno). Linha geral aprovada: metal pintado claro com tinta descascando, ferrugem como **manchas chapadas**, madeira cor de mel, fitas coloridas nos remendos. As cores exatas de cada arma o Gustavo define.
 - **Materiais:** formas puramente de cor (cor por vértice), **sem textura**, poucos detalhes modelados. **Fosco e sem reflexo** (roughness 1, specular 0, metallic 0) — regra que vale para **tudo** no jogo (armas, inimigos, bosses). Brilhos, fumaça e faíscas são **efeitos no Godot**, não no modelo.
 - **Raridade** não aparece no modelo (só na cor do nome no jogo).
-- **Peça mágica (quando a arma tiver):** objeto/material **separado** (ex.: `EssenciaMagica`) para o Godot acender na recarga e no especial. Variações: frasco/pote/cristal lilás; ideia guardada: cristal que escurece a cada tiro e volta a brilhar na recarga.
+- **Peça mágica — opcional, criatividade livre** (nenhuma arma é obrigada a ter magia visível; a pistola enferrujada do fazendeiro, por ex., não tem). Quando tiver: objeto/material **separado** (ex.: `EssenciaMagica`) para o Godot acender na recarga e no especial. Variações: frasco/pote/cristal lilás; ideia guardada: cristal que escurece a cada tiro e volta a brilhar na recarga.
 
 ## Armas na mão (revólver R08 pronto: `revolver.glb`, `revolver_modelo.py`, `revolver_anim.py`; v2 no guia de estilo em produção)
 
