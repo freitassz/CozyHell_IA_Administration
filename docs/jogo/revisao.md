@@ -20,8 +20,9 @@
 | C13 | Alcance infinito com queda até 1 de dano + som de tiro fraco | ✅ |
 | C17 | Tiro automático (`automatica`) | ✅ |
 | C18 | Armas carregáveis (`carregavel`: estilingue, arco) | ✅ |
-| C19 | Recuo por arma (`forca_recuo`) e rastro visível de dia | ✅ recuo · 🟡 rastro some **mirando o céu** (tiro que erra viaja 300 m em 0,08 s) |
-| C20 | Lascas pequenas a 15 m e somem na cor do tomate | 🟡 conferir jogando |
+| C19 | Recuo por arma (`forca_recuo`) | ✅ (limite na rajada: prompt F2.3) |
+| P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
+| P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
 | A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |
 | E10 | Knockback e suco antigos dos inimigos | ✅ removidos (suco na **morte** continua; piscar vermelho próprio dos inimigos continua) |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |

@@ -154,3 +154,8 @@ Problemas: a **recarga às vezes não funciona** e deve ir para a tecla **R**.
 - `forca_recuo` + tabela nova (picos câmera 1,2° / 3° / 6°; arma 14° / 20° / 24°). Não havia clamp.
 - Rastro 2 camadas unshaded, laranja, `largura_rastro`/`comprimento_rastro`. Bom mirando a grama; **fraco mirando o céu**.
 - `automatica` (pistola teste: 10 tiros em 2,3 s, mira sobe 12°). `carregavel` (estilingue 9 m → 86 m; dano 21 → 45,5), arco de carga, `carga_puxada_m = 0.08`.
+
+## Teste da F2.2 (Gustavo)
+- Recuo: armas diferentes ✅. **Automática sem limite**: a arma subia até sumir e a mão esquerda escondida aparecia → F2.3.
+- Estilingue carregável: perfeito.
+- Lascas: ainda pequenas (polir depois). Rastro: melhor, polir depois junto com os efeitos do jogo.
