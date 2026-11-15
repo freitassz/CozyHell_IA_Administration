@@ -26,7 +26,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_PROTOTIPO_TIRO](armas/PROMPT_ZIVA_PROTOTIPO_TIRO.md) | F2: WeaponData, cópias, Essência, soco rápido, mira, especiais, armas de teste | ✅ feito |
 | [PROMPT_ZIVA_AJUSTES_TIRO](armas/PROMPT_ZIVA_AJUSTES_TIRO.md) | F2.1: recarga R, recuo, alcance infinito, rastro, projétil, impacto | ✅ feito |
 | [PROMPT_ZIVA_SOCO_ESQUERDO](armas/PROMPT_ZIVA_SOCO_ESQUERDO.md) | ligar a animação do soco esquerdo no V + tempos lidos das animações | ✅ feito |
-| [PROMPT_ZIVA_AJUSTES_TIRO_2](armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md) | F2.2: efeitos antigos, Lascas, bosses, recuo por arma, rastro, automática, carregável | 🟡 entregue |
+| [PROMPT_ZIVA_AJUSTES_TIRO_2](armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md) | F2.2: efeitos antigos, Lascas, bosses, recuo por arma, rastro, automática, carregável | ✅ feito |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

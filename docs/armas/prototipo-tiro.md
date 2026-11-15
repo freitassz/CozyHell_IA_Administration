@@ -147,3 +147,10 @@ Problemas: a **recarga às vezes não funciona** e deve ir para a tecla **R**.
 
 ## Teste da F2.1 (Gustavo)
 1. Lascas (maiores). 2. Achatar/tranco só em comuns; bosses só piscam. 3. Recuo bom, mas cada arma precisa do seu (pistola sobe com um tiro, revólver mais, sniper forte). 4. Rastro termina certo, mas some de dia (maior). 5. Estilingue divertido; quer **carregável**. 6. Aprovou `automatica` e remover efeitos antigos.
+
+## F2.2 — como ficou
+- Efeitos antigos removidos (empurrão 0,3 m; suco ao levar dano). `knockback_m = 0` nas 5 armas; Tiro Carregado `empurrao_max_m = 3`.
+- Só Lascas (`escala_lasca = 1.6` no Player); bosses (grupo `bosses`, classe `Boss`, caixas do dragão) só piscam.
+- `forca_recuo` + tabela nova (picos câmera 1,2° / 3° / 6°; arma 14° / 20° / 24°). Não havia clamp.
+- Rastro 2 camadas unshaded, laranja, `largura_rastro`/`comprimento_rastro`. Bom mirando a grama; **fraco mirando o céu**.
+- `automatica` (pistola teste: 10 tiros em 2,3 s, mira sobe 12°). `carregavel` (estilingue 9 m → 86 m; dano 21 → 45,5), arco de carga, `carga_puxada_m = 0.08`.
