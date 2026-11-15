@@ -26,6 +26,7 @@ Abra uma conversa com o Claude neste repositório e escolha um assunto:
 | 🛠️ Pipeline (Blender, sons, prompts Ziva) | [docs/pipeline/](docs/pipeline/README.md) |
 | 🤖 Prompts entregues ao Ziva | [prompts/](prompts/README.md) |
 | 📄 Modelos de ficha | [templates/](templates/) |
+| 🧠 Skills atualizadas (enviar ao claude.ai) | [skills/](skills/README.md) |
 
 ## Legenda de status
 

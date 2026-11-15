@@ -11,6 +11,7 @@ Este repo é a central de organização do jogo **CozyHell3D**. O usuário escre
 - `anthropic-skills:lowpoly-game-3d-blender` — modelagem, rig, animação, sons.
 - `anthropic-skills:cozyhell-prompts-ziva` — prompts para o Ziva AI e sistema de armas.
 Carregue a skill correspondente antes de escrever prompt.
+- As versões atualizadas das skills ficam em `skills/` (o Gustavo envia os `.zip` para o claude.ai). Quando o projeto mudar bastante, atualize `skills/*/SKILL.md`, gere os `.zip` e avise.
 
 ## Modelagem 3D acontece em OUTRO chat
 - O Gustavo tem um chat dedicado à modelagem (com a skill do Blender e acesso à pasta do jogo).
