@@ -7,9 +7,9 @@
 | ID | Assunto | Status |
 |---|---|---|
 | H01 | História: sonho do fazendeiro que vira pesadelo | 🟡 |
-| I01 | Mundo fofo × armas de fogo | 🟡 |
+| I01 | Mundo fofo × armas de fogo | ✅ guia de estilo (roça + magia do sono) |
 | I02 | O que é o "Hell" | 🟡 resolvido por H01 |
-| I03 | Shading igual em tudo | 🔴 |
+| I03 | Shading igual em tudo | ✅ sem padrão obrigatório; regra: **fosco e sem reflexo** |
 | I04 | Violência e feedback de acerto | 🟡 marcador + piscar no protótipo |
 | I05 | Como mostrar dano em inimigos comuns (sem números, sem barra) | 🔴 |
 | C08 | Soco rápido (V) com arma na mão | ✅ |
@@ -21,7 +21,8 @@
 | C17 | Tiro automático (`automatica`) | ✅ |
 | C18 | Armas carregáveis (`carregavel`: estilingue, arco) | ✅ |
 | C19 | Recuo por arma (`forca_recuo`) | ✅ com limite na rajada |
-| C21 | Recuo fica no topo durante a recarga da automática (proposta: voltar ao recarregar) | 🟡 |
+| C21 | Recuo durante a recarga da automática | ✅ desce até 0 e sobe de novo |
+| I06 | Peça mágica lilás em toda arma (onde a Essência entra) | 🟡 proposta |
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
 | A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |

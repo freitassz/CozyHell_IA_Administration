@@ -60,7 +60,7 @@
 - **Impacto:** só **Lascas** (maiores). Achatar e tranco visual **só em inimigos comuns**; bosses só **piscam**. Knockback e suco antigos dos inimigos removidos.
 - **Recuo por arma** com `forca_recuo`: pistola sobe rápido e leve, revólver mais, sniper muito.
 - Rastro maior e visível de dia.
-- **Automática:** segurando o botão, a rajada **retoma sozinha depois da recarga**. Recuo acumulado tem **limite por arma** com saturação suave; a mão esquerda escondida nunca aparece.
+- **Automática:** segurando o botão, a rajada **retoma sozinha depois da recarga**; durante a recarga o recuo **desce até 0** e sobe de novo na rajada seguinte. Recuo acumulado tem **limite por arma** com saturação suave; a mão esquerda escondida nunca aparece.
 - **Tiro normal não empurra** (`knockback_m = 0` em todas as armas atuais). Empurrão real só em especiais com `empurrao_m` próprio: Coveiro 4 m, Coice 6 m, **Tiro Carregado até 3 m** (proporcional à carga).
 - Campos novos na ficha: **`automatica`** (segurar atira) e **`carregavel`** (segurar puxa, vai mais longe — estilingue/arco). Regras de interação entre carga, automática, mira, recarga, soco, especial e troca de arma ficam no prompt F2.2.
 - **Alcance infinito com queda de dano:** dano cheio até o alcance eficaz; depois cai pela metade a cada X metros, até no mínimo **1**. Tiro muito fraco tem **som diferente** ("plink").
@@ -72,6 +72,13 @@
 - **Fundação:** personagem dentro do mundo; mundos sem limite; recursos renascem; salva na cama, ao amanhecer, ao sair e ao fechar; sem salvar manual.
 - **Pesadelo:** morreu, o mundo é apagado. **Soneca:** renasce perdendo parte do R$/sucata e dos recursos.
 - Mesa de Contrato vira **NPC futuro** que troca itens por **fichas de raridade**.
+
+## Estilo das armas (F3, nov/2026) — ver `docs/armas/guia-estilo.md`
+- Tema **roça + magia do sono**: armas de fazendeiro velhas, sucateadas, remendadas, com toque mágico. Não são de brinquedo, mas são mais leves.
+- Paleta **forte e clara** ("sonho feliz"); materiais só de **cor chapada**, sem textura, poucos detalhes; detalhes extras = efeito no Godot.
+- **Fosco e sem reflexo** em tudo (armas, inimigos, bosses). Não há material padrão obrigatório para inimigos/bosses.
+- **Raridade só na cor do nome** (Terraria); o poder vem dos números e da mecânica.
+- Revólver será **recriado** no estilo novo (com referências do Gustavo).
 
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
