@@ -57,6 +57,10 @@
 - **Tiro (F2):** botão direito = mirar; **F = especial** (Q solta item; V = soco rápido; "empurrar" removido); cada arma tem especial próprio e algumas não têm. Soco recupera muita essência (+12), regeneração natural é lenta (0,75/s), e o ganho por tiro é variável de cada arma. Sem números de dano flutuando.
 - **Tiro misto ✅:** cada arma escolhe o tipo: **instantâneo** (com visual melhor: bala curta saindo do cano até o ponto exato) ou **projétil** visível (velocidade, gravidade; ex.: rolha, estilingue com arco). Os dois existirão.
 - Recarga na tecla **R**.
+- **Impacto:** só **Lascas** (maiores). Achatar e tranco visual **só em inimigos comuns**; bosses só **piscam**. Knockback e suco antigos dos inimigos removidos.
+- **Recuo por arma** com `forca_recuo`: pistola sobe rápido e leve, revólver mais, sniper muito.
+- Rastro maior e visível de dia.
+- Campos novos na ficha: **`automatica`** (segurar atira) e **`carregavel`** (segurar puxa, vai mais longe — estilingue/arco). Regras de interação entre carga, automática, mira, recarga, soco, especial e troca de arma ficam no prompt F2.2.
 - **Alcance infinito com queda de dano:** dano cheio até o alcance eficaz; depois cai pela metade a cada X metros, até no mínimo **1**. Tiro muito fraco tem **som diferente** ("plink").
 - Recuo **por código** com curva: sobe rápido, desce devagar.
 - Impacto em teste (escolher jogando): gotas × lascas, achatar, tranco **só visual** (sem mudar posição). Knockback real só pelo campo da arma.

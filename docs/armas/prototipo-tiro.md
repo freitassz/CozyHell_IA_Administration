@@ -144,3 +144,6 @@ Problemas: a **recarga às vezes não funciona** e deve ir para a tecla **R**.
 - **Rastro** do cano ao ponto exato (pool). **Projétil** (`ProjetilPool`): escopeta com 6 rolhas; **Teste — Estilingue** com arco (cai 6,8 m em 40 m).
 - **Impacto** (`ImpactoFx`): Gotas / Lascas / Nenhum (**F6**), achatar e tranco visual — opções no **Inspector do Player** (valem para todos os inimigos).
 - Visual **não conferido a olho** pelo Ziva (o jogo é lento demais na máquina de teste).
+
+## Teste da F2.1 (Gustavo)
+1. Lascas (maiores). 2. Achatar/tranco só em comuns; bosses só piscam. 3. Recuo bom, mas cada arma precisa do seu (pistola sobe com um tiro, revólver mais, sniper forte). 4. Rastro termina certo, mas some de dia (maior). 5. Estilingue divertido; quer **carregável**. 6. Aprovou `automatica` e remover efeitos antigos.
