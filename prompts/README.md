@@ -7,7 +7,7 @@
 | Pedido | Assunto | Status |
 |---|---|---|
 | [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | ✅ feito |
-| [PROMPT_BLENDER_REVOLVER_V2](blender/PROMPT_BLENDER_REVOLVER_V2.md) | redesign do revólver no guia de estilo | 🟡 rascunho (faltam referências) |
+| [PROMPT_BLENDER_REVOLVER_V2](blender/PROMPT_BLENDER_REVOLVER_V2.md) | redesign do revólver no guia de estilo | 🟡 entregue |
 
 # Prompts entregues ao Ziva
 

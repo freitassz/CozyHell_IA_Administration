@@ -1,6 +1,6 @@
 # Guia de estilo das armas (F3)
 
-> Status: ✅ base aprovada pelo Gustavo (nov/2026) · 🟡 itens marcados como proposta
+> Status: ✅ aprovado pelo Gustavo (nov/2026)
 > Vale para **toda arma nova** e para o redesign do revólver. As referências visuais virão aos poucos, arma por arma.
 
 ## 1. Tema
@@ -13,10 +13,10 @@
 - Variam por arma. O que vale para todas: **silhueta clara** vista em primeira pessoa (dá para reconhecer a arma só pela forma).
 - Low-poly facetado (igual a tudo no jogo).
 
-## 3. Paleta — "sonho feliz"
-Cores **fortes e claras**. Nada de aço escuro realista; o tom mais escuro de uma arma não deve ficar perto do preto (só o contorno é escuro).
+## 3. Paleta — "sonho feliz" ✅
+Cores **fortes e claras**. Metal **pintado em azul ou verde-menta claros, com a tinta descascando**; ferrugem em **manchas laranja chapadas**; madeira **cor de mel**; **fitas coloridas** nos remendos; nada perto do preto (só o contorno). Nada de aço escuro realista; o tom mais escuro de uma arma não deve ficar perto do preto (só o contorno é escuro).
 
-| Papel | Cor sugerida 🟡 | Uso |
+| Papel | Cor | Uso |
 |---|---|---|
 | Metal pintado | `#8FB3C9` (azul-acinzentado claro) / `#9ED8B5` (verde-menta desbotado) | corpo, cano |
 | Metal cru | `#B8C2CC` | partes sem pintura |
@@ -38,10 +38,15 @@ Cores de raridade **não** aparecem na arma (ver item 5).
 - Aparece **só na cor do nome** da arma (como no Terraria). O modelo não muda de cor por raridade.
 - Quem diz se uma arma "merece" ser rara são o **dano e a mecânica**, não o visual.
 
-## 6. Peça mágica (🟡 proposta do Claude — confirmar)
-Toda arma tem **uma peça onde a Essência do Sonho entra**: um frasco, um cristal, um pote de vidro, uma câmara — em **lilás**.
+## 6. Peça mágica ✅ (em muitas armas, não obrigatória em todas)
+A arma tem **uma peça onde a Essência do Sonho entra**: um frasco, um cristal, um pote de vidro, uma câmara — em **lilás**. Não precisa existir em **todas** as armas: algumas podem mostrar a magia de outro jeito.
 - Explica a mecânica sem texto: a arma é "recarregada com essência" → a peça lilás **acende** na recarga e no especial (efeito no Godot).
-- Cria uma assinatura visual comum a todas as armas, mesmo sendo muito diferentes.
+- Cria uma assinatura visual comum, mesmo com armas muito diferentes.
+- Deve ser um **objeto/material separado** no modelo (ex.: `EssenciaMagica`) para o Godot controlar o brilho.
+
+### Variações de magia (ideias para armas específicas)
+- **Frasco / pote de vidro lilás** que acende na recarga e no especial (proposto para o revólver: o tambor vira um pote de vidro).
+- **Cristal que escurece** a cada tiro (mostra quanto falta no pente) e, na **recarga**, a animação é o cristal **brilhando de novo**. Ideia do Gustavo para alguma arma futura.
 
 ## 7. Regras de animação e rig (já decididas)
 - **Uma mão:** a mão esquerda fica **escondida na mesma pose do revólver** (o soco rápido `Soco_Esquerdo_Arma` funciona com qualquer arma).

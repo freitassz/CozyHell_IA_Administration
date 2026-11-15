@@ -1,6 +1,6 @@
 # Pedido para o chat de modelagem — Revólver do Coveiro v2 (redesign de estilo)
 
-> 🟡 **RASCUNHO** — falta anexar as **referências** do Gustavo (seção "Referências") e confirmar a **peça mágica** (item 6 do guia).
+> As **referências** visuais serão enviadas pelo Gustavo diretamente neste chat.
 > Use a skill `lowpoly-game-3d-blender`. Pasta: `Blender\bracos_novo\` (`revolver_modelo.py`, `revolver_anim.py`).
 
 ## Contexto
@@ -11,7 +11,8 @@ Foi criado um **guia de estilo das armas** (abaixo, resumido). O revólver é a 
 - **Tema:** roça + magia do sono. Revólver **velho, enferrujado e "cabreiro"** de fazendeiro, remendado na gambiarra, mas ainda com cara de arma (não de brinquedo), um pouco **mais leve**.
 - **Paleta forte e clara:** metal pintado `#8FB3C9` ou `#9ED8B5`, metal cru `#B8C2CC`, ferrugem em **manchas chapadas** `#E07B39`/`#C9622B`, madeira mel `#D9A15B`/`#A8693A`, remendos (fita `#E5484D`/`#F2C94C`, arame `#C8CDD2`). Nada perto do preto.
 - **Materiais:** só formas e cores chapadas (cor por vértice), **sem textura**, **fosco e sem reflexo** (roughness 1, specular 0, metallic 0). Detalhes extras serão efeitos no Godot.
-- **Peça mágica 🟡:** uma peça lilás `#B98CFF` onde a Essência do Sonho "entra" (ex.: o tambor vira um pote de vidro lilás, ou um frasco preso com arame). Deve ser um objeto/material separado (`EssenciaMagica`) para o Godot acender.
+- **Peça mágica ✅:** o **tambor vira um pote de vidro lilás** `#B98CFF` (ou, se ficar ruim, um frasco lilás preso com arame). É onde a Essência do Sonho "entra". Deve ser um **objeto/material separado** chamado `EssenciaMagica`, para o Godot fazer acender na recarga e no especial. Continua girando com o osso `Tambor`/`Giro`.
+- Metal **pintado em azul ou verde-menta claros, com a tinta descascando**; ferrugem em **manchas laranja chapadas**; madeira **cor de mel**; **fitas coloridas** nos remendos; nada perto do preto.
 
 ## O que NÃO pode mudar (o código depende disso)
 - Mesmos **ossos** e nomes: `Raiz > Cao, Gatilho, Tambor > Giro > Carga, Tambor > Extrator, Balas, Cano`.
@@ -23,7 +24,7 @@ Foi criado um **guia de estilo das armas** (abaixo, resumido). O revólver é a 
 - A mão esquerda continua escondida na pose (o soco esquerdo depende disso).
 
 ## Referências
-(anexar aqui as imagens do Gustavo)
+O Gustavo vai mandar as imagens neste chat. Analise a referência antes de modelar e mande **uma imagem de teste** (render pequeno, 1 vista em primeira pessoa) antes de refazer as animações.
 
 ## Entregar
 1. `revolver.glb` novo (+ `bracos.glb` se precisar reexportar junto), `.py` atualizados.

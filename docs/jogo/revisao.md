@@ -22,7 +22,7 @@
 | C18 | Armas carregáveis (`carregavel`: estilingue, arco) | ✅ |
 | C19 | Recuo por arma (`forca_recuo`) | ✅ com limite na rajada |
 | C21 | Recuo durante a recarga da automática | ✅ desce até 0 e sobe de novo |
-| I06 | Peça mágica lilás em toda arma (onde a Essência entra) | 🟡 proposta |
+| I06 | Peça mágica lilás (onde a Essência entra) | ✅ em muitas armas; variação "cristal que escurece" para alguma arma |
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
 | A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |
