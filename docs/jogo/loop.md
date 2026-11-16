@@ -41,6 +41,9 @@ Todos dropam material único (oferenda / arma de boss).
 - **Uso ✅:** criar alguns itens, mas **principalmente armaduras** e afins.
 - 🟡 Novo sistema a definir: **armaduras** (peças, o que dão, como aparecem em primeira pessoa/multiplayer).
 
+## Ideias futuras
+- **Cristais do sonho** como **recurso que nasce naturalmente** no mapa, usados em **receitas** no futuro (ideia do Gustavo, nov/2026).
+
 ## Economia 🟡
 
 **NPC de troca ⏭️ (futuro):** troca itens por **fichas de raridade**. Outro caminho para uma arma boa sem precisar matar o boss, sem competir com a máquina.

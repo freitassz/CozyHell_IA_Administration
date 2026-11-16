@@ -5,7 +5,7 @@
 **Números (rascunho):** planilha "Cozy Hell — Sistema de Armas"
 (https://claude.ai/artifact/C6UHKQhy775yxMivAKyWZZ). Aqui ficam conceito, estado e decisões.
 
-- [**Lista oficial — proposta v2**](lista-oficial-proposta.md) 🟡 em fechamento
+- [**Lista oficial — v3 (15 armas)**](lista-oficial-proposta.md) 🟡 quase fechada
 - [**Guia de estilo das armas**](guia-estilo.md) ✅
 - [Ficha de arma — campos atuais](ficha-campos.md)
 - [Sistema (regras gerais)](sistema.md) — inclui o **ajuste pendente do Fundir** (nível por cópia, fusão por soma)

@@ -26,6 +26,8 @@
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
 | P-03 | **Polimento:** revólver v2 é protótipo — mais contraste entre partes (metal × madeira × ferrugem, hoje tudo laranja/amarelo e vira uma mancha na tela), conferir elemento preto perto do gatilho | ⏸️ polir no futuro |
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
+| R03 | **Cristais do sonho** nascendo naturalmente no mapa + receitas com eles | ⏸️ futuro |
+| A04 | Lista oficial: falta definir especiais, Espantalho, Mangueira e Lampião | 🟡 |
 | A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |
 | E10 | Knockback e suco antigos dos inimigos | ✅ removidos (suco na **morte** continua; piscar vermelho próprio dos inimigos continua) |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |

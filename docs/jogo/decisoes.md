@@ -85,7 +85,11 @@
 ## Lista oficial de armas (nov/2026, em fechamento — ver `docs/armas/lista-oficial-proposta.md`)
 - ✅ **Revólver Enferrujado** (renomeado), **Espingarda de Rolha**, **Metralhadora de Sementes** (estilo arma de paintball com sementes), **Estilingue**, **Rifle de Pressão** (sem especial), **Machadinha Enferrujada** (teleguiada curta, sempre acerta, curva da direita para a esquerda e volta), **Rifle de Pregos**, **Lança-Chamas de Fogão** (com cristal do sono).
 - ❌ Frigideira de Ferro, Liquidificador Demoníaco, tema "panela de pressão" na bazuca, tema "cuco" na torreta (a ideia de torreta fica).
-- Vão existir **pelo menos 3 armas corpo a corpo**: pesada (tipo espada), média e rápida. Rápida = **Cutelo Desgastado** ✅.
+- Corpo a corpo: rápida = **Cutelo Desgastado**, média = **Facão de Mato**, pesada = **Martelo da Vovó**.
+- Torreta = **Espantalho Sonâmbulo** (atrai inimigos; sem corvos de cristal). Lendárias: **Mangueira de Água Amaldiçoada** e **Lampião** (mecânica a definir pelo Gustavo). Lista com 15 armas.
+- Magia/cristal é **livre** em cada arma — **não** cresce com a raridade (foi só sugestão).
+- Status **Sono** descartado; Eletrizar continua na lista (rascunho).
+- Primeiro o **simples**: ideias lendárias muito complexas (regador de plantas aliadas, colheitadeira) ficam de fora por agora.
 - **Lança-Rojão Junino** ✅ (bazuca de fogos de artifício).
 - Especial do revólver renomeado: **Repimboca**.
 - Machadinha acerta **todos no caminho** da curva; o alvo é só o destino.
