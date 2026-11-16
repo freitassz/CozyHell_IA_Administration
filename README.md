@@ -23,7 +23,7 @@ Abra uma conversa com o Claude neste repositório e escolha um assunto:
 | 👾 Inimigos comuns | [docs/inimigos/](docs/inimigos/README.md) |
 | 🎰 Objetos interativos | [docs/objetos/](docs/objetos/README.md) |
 | ✋ Player (braços FPS) | [docs/player/bracos-fps.md](docs/player/bracos-fps.md) |
-| 📣 Marketing (briefing) | [docs/marketing/](docs/marketing/README.md) |
+| 📣 Marketing (estratégia, canais, ideias, tarefas) | [docs/marketing/](docs/marketing/README.md) |
 | 🛠️ Pipeline (Blender, sons, prompts Ziva) | [docs/pipeline/](docs/pipeline/README.md) |
 | 🤖 Prompts entregues ao Ziva | [prompts/](prompts/README.md) |
 | 📄 Modelos de ficha | [templates/](templates/) |

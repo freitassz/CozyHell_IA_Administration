@@ -61,3 +61,14 @@ As etapas abaixo ficam **em espera** até F1 terminar; serão reordenadas pela o
 | Braços FPS (mão nua: soco, guarda, pegar, gestos, pulo por mola) | ✅ |
 | Poses próprias por item/arma | ⏳ |
 | Entrada de boss (`boss_intro.tscn`) aplicada a **todos** os bosses | 🟡 |
+
+## Trilha paralela: marketing
+> Tratada no chat de marketing. Detalhes em [docs/marketing/](docs/marketing/README.md).
+
+| Fase | O quê | Status |
+|---|---|---|
+| M0 — Fundação | Nome, @ nas redes, Discord, banco de clipes, primeiros shorts | 🟡 **agora** |
+| M1 — Aquecimento | 2–3 shorts/semana, Reddit, medir | ⏳ |
+| M2 — Página no Steam | capa + trailer curto, juntar wishlists | ⏳ |
+| M3 — Demo & eventos | demo, Steam Next Fest, criadores de conteúdo | ⏳ |
+| M4 — Lançamento | — | ⏳ |

@@ -26,3 +26,7 @@ Carregue a skill correspondente antes de escrever prompt.
 - A planilha "Cozy Hell — Sistema de Armas" e a lista de 35 armas são **rascunho** (nov/2026). Não trate nada dela como decidido (ex.: calor/superaquecimento, stamina de arma).
 - Trabalhe por etapas, uma mudança por vez, e pense em economia de tokens.
 - Commits em português, curtos e descritivos.
+
+## Marketing acontece em OUTRO chat
+- Há um chat dedicado ao marketing. Tudo dele fica em `docs/marketing/` (comece pelo `README.md` de lá).
+- Sugestões do marketing que mexem no jogo ficam em `docs/marketing/tarefas.md` → "Levar para o chat de criação".
