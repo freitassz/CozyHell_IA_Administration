@@ -1,7 +1,8 @@
 # R08 — Revólver do Coveiro
 
 - **Nicho:** Pistola / revólver · **Raridade:** Raro
-- **Status:** 🟡 visual na mão ✅ · lógica de dano/WeaponData ⏳
+- **Status:** ✅ v2 no estilo novo (protótipo) · ✅ `WeaponData`, essência, especial Tiro do Coveiro
+- **v2 (nov/2026):** revólver de fazendeiro **enferrujado**, laranja claro com manchas sutis, cabo amarelo, fitas; **sem peça mágica**. Primeira arma do guia de estilo. Precisa de polimento (P-03).
 
 ## Arquivos (`3dddddd\Blender\bracos_novo\`)
 - `revolver.glb`, `revolver_modelo.py`, `revolver_anim.py`
