@@ -89,6 +89,8 @@
 - Torreta = **Espantalho Sonâmbulo** (atrai inimigos; sem corvos de cristal). Lendárias: **Mangueira de Água Amaldiçoada** e **Lampião** (mecânica a definir pelo Gustavo). Lista com 15 armas.
 - Magia/cristal é **livre** em cada arma — **não** cresce com a raridade (foi só sugestão).
 - Status **Sono** descartado; Eletrizar continua na lista (rascunho).
+- **Espantalho Sonâmbulo:** atrai inimigos e solta **corvos que explodem** neles. **Mangueira:** só dá dano. **Lampião:** tiro lento de **fogo que queima com o tempo**. Especiais das outras armas: pensar depois.
+- **Produção:** começar pela família de duas mãos enferrujadas — Espingarda de Rolha → Metralhadora de Sementes → Rifle de Pressão.
 - Primeiro o **simples**: ideias lendárias muito complexas (regador de plantas aliadas, colheitadeira) ficam de fora por agora.
 - **Lança-Rojão Junino** ✅ (bazuca de fogos de artifício).
 - Especial do revólver renomeado: **Repimboca**.

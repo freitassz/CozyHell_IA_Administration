@@ -7,6 +7,7 @@
 | Pedido | Assunto | Status |
 |---|---|---|
 | [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | ✅ feito |
+| [PROMPT_BLENDER_ARMAS_DUAS_MAOS](blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) | Espingarda → Metralhadora → Rifle de Pressão (duas mãos, coronhada) | 🟡 entregue |
 | [PROMPT_BLENDER_REVOLVER_V2](blender/PROMPT_BLENDER_REVOLVER_V2.md) | redesign do revólver no guia de estilo | ✅ feito (protótipo) |
 
 # Prompts entregues ao Ziva
