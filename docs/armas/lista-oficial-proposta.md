@@ -29,46 +29,59 @@
 - Soltar o gatilho: o cristal **volta a brilhar sozinho** devagar.
 - **R** = recarrega o cristal **na hora**, gastando **Essência** (liga ao sistema que já existe).
 
-## Para substituir / criar — ideias 🟡
-### Torreta (Lendário) — sem cuco
-| Opção | Ideia | Por que |
-|---|---|---|
-| **A ⭐ Galinha de Guarda** | arremessa uma **galinha** que fica no chão **bicando** e **botando ovos que explodem** nos inimigos por ~7 s; especial **"Cocoricó"**: onda que atordoa | animal de fazenda, muito engraçada, ótima para vídeo/marketing |
-| B Espantalho de Bolso | um mini-espantalho que finca no chão e atira palha | combina, mas o Espantalho pode virar boss (confunde) |
-| C Regador Sentinela | regador flutuante que dispara jatos | fofo, mas jato de água é fraco visualmente |
+## Para substituir / criar — ideias v3 🟡 (fazenda + magia do cristal)
 
-### Lendária extra — Colheitadeira de Mão (explicação)
-- **Visual:** um tambor com **lâminas girando** na frente (como o molinete de uma colheitadeira), preso num cabo; a arma "cospe" grãos/palha em jato.
-- **Como joga:** segurou o gatilho → as lâminas **giram ~0,8 s sem atirar** (som subindo) → aí dispara uma **chuva de grãos** muito rápida e muito forte.
-- Enquanto atira você anda **bem devagar** (~40%). Soltou: as lâminas seguem girando ~1 s (dá para voltar a atirar na hora); depois param e precisa girar de novo.
-- Pente grande; recarrega com Essência como as outras.
-- **Diferença da Metralhadora de Sementes:** a metralhadora atira **na hora** e deixa você **se mexer**; a colheitadeira exige **se comprometer** (esperar o giro, ficar lento) em troca de **destruir hordas**. Boa para defender a base à noite.
-- Status: 🟡 aguardando o Gustavo decidir (ou ficar com 13 armas).
+### Regra sugerida: a magia cresce com a raridade
+- **Comum:** sucata de fazenda pura (sem magia).
+- **Raro:** fazenda com um **toque** de cristal.
+- **Épico:** o **cristal muda a mecânica**.
+- **Lendário:** a arma é **movida a cristal**; a magia é o centro.
+(Não é cor de raridade — é o quanto de sonho a arma tem. A cor da raridade continua só no nome.)
 
-### Corpo a corpo médio — novas ideias 🟡
+### Corpo a corpo médio (Raro)
 | Opção | Ideia | Mecânica |
 |---|---|---|
-| **A ⭐ Forcado de Feno** | garfo de feno enferrujado | **estocada** de alcance maior que as outras; atravessa 2 inimigos em linha |
-| B Rastelo | ancinho de jardim | golpe que **puxa** o inimigo para perto de você |
-| C Facão de Mato | facão de roça | corte equilibrado, sem truque |
+| **A ⭐ Cajado de Pastor do Sono** | cajado de pastor com um **cristal na ponta do gancho** | golpes em arco; cada acerto deixa o inimigo **sonolento** e no 3º ele **dorme** ~2 s (acorda se levar dano). Magia do sono literal |
+| B Mangual de Sino de Vaca | **sino de vaca** preso numa corrente | gira e bate; cada acerto dá um **"blém"**; especial: badalada que atordoa em volta |
+| C Pá de Cristal | pá com a borda de cristal | golpe de baixo para cima que **joga o inimigo para o alto** |
 
-### Corpo a corpo pesado — espada ou parecido 🟡
+### Corpo a corpo pesado — tipo espada (Épico)
 | Opção | Ideia | Mecânica |
 |---|---|---|
-| **A ⭐ Espadão de Arado** | espada grande forjada de uma **lâmina de arado** velha | lenta; **segurar carrega** um golpe de cima para baixo com onda de choque |
-| B Serrotão | espada feita de um **serrote de lenha** gigante | golpe lento que acerta várias vezes seguidas (serrando) |
-| C Montante de Cata-vento | espada feita da **pá de um cata-vento** | o especial gira você como uma hélice, acertando tudo em volta |
+| **A ⭐ Arado Sonhador** | espadão feito de **lâmina de arado** com um veio de cristal | **segurar carrega**; o golpe crava no chão e **"ara" uma linha à frente** de onde brotam **pontas de cristal** que acertam tudo no caminho |
+| B Montante da Colheita | espada com espigas de **trigo de cristal** na lâmina | cada abate faz **crescer uma espiga** (até 5): mais dano e alcance; zera ao guardar |
+| C Espada de Cerca Viva | espada de estaca de cerca com arame farpado e cristal | golpe deixa uma **cerca de cristal** temporária que bloqueia inimigos |
+
+### Torreta (Lendário)
+| Opção | Ideia | Mecânica |
+|---|---|---|
+| **A ⭐ Cata-vento de Cristal** | cata-vento de fazenda com **pás de cristal** | você finca no chão; ele gira e **dispara lascas de cristal** em volta (360°) por ~8 s; especial: ventania que empurra todos para longe |
+| B Galinha de Cristal | galinha que **bota ovos de cristal** | fica no chão bicando e os ovos explodem nos inimigos |
+| C Espantalho Sonâmbulo | espantalho com **cabeça de cristal** | **atrai** os inimigos para ele (distração) e solta corvos de cristal |
+
+### Lendária extra
+| Opção | Ideia | Mecânica |
+|---|---|---|
+| **A ⭐ Regador dos Sonhos** | regador de cristal | "rega" o chão e faz **brotar plantas de cristal aliadas** que **prendem** os inimigos — o fazendeiro usando a própria magia de plantar contra as plantas |
+| B Lampião do Sono | lampião com cristal | feixe que faz os inimigos **dormirem**; quanto mais tempo no alvo, mais dano |
+| C Colheitadeira de Cristal | a colheitadeira (giro antes de atirar) movida a cristal | dano enorme em hordas, anda devagar |
+| D Não ter | 13 armas | menos escopo |
+
+### Status novo sugerido: **Sono** 🟡
+Combina com o jogo inteiro (é um sonho). Inimigo acumula sonolência e **dorme** alguns segundos; acorda ao levar dano. Pode **substituir o Eletrizar** (que não tem ligação com o tema) na lista de status (rascunho): Queimar, Atordoar, Lentidão, **Sono**.
 
 ## Distribuição sugerida (14 armas)
 | Raridade | Armas |
 |---|---|
 | Comum (5) | Revólver Enferrujado, Espingarda de Rolha, Metralhadora de Sementes, Estilingue, **Cutelo Desgastado** |
-| Raro (3) | Rifle de Pressão, Machadinha Enferrujada, **corpo a corpo médio** (🟡) |
-| Épico (4) | Rifle de Pregos, Lança-Rojão Junino, Lança-Chamas de Fogão, **corpo a corpo pesado** (🟡) |
-| Lendário (2) | **Galinha de Guarda**, **Colheitadeira de Mão** (ou nenhuma → 13 armas) |
+| Raro (3) | Rifle de Pressão, Machadinha Enferrujada, **corpo a corpo médio** (🟡 Cajado do Sono?) |
+| Épico (4) | Rifle de Pregos, Lança-Rojão Junino, Lança-Chamas de Fogão, **corpo a corpo pesado** (🟡 Arado Sonhador?) |
+| Lendário (2) | **torreta** (🟡 Cata-vento de Cristal?), **lendária extra** (🟡 Regador dos Sonhos?) |
 
 ## Perguntas abertas
-1. Torreta: aprova a **Galinha de Guarda**?
-2. Lendária extra: **Colheitadeira de Mão** (explicada acima) ou ficar com 13 armas?
-3. Corpo a corpo médio: Forcado, Rastelo ou Facão?
-4. Corpo a corpo pesado: Espadão de Arado, Serrotão ou Montante de Cata-vento?
+1. Aprova a regra "a magia cresce com a raridade"?
+2. Corpo a corpo médio: A, B ou C?
+3. Corpo a corpo pesado: A, B ou C?
+4. Torreta: A, B ou C?
+5. Lendária extra: A, B, C ou D?
+6. Status **Sono** no lugar do Eletrizar?
