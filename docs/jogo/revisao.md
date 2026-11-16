@@ -64,7 +64,7 @@
 | T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar); `dev/test_soco_esquerdo.gd` sem uso | 🔴 baixa |
 | E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
 | C07 | Fundir: nível por cópia + fusão por soma (nv3+nv2=nv5) | 🔧 aprovado, implementar depois |
-| C06 | Superaquecimento de arma | 🟡 em aberto (já discutido, decidir depois) |
+| C06 | Superaquecimento de arma | ✅ cristal do sono nas armas contínuas (escurece, R recarrega com Essência) |
 | E01 | Salvar/carregar | ✅ |
 | E02 | Menu principal + criação de mundo (seed, Soneca/Pesadelo) | ✅ |
 | E03 | Formas de ganhar arma | ✅ máquina + bigorna; Mesa → NPC futuro; loja ❌ |

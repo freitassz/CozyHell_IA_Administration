@@ -85,7 +85,11 @@
 ## Lista oficial de armas (nov/2026, em fechamento — ver `docs/armas/lista-oficial-proposta.md`)
 - ✅ **Revólver Enferrujado** (renomeado), **Espingarda de Rolha**, **Metralhadora de Sementes** (estilo arma de paintball com sementes), **Estilingue**, **Rifle de Pressão** (sem especial), **Machadinha Enferrujada** (teleguiada curta, sempre acerta, curva da direita para a esquerda e volta), **Rifle de Pregos**, **Lança-Chamas de Fogão** (com cristal do sono).
 - ❌ Frigideira de Ferro, Liquidificador Demoníaco, tema "panela de pressão" na bazuca, tema "cuco" na torreta (a ideia de torreta fica).
-- Vão existir **pelo menos 3 armas corpo a corpo**: pesada, média e rápida (adaga).
+- Vão existir **pelo menos 3 armas corpo a corpo**: pesada (tipo espada), média e rápida. Rápida = **Cutelo Desgastado** ✅.
+- **Lança-Rojão Junino** ✅ (bazuca de fogos de artifício).
+- Especial do revólver renomeado: **Repimboca**.
+- Machadinha acerta **todos no caminho** da curva; o alvo é só o destino.
+- **Superaquecimento (C06) decidido:** armas contínuas têm um **cristal do sono** que escurece ao atirar; todo escuro = superaquece; volta a brilhar sozinho; **R recarrega o cristal gastando Essência**.
 
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
