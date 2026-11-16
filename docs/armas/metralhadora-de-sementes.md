@@ -1,6 +1,6 @@
 # Metralhadora de Sementes
 
-- **Raridade:** Comum · **Status:** 🟡 em produção (modelagem)
+- **Raridade:** Comum · **Status:** ✅ modelo + 7 animações · 🟡 integração no jogo ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md))
 
 ## Conceito
 Parecida com uma **arma de paintball**, mas atira **sementes**. Enferrujada. **Automática.** **Duas mãos.**
@@ -24,3 +24,6 @@ Aparência descrita pelo Gustavo. Ideia de partida: o "reservatório" de semente
 
 ## Animações
 `Metralhadora_Sacar/Pose/Atirar/Cooldown/Recarregar/Guardar/Coronhada`.
+
+## Dados da modelagem
+`armas/metralhadora/metralhadora.glb` (raiz `MetralhadoraRig`). Cooldown 0,1 s. Recarga 2,0 s: pote recolocado em 1,33 s. Coronhada 0,6 s, impacto 0,2 s. Ossos: `Reservatorio`, `Gatilho`. Textura assada. ⚠️ Na recarga o pote fica grande na tela por um instante (avaliar jogando).

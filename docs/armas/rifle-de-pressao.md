@@ -1,6 +1,6 @@
 # Rifle de Pressão
 
-- **Raridade:** Raro · **Status:** 🟡 em produção (modelagem)
+- **Raridade:** Raro · **Status:** ✅ modelo + 7 animações · 🟡 integração no jogo ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md))
 
 ## Conceito
 **Sniper sucateado** de fazendeiro (rifle de pressão/ar comprimido). Enferrujado. **Duas mãos.** Sem especial.
@@ -24,3 +24,6 @@ Aparência descrita pelo Gustavo. Silhueta longa, a mais comprida das três.
 
 ## Animações
 `RiflePressao_Sacar/Pose/Atirar/Cooldown/Recarregar/Guardar/Coronhada`.
+
+## Dados da modelagem
+`armas/rifle_pressao/riflepressao.glb` (raiz `RiflePressaoRig`). Cooldown 0,3 s. Recarga 2,2 s: bombeia em 0,37 s e 0,77 s, chumbinho em 1,63 s (arma vem para perto do corpo; alavanca abre 40°). Coronhada 0,6 s, impacto 0,2 s. Ossos: `Alavanca`, `Chumbinho`, `Gatilho`. Textura assada.

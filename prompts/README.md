@@ -7,7 +7,7 @@
 | Pedido | Assunto | Status |
 |---|---|---|
 | [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | ✅ feito |
-| [PROMPT_BLENDER_ARMAS_DUAS_MAOS](blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) | Espingarda → Metralhadora → Rifle de Pressão (duas mãos, coronhada) | 🟡 entregue |
+| [PROMPT_BLENDER_ARMAS_DUAS_MAOS](blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) | Espingarda → Metralhadora → Rifle de Pressão (duas mãos, coronhada) | ✅ feito |
 | [PROMPT_BLENDER_REVOLVER_V2](blender/PROMPT_BLENDER_REVOLVER_V2.md) | redesign do revólver no guia de estilo | ✅ feito (protótipo) |
 
 # Prompts entregues ao Ziva
@@ -30,6 +30,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_SOCO_ESQUERDO](armas/PROMPT_ZIVA_SOCO_ESQUERDO.md) | ligar a animação do soco esquerdo no V + tempos lidos das animações | ✅ feito |
 | [PROMPT_ZIVA_AJUSTES_TIRO_2](armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md) | F2.2: efeitos antigos, Lascas, bosses, recuo por arma, rastro, automática, carregável | ✅ feito |
 | [PROMPT_ZIVA_AJUSTES_TIRO_3](armas/PROMPT_ZIVA_AJUSTES_TIRO_3.md) | F2.3: limite do recuo na rajada + testes antigos | ✅ feito |
+| [PROMPT_ZIVA_ARMAS_DUAS_MAOS](armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md) | integrar Espingarda, Metralhadora e Rifle de Pressão + coronhada + máquina | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

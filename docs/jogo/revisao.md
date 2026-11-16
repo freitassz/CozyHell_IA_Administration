@@ -32,6 +32,7 @@
 | E10 | Knockback e suco antigos dos inimigos | ✅ removidos (suco na **morte** continua; piscar vermelho próprio dos inimigos continua) |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |
 | C16 | **Soco esquerdo sem graça:** o punho fica escondido; precisa ir **mais para a frente** e aparecer mais. Também avaliar sensação de impacto do soco (tremida de câmera curta, micro-pausa no acerto, som mais forte, inimigo reagindo) | 🔴 futuro |
+| E11 | Armas novas usam **textura assada** (o guia dizia cor por vértice): ok se o resultado continuar chapado e fosco | 🟡 conferir no jogo |
 | C15 | Soco rápido em **armas de duas mãos** | ✅ ideia: **coronhada** (golpe com a própria arma) · implementar com a 1ª arma de duas mãos |
 | N05 | Inimigo Abóbora não existe no código (fase 2) | 🔴 |
 | T04 | `BracosFps.empurrar()` e animação `08_Empurrar` sem uso | 🔴 baixa |

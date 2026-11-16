@@ -1,6 +1,6 @@
 # Espingarda de Rolha
 
-- **Raridade:** Comum · **Status:** 🟡 em produção (modelagem)
+- **Raridade:** Comum · **Status:** ✅ modelo + 7 animações · 🟡 integração no jogo ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md))
 
 ## Conceito
 Espingarda velha e enferrujada de fazendeiro que atira **rolhas**. Perto e forte. **Duas mãos.**
@@ -24,3 +24,6 @@ Aparência descrita pelo Gustavo no chat de modelagem. Regra: silhueta diferente
 
 ## Animações
 `Espingarda_Sacar/Pose/Atirar/Cooldown/Recarregar/Guardar/Coronhada`.
+
+## Dados da modelagem
+`armas/espingarda/espingarda.glb` (raiz `EspingardaRig`). Cooldown 0,5 s (bombeia). Recarga 1,8 s: rolha 1 em 0,70 s, rolha 2 em 1,27 s, bombeia ~1,5 s. Coronhada 0,6 s, impacto 0,2 s. Ossos: `Bomba`, `Rolha`, `Gatilho`. Textura assada.
