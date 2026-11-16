@@ -19,7 +19,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F2.1 — Ajustes do tiro** | Recarga R, recuo com curva, alcance infinito com queda, rastro novo, projétil + estilingue, impacto ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO.md)) · animação do soco esquerdo (Blender) | ✅ testado |
 | **F2.2 — Ajustes finais do tiro** | Lascas, bosses só piscam, recuo por arma, rastro de dia, automática, carregável ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md)) | ✅ testado |
 | **F2.3 — Fecha o tiro** | Limite do recuo na rajada (mão esquerda aparecia) + testes antigos ([prompt](prompts/armas/PROMPT_ZIVA_AJUSTES_TIRO_3.md)) | ✅ — **fase do tiro (F2) fechada** |
-| **F3 — Guia de estilo** | [Guia de estilo](docs/armas/guia-estilo.md) ✅ · redesign do revólver ([pedido](prompts/blender/PROMPT_BLENDER_REVOLVER_V2.md) entregue ao chat de modelagem) · I03 ✅ (fosco, sem reflexo) | 🟡 **agora** |
+| **F3 — Guia de estilo** | Definir o estilo das armas ([guia](docs/armas/guia-estilo.md) ✅) e **testar o guia em UMA arma**: o revólver/pistola do fazendeiro ([pedido](prompts/blender/PROMPT_BLENDER_REVOLVER_V2.md)) → modelagem → prompt do Ziva para trocar o modelo → aprovado no jogo = F3 fechada. As outras armas vêm na F5 | 🟡 **agora** |
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
 | **Antes da F5** | Atualizar a planilha de armas com os campos de [ficha-campos.md](docs/armas/ficha-campos.md) e revisar a lista oficial | ⏳ |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
