@@ -1,4 +1,4 @@
-# R08 — Revólver do Coveiro
+# R08 — Revólver Enferrujado (ex-"do Coveiro")
 
 - **Nicho:** Pistola / revólver · **Raridade:** Raro
 - **Status:** ✅ v2 no estilo novo (protótipo) · ✅ `WeaponData`, essência, especial Tiro do Coveiro

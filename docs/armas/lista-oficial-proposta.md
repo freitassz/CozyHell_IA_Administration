@@ -1,52 +1,74 @@
-# Lista oficial de armas — proposta v1 (12 armas)
+# Lista oficial de armas — proposta v2
 
-> Status: 🟡 proposta do Claude para o Gustavo aprovar/cortar/mudar. Depois vira a planilha (A03).
-> Critério: **12 armas, cada uma com uma sensação diferente**; variações (versões de cada uma) vêm depois.
-> Nomes vêm da planilha de rascunho, com exceção do Estilingue (que agradou no teste).
+> Status: 🟡 em fechamento. ✅ = aprovada pelo Gustavo · 🟡 = ideia nova do Claude para aprovar.
+> Critério: cada arma com uma sensação diferente; variações vêm depois. Armas exclusivas de boss ficam **fora** desta lista.
 
-## Distribuição por raridade (= quando aparece na máquina)
-| Raridade | Libera quando | Qtde | Por quê |
-|---|---|---|---|
-| Comum | início | 4 | o começo já tem variedade: pistola, escopeta, automática e carregável |
-| Raro | Tomate morto | 3 | sniper, arremesso e o único corpo a corpo |
-| Épico | Dragão morto | 3 | perfuração, explosão e fogo contínuo |
-| Lendário | Batata morta | 2 | mecânicas únicas (vórtice, torreta) |
+## Aprovadas
+| Arma | Raridade | Estilo | Especial | Notas do Gustavo |
+|---|---|---|---|---|
+| **Revólver Enferrujado** ✅ (ex-"do Coveiro") | Comum | pistola precisa, instantâneo | Tiro do Coveiro (renomear?) | já existe (v2) |
+| **Espingarda de Rolha** ✅ | Comum | perto e forte, projétil, 2 mãos | Coice | |
+| **Metralhadora de Sementes** ✅ | Comum | **automática**, projétil, 2 mãos | — | parecida com **arma de paintball** que dispara sementes (ex.: reservatório de sementes em cima, como o "hopper") |
+| **Estilingue de Forquilha** ✅ | Comum | **carregável**, arco | — | |
+| **Rifle de Pressão** ✅ | Raro | sniper sucateado, 2 mãos | **sem especial** | |
+| **Machadinha Enferrujada** ✅ | Raro | arremesso **teleguiado curto** | ? | ver mecânica abaixo |
+| **Rifle de Pregos** ✅ | Épico | pregos atravessam 2 inimigos | Pregar (prende no chão) | |
+| **Lança-Chamas de Fogão** ✅ | Épico | jato contínuo, Queimar, 2 mãos | — | com **cristal do sono** (ver abaixo) |
 
-Armas **exclusivas de boss** (bigorna) ficam **fora** destas 12.
+### Machadinha Enferrujada — mecânica (do Gustavo)
+- Gameplay **mais fácil** que as outras: **sempre acerta**, mas só **de perto** (alcance curto ⚙️ ~12 m).
+- Sai da mão e faz uma **curva da direita para a esquerda**, como bumerangue, **teleguiada** até o inimigo mais próximo dentro do alcance/cone da mira, e **volta para a mão**.
+- "Recarga" = tempo da volta. Visual **enferrujado**.
+- Pergunta: ela acerta só 1 inimigo ou todos no caminho da curva?
 
-## As 12
-| # | Arma | Raridade | Nicho | Tiro | Auto | Carreg. | Mãos | Especial (ideia) | Papel / sensação |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | **Revólver do Coveiro** ✅ | Comum | Pistola | Instantâneo | não | não | 1 | **Tiro do Coveiro** (×3, atravessa, empurra) | arma de confiança, precisa |
-| 2 | **Espingarda de Rolha** | Comum | Shotgun | Projétil (rolhas) | não | não | 2 | **Coice** (rajada que te joga para trás) | perto e forte, pulo de fuga |
-| 3 | **Metralhadora de Sementes** | Comum | Rifle automático | Projétil rápido | **sim** | não | 2 | — | segurar e espalhar sementes |
-| 4 | **Estilingue de Forquilha** | Comum | Arremesso / arco | Projétil com arco | não | **sim** | 1 | — | puxar e acertar longe; habilidade pura |
-| 5 | **Rifle de Pressão** | Raro | Sniper | Instantâneo | não | não | 2 | **Tiro Carregado** (segura F, atravessa todos) | sniper sucateado de fazendeiro |
-| 6 | **Machadinha de Lenha** | Raro | Arremesso | Projétil girando | não | não | 1 | **Bumerangue**: volta acertando no caminho | crava no inimigo e "recarrega" pegando de volta |
-| 7 | **Frigideira de Ferro** | Raro | Corpo a corpo | Golpe | — | — | 1 | **Panelada**: rebate projéteis por ~1 s | enche **muita** essência (mais que o soco); para quem gosta de perto |
-| 8 | **Rifle de Pregos** | Épico | Rifle | Instantâneo | não (semi rápido) | não | 2 | **Pregar**: prende o inimigo no chão por ~2 s | pregos **atravessam** 2 inimigos |
-| 9 | **Bazuca de Panela de Pressão** | Épico | Explosivo | Projétil com arco | não | não | 2 | — | explosão em área; o apito da panela antes de estourar |
-| 10 | **Lança-Chamas de Fogão** | Épico | Contínuo | Jato curto | contínuo | não | 2 | — | **Queimar**; superaquece |
-| 11 | **Liquidificador Demoníaco** | Lendário | Contínuo | Jato/vórtice | contínuo | não | 2 | **Batida**: solta todos os sugados de uma vez | **puxa** inimigos para um ponto |
-| 12 | **Relógio de Cuco Maldito** | Lendário | Armadilha | Arremesso | não | não | 1 | **Hora Cheia**: onda que atordoa | joga um cuco-torreta que bica sozinho (~7 s) |
+### Lança-Chamas de Fogão — cristal do sono (proposta de como funciona)
+- Não tem pente. Tem um **cristal do sono** que **escurece** enquanto atira — é o **superaquecimento** (decide o C06).
+- Cristal todo escuro = superaquece e para.
+- Soltar o gatilho: o cristal **volta a brilhar sozinho** devagar.
+- **R** = recarrega o cristal **na hora**, gastando **Essência** (liga ao sistema que já existe).
 
-## O que cada arma exige de sistema novo (honestidade de escopo)
-| Arma | Já funciona hoje? | Sistema novo necessário |
+## Para substituir / criar — ideias 🟡
+### Bazuca (Épico) — sem panela de pressão
+| Opção | Ideia | Por que |
 |---|---|---|
-| Revólver, Espingarda, Metralhadora, Estilingue, Rifle de Pressão | ✅ tudo existe (instantâneo, projétil, automática, carregável, especiais) | só modelo/animação e números |
-| Machadinha | 🟡 | arremesso que **crava e volta** (recarga = pegar de volta) |
-| Frigideira | 🟡 | **arma corpo a corpo** (golpe com hitbox, sem pente) + rebater projéteis |
-| Rifle de Pregos | 🟡 | **perfuração** no tiro normal; status "preso" |
-| Bazuca | 🟡 | **explosão em área** (`raio_explosao_m`) |
-| Lança-Chamas | 🔴 | **tiro contínuo** + **superaquecimento (C06)** + status **Queimar** |
-| Liquidificador | 🔴 | tiro contínuo + **puxar** inimigos |
-| Relógio de Cuco | 🔴 | **torreta** temporária + atordoar em área |
+| **A ⭐ Lança-Rojão Junino** | cano de PVC enfeitado com **bandeirinhas**; dispara um rojão que deixa rastro colorido e explode em **confete e faíscas coloridas** | cores fortes do "sonho feliz", identidade brasileira forte, explosão bonita e não violenta |
+| B Canhão de Galão de Leite | lança latões de leite que estouram em espuma | bem roça, mas explosão branca some no cenário claro |
+| C Canhão de Abóbora | dispara abóboras que explodem em sementes | engraçado, mas a Abóbora é inimiga (confunde) |
 
-Ordem natural de produção: as 5 que já funcionam → Machadinha/Frigideira/Pregos/Bazuca → Lança-Chamas/Liquidificador/Relógio.
+### Torreta (Lendário) — sem cuco
+| Opção | Ideia | Por que |
+|---|---|---|
+| **A ⭐ Galinha de Guarda** | arremessa uma **galinha** que fica no chão **bicando** e **botando ovos que explodem** nos inimigos por ~7 s; especial **"Cocoricó"**: onda que atordoa | animal de fazenda, muito engraçada, ótima para vídeo/marketing |
+| B Espantalho de Bolso | um mini-espantalho que finca no chão e atira palha | combina, mas o Espantalho pode virar boss (confunde) |
+| C Regador Sentinela | regador flutuante que dispara jatos | fofo, mas jato de água é fraco visualmente |
 
-## Perguntas para o Gustavo
-1. Aprova as 12? Troca alguma? (candidatas fora: Faca do Chef Eterno, Tridente do Churrasco, Foice da Colheita Final, Caldeirão-Canhão da Vovó, Fuzil do Espantalho, Canhão de Sal Grosso, Mangueira de Jardim, Besta de Estaca…)
-2. **1 corpo a corpo (Frigideira)** está bom, ou quer 0 / 2?
-3. O **Revólver** fica Comum (é a arma inicial de teste) — ok?
-4. Os especiais propostos fazem sentido? Quais armas ficam **sem** especial?
-5. Superaquecimento (C06): o Lança-Chamas é o lugar para decidir. Entra?
+### Lendária extra (vaga da reprovada) — opcional
+| Opção | Ideia | Por que |
+|---|---|---|
+| **A ⭐ Colheitadeira de Mão** | "minigun" de fazendeiro com lâminas de colheitadeira girando; **precisa girar antes de atirar** (spin-up), anda devagar, dano enorme | mecânica nova (aquecer o giro), tema forte de roça |
+| B Lampião do Sono | lampião mágico que solta um feixe; **quanto mais tempo no mesmo alvo, mais dano** | magia pura, mas é contínua como o lança-chamas |
+| C Não ter | fica com 14 armas no total | menos escopo |
+
+### Corpo a corpo (3 estilos) 🟡
+Ataque com o **botão esquerdo** (sem pente, sem recarga). Acertar **enche muita Essência** — é o que alimenta as armas de fogo.
+
+| Estilo | Opção ⭐ | Alternativas | Mecânica |
+|---|---|---|---|
+| **Rápido** (adaga) | **Canivete do Vovô** — canivete enferrujado que abre girando ao sacar | Faca de Cozinha Cega, Garfo de Churrasco | combo de 3 golpes rápidos, o 3º mais forte; pouco alcance |
+| **Médio** | **Foice Enferrujada** — o fazendeiro **"colhendo"** as plantas que o atacam | Facão de Mato | golpe em **arco largo** que acerta vários inimigos de uma vez |
+| **Pesado** | **Marreta de Cerca** (de bater estaca) | Pilão Gigante, Enxada de Guerra | lenta; **segurar carrega o golpe** (reaproveita o sistema de carregável); bate no chão com uma onda de choque pequena |
+
+## Distribuição sugerida (14 armas)
+| Raridade | Armas |
+|---|---|
+| Comum (5) | Revólver Enferrujado, Espingarda de Rolha, Metralhadora de Sementes, Estilingue, **Canivete do Vovô** |
+| Raro (3) | Rifle de Pressão, Machadinha Enferrujada, **Foice Enferrujada** |
+| Épico (4) | Rifle de Pregos, **Lança-Rojão Junino**, Lança-Chamas de Fogão, **Marreta de Cerca** |
+| Lendário (2) | **Galinha de Guarda**, **Colheitadeira de Mão** (ou nenhuma → 13 armas) |
+
+## Perguntas abertas
+1. Bazuca: A, B ou C? Torreta: A, B ou C? Lendária extra: A, B ou C (não ter)?
+2. Corpo a corpo: aprova Canivete / Foice / Marreta?
+3. Machadinha acerta 1 inimigo ou todos no caminho?
+4. Lança-chamas: aprova o cristal como superaquecimento + R gastando essência?
+5. Especial do Revólver: manter o nome "Tiro do Coveiro" ou renomear junto com a arma?

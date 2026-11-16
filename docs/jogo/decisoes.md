@@ -82,6 +82,11 @@
 - **Peça mágica lilás** (frasco/pote/cristal onde a Essência entra) é **opcional**: nenhuma arma é obrigada a ter magia visível; **criatividade livre** — uma ideia divertida não é descartada por "não seguir o tema". Ideia guardada: **cristal que escurece** a cada tiro e brilha de novo na recarga.
 - Revólver/pistola do fazendeiro será **recriado** no estilo novo: só **enferrujado**, sem peça mágica; o Gustavo descreve a aparência no chat de modelagem.
 
+## Lista oficial de armas (nov/2026, em fechamento — ver `docs/armas/lista-oficial-proposta.md`)
+- ✅ **Revólver Enferrujado** (renomeado), **Espingarda de Rolha**, **Metralhadora de Sementes** (estilo arma de paintball com sementes), **Estilingue**, **Rifle de Pressão** (sem especial), **Machadinha Enferrujada** (teleguiada curta, sempre acerta, curva da direita para a esquerda e volta), **Rifle de Pregos**, **Lança-Chamas de Fogão** (com cristal do sono).
+- ❌ Frigideira de Ferro, Liquidificador Demoníaco, tema "panela de pressão" na bazuca, tema "cuco" na torreta (a ideia de torreta fica).
+- Vão existir **pelo menos 3 armas corpo a corpo**: pesada, média e rápida (adaga).
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
