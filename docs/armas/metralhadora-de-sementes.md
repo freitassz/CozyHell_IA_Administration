@@ -1,6 +1,6 @@
 # Metralhadora de Sementes
 
-- **Raridade:** Comum · **Status:** ✅ modelo + 7 animações · 🟡 integração no jogo ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md))
+- **Raridade:** Comum · **Status:** ✅ modelo + 7 animações · ✅ no jogo (polir depois)
 
 ## Conceito
 Parecida com uma **arma de paintball**, mas atira **sementes**. Enferrujada. **Automática.** **Duas mãos.**

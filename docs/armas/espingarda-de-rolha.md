@@ -1,6 +1,6 @@
 # Espingarda de Rolha
 
-- **Raridade:** Comum · **Status:** ✅ modelo + 7 animações · 🟡 integração no jogo ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md))
+- **Raridade:** Comum · **Status:** ✅ modelo + 7 animações · ✅ no jogo (polir depois)
 
 ## Conceito
 Espingarda velha e enferrujada de fazendeiro que atira **rolhas**. Perto e forte. **Duas mãos.**

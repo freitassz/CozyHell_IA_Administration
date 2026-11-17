@@ -1,6 +1,6 @@
 # Rifle de Pressão
 
-- **Raridade:** Raro · **Status:** ✅ modelo + 7 animações · 🟡 integração no jogo ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md))
+- **Raridade:** Raro · **Status:** ✅ modelo + 7 animações · ✅ no jogo (polir depois)
 
 ## Conceito
 **Sniper sucateado** de fazendeiro (rifle de pressão/ar comprimido). Enferrujado. **Duas mãos.** Sem especial.

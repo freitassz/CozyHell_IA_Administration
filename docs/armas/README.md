@@ -14,7 +14,7 @@
 - [F2 — Protótipo do tiro](prototipo-tiro.md) ✅ aprovado · prompt entregue
 - Fichas individuais: `docs/armas/<ID>-<nome>.md` (criar com `templates/ficha-arma.md` quando a arma começar a ser feita)
   - [Revólver Enferrujado](R08-revolver-do-coveiro.md) ✅
-  - [Espingarda de Rolha](espingarda-de-rolha.md) 🟡 · [Metralhadora de Sementes](metralhadora-de-sementes.md) 🟡 · [Rifle de Pressão](rifle-de-pressao.md) 🟡
+  - [Espingarda de Rolha](espingarda-de-rolha.md) ✅ · [Metralhadora de Sementes](metralhadora-de-sementes.md) ✅ · [Rifle de Pressão](rifle-de-pressao.md) ✅
 
 ## Estado
 - Planilha: ✅ pronta.

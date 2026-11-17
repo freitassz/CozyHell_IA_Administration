@@ -24,6 +24,7 @@
 | C21 | Recuo durante a recarga da automática | ✅ desce até 0 e sobe de novo |
 | I06 | Peça mágica lilás (onde a Essência entra) | ✅ **opcional**, criatividade livre |
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
+| P-04 | **Polimento:** animações e visual da Espingarda, Metralhadora (pote grande na recarga) e Rifle de Pressão | ⏸️ polir no futuro |
 | P-03 | **Polimento:** revólver v2 é protótipo — mais contraste entre partes (metal × madeira × ferrugem, hoje tudo laranja/amarelo e vira uma mancha na tela), conferir elemento preto perto do gatilho | ⏸️ polir no futuro |
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
 | R03 | **Cristais do sonho** nascendo naturalmente no mapa + receitas com eles | ⏸️ futuro |

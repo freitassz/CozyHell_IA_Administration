@@ -30,7 +30,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_SOCO_ESQUERDO](armas/PROMPT_ZIVA_SOCO_ESQUERDO.md) | ligar a animação do soco esquerdo no V + tempos lidos das animações | ✅ feito |
 | [PROMPT_ZIVA_AJUSTES_TIRO_2](armas/PROMPT_ZIVA_AJUSTES_TIRO_2.md) | F2.2: efeitos antigos, Lascas, bosses, recuo por arma, rastro, automática, carregável | ✅ feito |
 | [PROMPT_ZIVA_AJUSTES_TIRO_3](armas/PROMPT_ZIVA_AJUSTES_TIRO_3.md) | F2.3: limite do recuo na rajada + testes antigos | ✅ feito |
-| [PROMPT_ZIVA_ARMAS_DUAS_MAOS](armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md) | integrar Espingarda, Metralhadora e Rifle de Pressão + coronhada + máquina | 🟡 entregue |
+| [PROMPT_ZIVA_ARMAS_DUAS_MAOS](armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md) | integrar Espingarda, Metralhadora e Rifle de Pressão + coronhada + máquina | ✅ feito |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |
