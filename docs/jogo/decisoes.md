@@ -90,6 +90,8 @@
 - Magia/cristal é **livre** em cada arma — **não** cresce com a raridade (foi só sugestão).
 - Status **Sono** descartado; Eletrizar continua na lista (rascunho).
 - **Espantalho Sonâmbulo:** atrai inimigos e solta **corvos que explodem** neles. **Mangueira:** só dá dano. **Lampião:** tiro lento de **fogo que queima com o tempo**. Especiais das outras armas: pensar depois.
+- **Ordem de produção:** arma com mecânica que já existe → **modelo direto**; arma com mecânica nova → **funcionamento primeiro** com visual provisório, testar, e só depois modelo (a mecânica dita os tempos da animação).
+- **Estilingue:** madeira com fita branca enrolada.
 - **Produção:** começar pela família de duas mãos enferrujadas — Espingarda de Rolha → Metralhadora de Sementes → Rifle de Pressão.
 - Primeiro o **simples**: ideias lendárias muito complexas (regador de plantas aliadas, colheitadeira) ficam de fora por agora.
 - **Lança-Rojão Junino** ✅ (bazuca de fogos de artifício).
