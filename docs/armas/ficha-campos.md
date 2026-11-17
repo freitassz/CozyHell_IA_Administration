@@ -1,7 +1,7 @@
 # Ficha de arma (`WeaponData`) — campos atuais
 
 > Referência para atualizar a planilha. Atualize sempre que um campo novo entrar.
-> ⚠️ A planilha **ainda não** tem estes campos: será atualizada quando formos criar as armas (item A03).
+> A planilha foi atualizada (nov/2026): abas **Armas v1**, **Corpo a Corpo v1** e **Regras atuais**.
 
 ## Identidade
 | Campo | O que é |

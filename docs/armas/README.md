@@ -1,6 +1,6 @@
 # Armas
 
-> ⚠️ A planilha e a lista de 35 armas são **rascunho** e vão mudar bastante.
+> A planilha tem abas novas (nov/2026): **Armas v1**, **Corpo a Corpo v1** e **Regras atuais**. As abas antigas e a lista de 35 armas são rascunho antigo.
 
 **Números (rascunho):** planilha "Cozy Hell — Sistema de Armas"
 (https://claude.ai/artifact/C6UHKQhy775yxMivAKyWZZ). Aqui ficam conceito, estado e decisões.

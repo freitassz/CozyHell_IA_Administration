@@ -29,7 +29,7 @@
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
 | R03 | **Cristais do sonho** nascendo naturalmente no mapa + receitas com eles | ⏸️ futuro |
 | A04 | Lista oficial | ✅ fechada (especiais de várias armas ⏸️ depois; raridade do Lampião 🟡) |
-| A03 | **Atualizar a planilha de armas** (colunas novas: essência, automática, carregável, recuo, projétil, rastro; renomear as antigas) | ⏸️ quando formos criar as armas (depois dos ajustes) |
+| A03 | Atualizar a planilha de armas | ✅ abas novas 'Armas v1', 'Corpo a Corpo v1', 'Regras atuais' (abas antigas mantidas como rascunho) |
 | E10 | Knockback e suco antigos dos inimigos | ✅ removidos (suco na **morte** continua; piscar vermelho próprio dos inimigos continua) |
 | C14 | Animação: soco com a mão esquerda segurando a arma | ✅ no jogo (testado nas 4 armas) |
 | C16 | **Soco esquerdo sem graça:** o punho fica escondido; precisa ir **mais para a frente** e aparecer mais. Também avaliar sensação de impacto do soco (tremida de câmera curta, micro-pausa no acerto, som mais forte, inimigo reagindo) | 🔴 futuro |
