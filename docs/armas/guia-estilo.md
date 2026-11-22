@@ -54,6 +54,7 @@ Quando fizer sentido, a arma pode ter **uma peça onde a Essência do Sonho entr
 - **Duas mãos:** `usa_duas_maos = true`; o V vira **coronhada** (animação própria).
 - Arma é um **.glb separado** com rig próprio, presa no osso `Arma_R` (transform zerado); ações com o **mesmo nome e duração** nos dois .glb (`<Arma>_Sacar/Pose/Atirar/Cooldown/Recarregar/Guardar`); osso **`Cano`** na ponta do cano (origem do rastro/projétil).
 - Cano **paralelo à câmera** (mira no centro da tela); prévias com a **câmera calibrada do jogo** e cruz no centro.
+- **Posição na tela:** a arma fica **embaixo à direita** (ajuste por arma no Godot, `offset_posicao`). Ao mirar, vem para o centro.
 - Recuo do tiro é **por código** (`forca_recuo` e companhia): a animação de tiro pode ser curta/sutil.
 
 ## 8. Inimigos e bosses (I03)

@@ -33,8 +33,8 @@
 ## Recuo
 `forca_recuo` (multiplicador geral), `recuo_camera_graus`, `recuo_lateral_graus`, `recuo_arma_m`, `recuo_arma_graus`, `recuo_subida_s`, `recuo_volta_s`
 
-## Mira
-`fov_mira`, `mult_dispersao_mira`
+## Mira e posição
+`fov_mira`, `mult_dispersao_mira`, `offset_posicao`, `offset_rotacao_graus` (arma à direita; vem para o centro ao mirar), `prefixo_anim`
 
 ## Visual do tiro
 `cor_rastro`, `largura_rastro`, `comprimento_rastro`

@@ -91,7 +91,8 @@
 - Status **Sono** descartado; Eletrizar continua na lista (rascunho).
 - **Espantalho Sonâmbulo:** atrai inimigos e solta **corvos que explodem** neles. **Mangueira:** só dá dano. **Lampião:** tiro lento de **fogo que queima com o tempo**. Especiais das outras armas: pensar depois.
 - **Ordem de produção:** arma com mecânica que já existe → **modelo direto**; arma com mecânica nova → **funcionamento primeiro** com visual provisório, testar, e só depois modelo (a mecânica dita os tempos da animação).
-- **Estilingue:** madeira com fita branca enrolada.
+- **Estilingue:** madeira com fita branca enrolada; duas mãos.
+- **Armas mais para a direita** da tela (não no meio), como num FPS comum. Ajuste feito no Godot por arma (`offset_posicao`/`offset_rotacao_graus`); ao mirar a arma vem para o centro. Animações novas continuam sendo feitas com a pegada atual.
 - **Produção:** começar pela família de duas mãos enferrujadas — Espingarda de Rolha → Metralhadora de Sementes → Rifle de Pressão.
 - Primeiro o **simples**: ideias lendárias muito complexas (regador de plantas aliadas, colheitadeira) ficam de fora por agora.
 - **Lança-Rojão Junino** ✅ (bazuca de fogos de artifício).
