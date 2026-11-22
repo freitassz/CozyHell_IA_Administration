@@ -47,5 +47,9 @@ Botão esquerdo = golpe. Cada golpe tem **2 fases** (sem preparo):
 ## Teste 1 (Gustavo)
 - Cutelo rápido demais → usa o tempo do Facão. Facão → dobro. Martelo → quádruplo. O golpe começa no clique e acerta na metade final da varrida.
 
+## Teste 2 (Gustavo)
+- O combo **não pode cortar** a animação: o clique durante o golpe fica guardado e o próximo golpe sai quando ele termina; depois há uma janela de combo de 0,3 s.
+- **Preparo opcional por arma** (`tempo_preparo_s`): o Martelo tem 0,4 s (levantar); Cutelo e Facão não têm. No Martelo, segurar depois do preparo = carregar levantado.
+
 ## Ideias futuras
 - **Bloquear** no botão direito (Gustavo gostou; pensar depois como usar).
