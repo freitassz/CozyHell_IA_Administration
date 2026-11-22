@@ -1,6 +1,7 @@
 # Sistema de corpo a corpo — proposta (para aprovar)
 
-> Status: ✅ aprovado com ajuste · Prompt: [PROMPT_ZIVA_CORPO_A_CORPO](../../prompts/armas/PROMPT_ZIVA_CORPO_A_CORPO.md)
+> Status: ✅ mecânica **aceitável** no jogo (bloco provisório) · ⏸️ modelos e polimento depois (P-05)
+> Antes: ✅ aprovado com ajuste · Prompt: [PROMPT_ZIVA_CORPO_A_CORPO](../../prompts/armas/PROMPT_ZIVA_CORPO_A_CORPO.md)
 >
 > **Ajuste do Gustavo:** **sem preparo** ("isso não é Dark Souls"). O clique já é o ataque; depois vem a pausa/recuperação, que é a janela do combo. O Martelo só "espera" se o jogador **escolher** segurar para carregar.
 > Perguntas 1–5 assumidas com as propostas do Claude (V = soco/pancada com o cabo; botão direito sem função por enquanto; Martelo carregável; máx. 3 alvos contam essência; especiais depois).

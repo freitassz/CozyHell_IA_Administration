@@ -8,7 +8,8 @@
 - [**Lista oficial — v3 (15 armas)**](lista-oficial-proposta.md) 🟡 quase fechada
 - [**Guia de estilo das armas**](guia-estilo.md) ✅
 - [Ficha de arma — campos atuais](ficha-campos.md)
-- [Sistema de corpo a corpo — proposta](sistema-corpo-a-corpo.md) 🟡
+- [Sistema de corpo a corpo](sistema-corpo-a-corpo.md) ✅ mecânica (modelos depois)
+- [Machadinha Enferrujada — proposta](machadinha.md) 🟡
 - [Sistema (regras gerais)](sistema.md) — inclui o **ajuste pendente do Fundir** (nível por cópia, fusão por soma)
 - [Lista das 35 armas](lista.md)
 - [Lendárias](lendarias.md)
