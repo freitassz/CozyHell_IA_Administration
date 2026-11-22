@@ -36,6 +36,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_CORPO_A_CORPO](armas/PROMPT_ZIVA_CORPO_A_CORPO.md) | sistema de corpo a corpo com bloco provisório (Cutelo, Facão, Martelo) | ✅ feito |
 | [PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_1](armas/PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_1.md) | tempos novos + acerto na metade final da varrida | ✅ feito |
 | [PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_2](armas/PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_2.md) | combo sem cortar a animação + preparo opcional (Martelo) | ✅ feito |
+| [PROMPT_ZIVA_MACHADINHA](armas/PROMPT_ZIVA_MACHADINHA.md) | Machadinha: arremesso teleguiado com marcador, bloco provisório | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |
