@@ -1,6 +1,6 @@
 # Estilingue de Forquilha
 
-- **Raridade:** Comum · **Status:** ✅ modelo e animações · 🟡 integração ([prompt do Ziva](../../prompts/armas/PROMPT_ZIVA_ESTILINGUE_E_POSICAO.md))
+- **Raridade:** Comum · **Status:** ✅ modelo e animações · ✅ no jogo
 
 ## Conceito
 Forquilha de **madeira** com **fita branca enrolada** no cabo. Carregável: segurar puxa, soltar atira uma pedra em **arco**.
