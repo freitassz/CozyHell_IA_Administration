@@ -24,7 +24,8 @@ Botão esquerdo = golpe. Cada golpe tem **2 fases** (sem preparo):
 | Mãos | 1 | 1 | 2 |
 | Dano por golpe | 14 | 24 | 55 |
 | Golpes no combo / bônus do último | 3 / ×1,5 | 2 / ×1,3 | 1 / — |
-| Ativo · recuperação/janela de combo (s) | 0,08 · 0,18 | 0,12 · 0,35 | 0,12 · 0,70 |
+| Ativo · recuperação/janela de combo (s) | **0,12 · 0,35** (ajuste 1) | **0,24 · 0,70** (ajuste 1) | **0,48 · 2,80** (ajuste 1) |
+| Acerta em | metade final do ativo (`inicio_acerto` 0,5) | idem | idem |
 | Alcance (m) / arco (°) | 1,6 / 70 | 2,2 / 100 | 2,4 / 60 |
 | Máx. de alvos | 2 | 3 | 4 |
 | Andar enquanto golpeia | normal | ×0,8 | ×0,5 |
@@ -42,3 +43,9 @@ Botão esquerdo = golpe. Cada golpe tem **2 fases** (sem preparo):
 3. **Martelo carregável** com onda de choque e empurrão: aprova? (Seria o único corpo a corpo que empurra.)
 4. **Máximo de 3 inimigos contando essência por golpe**: ok? (Evita encher a barra demais batendo num grupo.)
 5. Algum especial (F) já para alguma das três, ou fica para depois?
+
+## Teste 1 (Gustavo)
+- Cutelo rápido demais → usa o tempo do Facão. Facão → dobro. Martelo → quádruplo. O golpe começa no clique e acerta na metade final da varrida.
+
+## Ideias futuras
+- **Bloquear** no botão direito (Gustavo gostou; pensar depois como usar).
