@@ -7,6 +7,10 @@
 | Pedido | Assunto | Status |
 |---|---|---|
 | [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | ✅ feito |
+| [PROMPT_BLENDER_REGRAS_ARMAS](blender/PROMPT_BLENDER_REGRAS_ARMAS.md) | **regras comuns** de toda arma (anexar a qualquer pedido) | ✅ |
+| [PROMPT_BLENDER_CORPO_A_CORPO](blender/PROMPT_BLENDER_CORPO_A_CORPO.md) | Cutelo, Facão, Martelo da Vovó (tempos aprovados) | 🟡 pronto |
+| [PROMPT_BLENDER_ARREMESSAVEIS](blender/PROMPT_BLENDER_ARREMESSAVEIS.md) | Machadinha + Espantalho (+ corvo) | 🟡 pronto (depois de testar as mecânicas) |
+| [PROMPT_BLENDER_ARMAS_TIRO_2](blender/PROMPT_BLENDER_ARMAS_TIRO_2.md) | Pregos, Rojão, Lança-Chamas, Mangueira, Lampião | 🟡 pronto (depois de testar as mecânicas) |
 | [PROMPT_BLENDER_ESTILINGUE](blender/PROMPT_BLENDER_ESTILINGUE.md) | Estilingue (madeira + fita branca, duas mãos, puxar pela carga) | ✅ feito |
 | [PROMPT_BLENDER_ARMAS_DUAS_MAOS](blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) | Espingarda → Metralhadora → Rifle de Pressão (duas mãos, coronhada) | ✅ feito |
 | [PROMPT_BLENDER_REVOLVER_V2](blender/PROMPT_BLENDER_REVOLVER_V2.md) | redesign do revólver no guia de estilo | ✅ feito (protótipo) |
@@ -37,6 +41,10 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_1](armas/PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_1.md) | tempos novos + acerto na metade final da varrida | ✅ feito |
 | [PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_2](armas/PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_2.md) | combo sem cortar a animação + preparo opcional (Martelo) | ✅ feito |
 | [PROMPT_ZIVA_MACHADINHA](armas/PROMPT_ZIVA_MACHADINHA.md) | Machadinha: arremesso teleguiado com marcador, bloco provisório | 🟡 entregue |
+| [PROMPT_ZIVA_TIROS_ESPECIAIS](armas/PROMPT_ZIVA_TIROS_ESPECIAIS.md) | Queimar + Rifle de Pregos + Lança-Rojão + Lampião | 🟡 pronto |
+| [PROMPT_ZIVA_ARMAS_CONTINUAS](armas/PROMPT_ZIVA_ARMAS_CONTINUAS.md) | Lança-Chamas + Mangueira (cristal) | 🟡 pronto (depois dos tiros especiais) |
+| [PROMPT_ZIVA_ESPANTALHO](armas/PROMPT_ZIVA_ESPANTALHO.md) | Espantalho Sonâmbulo (torreta + corvos) | 🟡 pronto (depois dos tiros especiais) |
+| [PROMPT_ZIVA_INTEGRAR_MODELO](armas/PROMPT_ZIVA_INTEGRAR_MODELO.md) | **modelo de uso geral**: trocar o provisório pelo modelo (colar os dados da modelagem) | ✅ reutilizável |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

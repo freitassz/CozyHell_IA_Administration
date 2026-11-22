@@ -25,7 +25,16 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F5a — Armas de duas mãos** | Espingarda de Rolha → Metralhadora de Sementes → Rifle de Pressão ([pedido de modelagem](prompts/blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) ✅ · [prompt do Ziva](prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md)) | ✅ no jogo (polir depois) |
 | **F5b — Estilingue + corpo a corpo** | Estilingue ✅ no jogo · armas à direita ✅ · Corpo a corpo: [sistema](docs/armas/sistema-corpo-a-corpo.md) ✅ mecânica aceitável no jogo (bloco provisório) · modelos e polimento depois (P-05) | ✅ |
 | **F5c — Machadinha** | Mecânica primeiro ([proposta](docs/armas/machadinha.md) ✅ · [prompt](prompts/armas/PROMPT_ZIVA_MACHADINHA.md)) → teste → modelo | 🟡 **agora** |
-| **F5d — Rifle de Pregos** | Mecânica de **perfuração** (atravessa inimigos) → teste → modelo | ⏳ próxima |
+| **F5d — Fila de produção das armas** | Ordem dos prompts (todos prontos em `prompts/`): | 🟡 |
+
+**Fila (um por vez, testando entre eles):**
+1. Ziva — [Machadinha](prompts/armas/PROMPT_ZIVA_MACHADINHA.md)
+2. Ziva — [Tiros especiais: Queimar + Pregos + Rojão + Lampião](prompts/armas/PROMPT_ZIVA_TIROS_ESPECIAIS.md)
+3. Ziva — [Armas contínuas: Lança-Chamas + Mangueira](prompts/armas/PROMPT_ZIVA_ARMAS_CONTINUAS.md)
+4. Ziva — [Espantalho](prompts/armas/PROMPT_ZIVA_ESPANTALHO.md)
+5. Modelagem (em paralelo, quando a mecânica da categoria estiver aprovada): [regras comuns](prompts/blender/PROMPT_BLENDER_REGRAS_ARMAS.md) + [corpo a corpo](prompts/blender/PROMPT_BLENDER_CORPO_A_CORPO.md) · [arremessáveis](prompts/blender/PROMPT_BLENDER_ARREMESSAVEIS.md) · [tiro 2ª leva](prompts/blender/PROMPT_BLENDER_ARMAS_TIRO_2.md)
+6. Ziva — [integrar modelo](prompts/armas/PROMPT_ZIVA_INTEGRAR_MODELO.md) (reutilizável: cole os dados da modelagem)
+
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
 | **F-Otimização** | Medir e melhorar FPS em PC fraco + menu de qualidade gráfica real ([otimizacao.md](docs/sistemas/otimizacao.md)) | ⏳ futuro |
 | **F6 — História** | Abertura, frases dos bosses, mudança visual do pesadelo, final | ⏳ |
