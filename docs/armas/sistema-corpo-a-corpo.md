@@ -1,12 +1,14 @@
 # Sistema de corpo a corpo — proposta (para aprovar)
 
-> Status: 🟡 proposta do Claude. Depois de aprovada vira prompt do Ziva (funcionamento com visual provisório) → teste → pedido de modelagem com os tempos finais.
+> Status: ✅ aprovado com ajuste · Prompt: [PROMPT_ZIVA_CORPO_A_CORPO](../../prompts/armas/PROMPT_ZIVA_CORPO_A_CORPO.md)
+>
+> **Ajuste do Gustavo:** **sem preparo** ("isso não é Dark Souls"). O clique já é o ataque; depois vem a pausa/recuperação, que é a janela do combo. O Martelo só "espera" se o jogador **escolher** segurar para carregar.
+> Perguntas 1–5 assumidas com as propostas do Claude (V = soco/pancada com o cabo; botão direito sem função por enquanto; Martelo carregável; máx. 3 alvos contam essência; especiais depois).
 
 ## Como um golpe funciona
-Botão esquerdo = golpe. Cada golpe tem **3 fases**:
-1. **Preparo** — a arma vai para trás (o golpe ainda não acerta).
-2. **Ativo** — a janela em que o golpe acerta (arco à frente da câmera).
-3. **Recuperação** — volta; um novo clique aqui **continua o combo**.
+Botão esquerdo = golpe. Cada golpe tem **2 fases** (sem preparo):
+1. **Ativo** — começa **no clique**: a janela em que o golpe acerta (arco à frente da câmera).
+2. **Recuperação** — volta; um novo clique aqui **continua o combo**.
 
 - **Combo:** clicar de novo dentro da janela emenda o próximo golpe; o **último golpe do combo** dá dano extra. Parou de clicar → o combo zera.
 - **Área:** acerta os inimigos dentro de um **arco** (ângulo) e **alcance** à frente, até um número máximo de alvos.
@@ -22,8 +24,7 @@ Botão esquerdo = golpe. Cada golpe tem **3 fases**:
 | Mãos | 1 | 1 | 2 |
 | Dano por golpe | 14 | 24 | 55 |
 | Golpes no combo / bônus do último | 3 / ×1,5 | 2 / ×1,3 | 1 / — |
-| Preparo · ativo · recuperação (s) | 0,08 · 0,08 · 0,14 | 0,15 · 0,12 · 0,28 | 0,35 · 0,12 · 0,60 |
-| Janela de combo (s) | 0,35 | 0,40 | — |
+| Ativo · recuperação/janela de combo (s) | 0,08 · 0,18 | 0,12 · 0,35 | 0,12 · 0,70 |
 | Alcance (m) / arco (°) | 1,6 / 70 | 2,2 / 100 | 2,4 / 60 |
 | Máx. de alvos | 2 | 3 | 4 |
 | Andar enquanto golpeia | normal | ×0,8 | ×0,5 |

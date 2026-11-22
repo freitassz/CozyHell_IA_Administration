@@ -23,7 +23,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F4 — Progressão** | Níveis da máquina por boss, bigorna com sucata, Caixa de Venda como estação, pilares de boss com oferenda | ⏳ |
 | **Antes da F5** | Atualizar a planilha de armas com os campos de [ficha-campos.md](docs/armas/ficha-campos.md) e revisar a lista oficial ([lista v3](docs/armas/lista-oficial-proposta.md) ✅) | ✅ planilha atualizada (Armas v1, Corpo a Corpo v1, Regras atuais) |
 | **F5a — Armas de duas mãos** | Espingarda de Rolha → Metralhadora de Sementes → Rifle de Pressão ([pedido de modelagem](prompts/blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) ✅ · [prompt do Ziva](prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md)) | ✅ no jogo (polir depois) |
-| **F5b — Estilingue + corpo a corpo** | Estilingue ✅ no jogo · armas à direita ✅ · Corpo a corpo: [proposta do sistema](docs/armas/sistema-corpo-a-corpo.md) → funcionamento (placeholder) → modelo | 🟡 **agora** |
+| **F5b — Estilingue + corpo a corpo** | Estilingue ✅ no jogo · armas à direita ✅ · Corpo a corpo: [sistema](docs/armas/sistema-corpo-a-corpo.md) ✅ → [funcionamento com bloco](prompts/armas/PROMPT_ZIVA_CORPO_A_CORPO.md) 🟡 → teste → modelo | 🟡 **agora** |
 | **F5 — Conteúdo** | Bosses na ordem definida, inimigos por papel e bioma, armas da 1ª versão (~12) | ⏳ |
 | **F-Otimização** | Medir e melhorar FPS em PC fraco + menu de qualidade gráfica real ([otimizacao.md](docs/sistemas/otimizacao.md)) | ⏳ futuro |
 | **F6 — História** | Abertura, frases dos bosses, mudança visual do pesadelo, final | ⏳ |

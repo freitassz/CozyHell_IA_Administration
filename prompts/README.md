@@ -33,6 +33,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_AJUSTES_TIRO_3](armas/PROMPT_ZIVA_AJUSTES_TIRO_3.md) | F2.3: limite do recuo na rajada + testes antigos | ✅ feito |
 | [PROMPT_ZIVA_ARMAS_DUAS_MAOS](armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md) | integrar Espingarda, Metralhadora e Rifle de Pressão + coronhada + máquina | ✅ feito |
 | [PROMPT_ZIVA_ESTILINGUE_E_POSICAO](armas/PROMPT_ZIVA_ESTILINGUE_E_POSICAO.md) | integrar o Estilingue + armas mais para a direita | ✅ feito |
+| [PROMPT_ZIVA_CORPO_A_CORPO](armas/PROMPT_ZIVA_CORPO_A_CORPO.md) | sistema de corpo a corpo com bloco provisório (Cutelo, Facão, Martelo) | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |
