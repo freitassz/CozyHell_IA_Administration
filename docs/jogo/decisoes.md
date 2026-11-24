@@ -103,6 +103,9 @@
 - Machadinha acerta **todos no caminho** da curva; o alvo é só o destino.
 - **Superaquecimento (C06) decidido:** armas contínuas têm um **cristal do sono** que escurece ao atirar; todo escuro = superaquece; volta a brilhar sozinho; **R recarrega o cristal gastando Essência**.
 
+- **Armas V1 prontas** (nov/2026). Polimento (efeitos, ajustes de design) fica para depois.
+- O projeto passa a ser **hobby** do Gustavo (tempo livre); o método de trabalho continua o mesmo.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

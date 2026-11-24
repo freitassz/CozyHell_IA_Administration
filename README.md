@@ -13,7 +13,7 @@ Abra uma conversa com o Claude neste repositório e escolha um assunto:
 | 🧭 Identidade do jogo (pitch, público, pilares) | [docs/jogo/identidade.md](docs/jogo/identidade.md) |
 | 📦 **Inventário do que existe (fase atual)** | [docs/jogo/inventario.md](docs/jogo/inventario.md) |
 | 🔍 Revisão geral | [docs/jogo/revisao.md](docs/jogo/revisao.md) |
-| 🔁 Loop e progressão | [docs/jogo/loop.md](docs/jogo/loop.md) |
+| 🔁 Loop e progressão | [docs/jogo/loop.md](docs/jogo/loop.md) · [**F4 — progressão (proposta)**](docs/jogo/progressao.md) |
 | ⚙️ Sistemas (biomas, construção, venda, spawn) | [docs/sistemas/](docs/sistemas/README.md) |
 | 🎮 Visão geral do jogo | [docs/jogo/visao-geral.md](docs/jogo/visao-geral.md) |
 | 📐 Padrões que funcionaram | [docs/jogo/padroes.md](docs/jogo/padroes.md) |

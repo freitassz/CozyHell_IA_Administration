@@ -40,10 +40,10 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_CORPO_A_CORPO](armas/PROMPT_ZIVA_CORPO_A_CORPO.md) | sistema de corpo a corpo com bloco provisório (Cutelo, Facão, Martelo) | ✅ feito |
 | [PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_1](armas/PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_1.md) | tempos novos + acerto na metade final da varrida | ✅ feito |
 | [PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_2](armas/PROMPT_ZIVA_AJUSTE_CORPO_A_CORPO_2.md) | combo sem cortar a animação + preparo opcional (Martelo) | ✅ feito |
-| [PROMPT_ZIVA_MACHADINHA](armas/PROMPT_ZIVA_MACHADINHA.md) | Machadinha: arremesso teleguiado com marcador, bloco provisório | 🟡 entregue |
-| [PROMPT_ZIVA_TIROS_ESPECIAIS](armas/PROMPT_ZIVA_TIROS_ESPECIAIS.md) | Queimar + Rifle de Pregos + Lança-Rojão + Lampião | 🟡 pronto |
-| [PROMPT_ZIVA_ARMAS_CONTINUAS](armas/PROMPT_ZIVA_ARMAS_CONTINUAS.md) | Lança-Chamas + Mangueira (cristal) | 🟡 pronto (depois dos tiros especiais) |
-| [PROMPT_ZIVA_ESPANTALHO](armas/PROMPT_ZIVA_ESPANTALHO.md) | Espantalho Sonâmbulo (torreta + corvos) | 🟡 pronto (depois dos tiros especiais) |
+| [PROMPT_ZIVA_MACHADINHA](armas/PROMPT_ZIVA_MACHADINHA.md) | Machadinha: arremesso teleguiado com marcador, bloco provisório | ✅ feito |
+| [PROMPT_ZIVA_TIROS_ESPECIAIS](armas/PROMPT_ZIVA_TIROS_ESPECIAIS.md) | Queimar + Rifle de Pregos + Lança-Rojão + Lampião | ✅ feito |
+| [PROMPT_ZIVA_ARMAS_CONTINUAS](armas/PROMPT_ZIVA_ARMAS_CONTINUAS.md) | Lança-Chamas + Mangueira (cristal) | ✅ feito |
+| [PROMPT_ZIVA_ESPANTALHO](armas/PROMPT_ZIVA_ESPANTALHO.md) | Espantalho Sonâmbulo (torreta + corvos) | ✅ feito |
 | [PROMPT_ZIVA_INTEGRAR_MODELO](armas/PROMPT_ZIVA_INTEGRAR_MODELO.md) | **modelo de uso geral**: trocar o provisório pelo modelo (colar os dados da modelagem) | ✅ reutilizável |
 
 ## Antigos (cópia ainda não está no repo)

@@ -2,7 +2,12 @@
 
 > Atualize este arquivo sempre que uma etapa mudar de status.
 
-## 🎯 Fase atual: revisão geral
+## 🎯 Fase atual: F4 — Progressão ([proposta](docs/jogo/progressao.md))
+Armas V1 prontas (nov/2026). Agora: bosses, santuários, oferendas e máquina por nível.
+
+> O projeto virou **hobby** do Gustavo (tempo livre): o ritmo é mais lento, o método é o mesmo.
+
+## Histórico: revisão geral
 Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de seguir com bosses e armas.
 - Lista de trabalho: [docs/jogo/revisao.md](docs/jogo/revisao.md)
 - Identidade do jogo: [docs/jogo/identidade.md](docs/jogo/identidade.md)
@@ -25,7 +30,7 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 | **F5a — Armas de duas mãos** | Espingarda de Rolha → Metralhadora de Sementes → Rifle de Pressão ([pedido de modelagem](prompts/blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md) ✅ · [prompt do Ziva](prompts/armas/PROMPT_ZIVA_ARMAS_DUAS_MAOS.md)) | ✅ no jogo (polir depois) |
 | **F5b — Estilingue + corpo a corpo** | Estilingue ✅ no jogo · armas à direita ✅ · Corpo a corpo: [sistema](docs/armas/sistema-corpo-a-corpo.md) ✅ mecânica aceitável no jogo (bloco provisório) · modelos e polimento depois (P-05) | ✅ |
 | **F5c — Machadinha** | Mecânica primeiro ([proposta](docs/armas/machadinha.md) ✅ · [prompt](prompts/armas/PROMPT_ZIVA_MACHADINHA.md)) → teste → modelo | 🟡 **agora** |
-| **F5d — Fila de produção das armas** | Ordem dos prompts (todos prontos em `prompts/`): | 🟡 |
+| **F5d — Fila de produção das armas** | Ordem dos prompts (todos prontos em `prompts/`): | ✅ **armas V1 prontas** (polir depois: P-06) |
 
 **Fila (um por vez, testando entre eles):**
 1. Ziva — [Machadinha](prompts/armas/PROMPT_ZIVA_MACHADINHA.md)

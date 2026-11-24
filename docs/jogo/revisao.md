@@ -25,6 +25,7 @@
 | I06 | Peça mágica lilás (onde a Essência entra) | ✅ **opcional**, criatividade livre |
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
 | P-04 | **Polimento:** animações e visual da Espingarda, Metralhadora (pote grande na recarga) e Rifle de Pressão | ⏸️ polir no futuro |
+| P-06 | **Polimento das armas V1:** mais efeitos (tiro, impacto, rastro, explosões), ajustes pontuais de design dos modelos existentes | ⏸️ polir depois |
 | P-05 | **Modelos e polimento do corpo a corpo:** Cutelo, Facão e Martelo da Vovó ainda usam bloco provisório; criar modelos/animações com os tempos aprovados e polir pouca coisa (ex.: volta de 2,8 s do Martelo) | ⏸️ depois |
 | P-03 | **Polimento:** revólver v2 é protótipo — mais contraste entre partes (metal × madeira × ferrugem, hoje tudo laranja/amarelo e vira uma mancha na tela), conferir elemento preto perto do gatilho | ⏸️ polir no futuro |
 | P-02 | **Polimento:** lascas ainda pequenas (`escala_lasca`; talvez cor mais clara que o inimigo) | ⏸️ polir no futuro |
@@ -66,7 +67,7 @@
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |
-| E08 | **Rework total dos santuários** (bosses, oferendas, posições; Golem de Raiz ≠ Batata-golem) | 🔴 |
+| E08 | **Rework total dos santuários** | 🟡 proposta em [progressao.md](progressao.md) |
 | T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar); `dev/test_soco_esquerdo.gd` sem uso | 🔴 baixa |
 | E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
 | C07 | Fundir: nível por cópia + fusão por soma (nv3+nv2=nv5) | 🔧 aprovado, implementar depois |
