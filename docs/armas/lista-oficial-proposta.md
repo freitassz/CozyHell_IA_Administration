@@ -49,3 +49,7 @@
 Ordem combinada: começar pela família de **duas mãos enferrujadas**, que se parecem entre si:
 1. **Espingarda de Rolha** → 2. **Metralhadora de Sementes** → 3. **Rifle de Pressão**.
 Fichas: [espingarda-de-rolha](espingarda-de-rolha.md) · [metralhadora-de-sementes](metralhadora-de-sementes.md) · [rifle-de-pressao](rifle-de-pressao.md). Pedido de modelagem: [PROMPT_BLENDER_ARMAS_DUAS_MAOS](../../prompts/blender/PROMPT_BLENDER_ARMAS_DUAS_MAOS.md).
+
+## Armas futuras (ideias guardadas)
+- **Drop especial do Totem de Melancia** (boss secreto): uma arma/item único — definir depois.
+- Armas exclusivas de boss (feitas na bigorna com o material único).

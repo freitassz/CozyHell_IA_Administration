@@ -106,6 +106,11 @@
 - **Armas V1 prontas** (nov/2026). Polimento (efeitos, ajustes de design) fica para depois.
 - O projeto passa a ser **hobby** do Gustavo (tempo livre); o método de trabalho continua o mesmo.
 
+## Progressão (F4, nov/2026) — ver `docs/jogo/progressao.md`
+- Santuários por bioma: Tomate (Planície), Uva (Floresta), Dragão (Planície), Batata (Pedreira); santuário final existe desde o início **meio enterrado** e se ergue quando o boss 4 morre (o que revela: depois).
+- **Oferenda = 3 itens**; ritual: **E coloca 1 item por vez direto do inventário**, os itens giram no altar com rastro, e com os 3 eles voam para o santuário, explodem e invocam o boss.
+- Ficha de raridade = giro garantido na máquina. Reinvocar = 3 drops comuns. Totem secreto: drop especial no futuro.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

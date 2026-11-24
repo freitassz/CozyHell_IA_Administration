@@ -1,23 +1,31 @@
 # F4 — Progressão: bosses, santuários, oferendas e máquina (proposta v1)
 
-> Status: 🟡 proposta do Claude para aprovar. Base: `loop.md` e `decisoes.md`.
+> Status: ✅ aprovado com ajustes (nov/2026) · Prompt: [PROMPT_ZIVA_PROGRESSAO](../../prompts/progressao/PROMPT_ZIVA_PROGRESSAO.md). Base: `loop.md` e `decisoes.md`.
 > Objetivo: a "espinha dorsal" do jogo — o que cada boss pede, o que dá e o que libera. Depois vira prompts do Ziva (sistema) e, boss por boss, o conteúdo.
 
 ## A espinha dorsal
-| # | Boss | Santuário (bioma) | 1ª oferenda (difícil) | Reinvocar (fácil) | Dropa | Libera |
-|---|---|---|---|---|---|---|
-| 1 | **Tomate Gigante** | Planície | drops comuns dos inimigos da fase 1 + recursos | drops comuns | **Ficha Rara** + **Casca do Tomate** | **Raro** na máquina |
-| 2 | **Uva-morcego** | Floresta | **Casca do Tomate** + drops | drops comuns | **Ficha Rara** + **Semente de Uva Sombria** | **Fase 2 do pesadelo** (Cebola, Milho, Abóbora) — animação no mundo + mensagem |
-| 3 | **Dragão-Pitaya** | Pedreira (ele cava) | **Semente de Uva Sombria** + drops da fase 2 | drops comuns | **Ficha Épica** + **Escama de Pitaya** | **Épico** na máquina |
-| 4 | **Batata-golem** | Pedreira funda | **Escama de Pitaya** + minério | drops comuns | **Ficha Épica** + **Raiz de Pedra** | **Lendário** na máquina |
-| 5 | **Final** (deus no céu — a criar) | o céu (santuário aparece depois do boss 4) | **Raiz de Pedra** + materiais dos 4 | drops comuns | **Ficha Lendária** + material final | fim da "campanha"; mundo continua |
-| ★ | **Totem de Melancia** (secreto) | — (aparece ao matar 10 vacas-melancia) | — | matar 10 vacas de novo | **Ficha Épica** + material secreto | nada (é secreto) |
+A coluna **Santuário** diz **em que bioma do mapa** fica o santuário daquele boss (o jogo tem 3: Planície, Floresta, Pedreira).
 
-Os nomes dos materiais são provisórios.
+| # | Boss | Santuário | 1ª oferenda (3 itens) | Reinvocar (3 itens) | Dropa | Libera |
+|---|---|---|---|---|---|---|
+| 1 | **Tomate Gigante** | Planície | drop do Tomate + drop da Cenoura + drop do Pimentão | 3× drop do Tomate | **Ficha Rara** + **Casca do Tomate** | **Raro** na máquina |
+| 2 | **Uva-morcego** | Floresta | **Casca do Tomate** + drop da Cenoura + drop do Pimentão | 3× drop da Cenoura | **Ficha Rara** + **Semente de Uva Sombria** | **Fase 2 do pesadelo** (Cebola, Milho, Abóbora) |
+| 3 | **Dragão-Pitaya** | Planície (área aberta para o tabuleiro de raios) | **Semente de Uva Sombria** + drop da Cebola + drop do Milho | 3× drop do Milho | **Ficha Épica** + **Escama de Pitaya** | **Épico** na máquina |
+| 4 | **Batata-golem** | Pedreira | **Escama de Pitaya** + Minério de Ferro + drop da Cebola | 3× drop da Cebola | **Ficha Épica** + **Raiz de Pedra** | **Lendário** na máquina + o santuário final se ergue |
+| 5 | **Final** (deus no céu — a criar) | **existe desde o início, meio enterrado** (local a definir; sugestão: centro do mapa) | **Raiz de Pedra** + **Escama de Pitaya** + **Semente de Uva Sombria** | a decidir | **Ficha Lendária** + material final | fim da "campanha"; mundo continua |
+| ★ | **Totem de Melancia** (secreto) | — (10 vacas-melancia) | — | matar 10 vacas de novo | **Ficha Épica** (no futuro: drop especial, ver armas futuras) | nada |
+
+Os nomes dos materiais são provisórios. Os "drops" de inimigos hoje são placeholders (comidas) e serão renomeados depois.
+
+## Ritual do santuário ✅ (ideia do Gustavo)
+- O jogador aperta **E** no santuário: o jogo **coloca 1 item por vez**, pegando **direto do inventário** (não precisa estar na mão).
+- Cada item colocado começa a **girar em volta do altar**, com um **rastro**.
+- Com os **3 itens**, eles **voam para o santuário e explodem** — e o **boss é invocado**.
+- **Santuário final:** existe desde o início, **parcialmente enterrado**. Quando o boss 4 morre, ele **sai do chão** e revela algo (o que revela: pensar depois).
 
 ## Regras
-- **Oferenda = item fabricado na Bancada** (receita), colocado no santuário do boss com **E**. Substitui as "3 sementes" de hoje.
-- **Santuário fica no mapa** (já é assim). Depois da 1ª vitória, ele aceita a **oferenda fácil** (receita barata com drops comuns), para farmar material.
+- **Oferenda = 3 itens** específicos por boss (tabela acima), colocados no ritual. Substitui as "3 sementes" de hoje.
+- **Santuário fica no mapa** (já é assim). Depois da 1ª vitória, ele aceita a **oferenda fácil** (3 drops comuns), para farmar material.
 - **Ordem garantida:** a 1ª oferenda de cada boss pede o material do boss anterior. Não dá para pular boss.
 - **Ficha de raridade:** item que, usado na máquina caça-níquel, dá **um giro garantido** daquela raridade. (Depois: NPC que troca itens por fichas.)
 - **Máquina por nível:** só sorteia raridades **liberadas**; a chance das raridades liberadas segue a tabela da planilha (Comum 60 / Raro 28 / Épico 10 / Lendário 2), redistribuída entre as liberadas.
@@ -36,9 +44,5 @@ Os nomes dos materiais são provisórios.
 3. **Boss 2 — Uva-morcego** (modelo e animações já existem) + **Abóbora** (inimigo novo da fase 2).
 4. Dragão (já pronto: só ligar drops/santuário) → Batata-golem (refazer) → Final (criar).
 
-## Perguntas
-1. Aprova a tabela (oferendas, drops, o que libera)? Algum boss em outro bioma?
-2. **Fichas:** giro garantido da raridade na máquina — ok?
-3. **Reinvocar** com receita barata de drops comuns — ok?
-4. O **Totem secreto** dropa ficha Épica — ok, ou algo especial (ex.: uma arma única)?
-5. **Santuário do boss final** só aparece depois do boss 4 (ou já existe desde o início, mas trancado)?
+## Decidido
+- Tabela aprovada; fichas = giro garantido; reinvocar barato; Totem dropa algo especial no futuro; santuário final meio enterrado desde o início.
