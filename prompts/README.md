@@ -46,6 +46,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_ESPANTALHO](armas/PROMPT_ZIVA_ESPANTALHO.md) | Espantalho Sonâmbulo (torreta + corvos) | ✅ feito |
 | [PROMPT_ZIVA_INTEGRAR_MODELO](armas/PROMPT_ZIVA_INTEGRAR_MODELO.md) | **modelo de uso geral**: trocar o provisório pelo modelo (colar os dados da modelagem) | ✅ reutilizável |
 | [PROMPT_ZIVA_PROGRESSAO](progressao/PROMPT_ZIVA_PROGRESSAO.md) | F4: santuários com ritual, oferendas, drops, fichas, máquina por nível, fase do pesadelo | ✅ feito (63/63) |
+| [PROMPT_ZIVA_TOMATE_GIGANTE](bosses/PROMPT_ZIVA_TOMATE_GIGANTE.md) | Boss 1: luta do Tomate Gigante | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

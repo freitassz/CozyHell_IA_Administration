@@ -16,15 +16,15 @@
 ## Progressão ✅ (F4)
 Santuário na Planície · 1ª oferenda: drop do Tomate + drop da Cenoura + drop do Pimentão · dropa Ficha Rara + Casca do Tomate · libera **Raro** na máquina.
 
-## Luta — proposta v1 (para aprovar)
+## Luta — ✅ aprovada (prompt: [PROMPT_ZIVA_TOMATE_GIGANTE](../../prompts/bosses/PROMPT_ZIVA_TOMATE_GIGANTE.md))
 Primeiro boss: **ensina** a ler avisos e a aproveitar a janela de dano. Usa só as animações que já existem.
 | Ataque | Animações | Como funciona | Aviso |
 |---|---|---|---|
 | **Pulo esmagador** | `Jump_Start/Air/Land` | pula na direção do jogador e cai fazendo uma **onda de choque** (anel que se expande no chão) | círculo vermelho no chão onde vai cair (~1,2 s) |
 | **Mordida em investida** | `Attack_Open/Hold/Close` | abre a boca (Pac-Man) e **avança** em linha reta mordendo; se bater numa árvore/pedra, **fica atordoado** | faixa vermelha no chão na direção da investida |
-| **Cuspe de sementes** | `Attack_Open/Hold/Close` | cospe um leque de sementes lentas | boca abre e brilha antes |
+| **Linguada** ✅ (já existe no jogo; substitui o cuspe) | — | a língua pode **prender** o jogador (comportamento atual; o Ziva descreve) | boca abre/brilha antes |
 | **Janela de dano** | `Stun_Start/Loop/End` | depois de **3 pulos** seguidos (ou ao bater na investida) ele cai cansado de pernas abertas por ~3 s, fica verde-claro e leva **dano ×2** | — |
-| **Fase 2** (< 50% de vida) | — | mais rápido; a cada pulo nascem 2 tomates comuns | mensagem curta + pulso vermelho |
+| **Fase 2** (< 50% de vida) | — | mais rápido; **a cada 2 pulos** nascem 2 tomates comuns | **sem texto**: só animação/efeito do boss |
 
 - Entrada de boss: título **"Tomate Gigante"**, subtítulo sugerido **"O Rei da Horta"**, barra **vermelho-tomate** `#E5484D`.
 - Morte: `Death_Start` → explosão em pedaços (`tomato_boss_explosion.glb`, já existe) → drops da F4.

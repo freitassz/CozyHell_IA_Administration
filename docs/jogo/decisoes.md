@@ -111,6 +111,9 @@
 - **Oferenda = 3 itens**; ritual: **E coloca 1 item por vez direto do inventário**, os itens giram no altar com rastro, e com os 3 eles voam para o santuário, explodem e invocam o boss.
 - Ficha de raridade = giro garantido na máquina. Reinvocar = 3 drops comuns. Totem secreto: drop especial no futuro.
 
+- **Fase 2 dos bosses: sem texto na tela.** A entrada do boss (1ª fase) continua com título; a troca de fase é só animação/efeito.
+- Tomate Gigante: pulo esmagador, investida (bate e atordoa), **linguada** (no lugar do cuspe); fase 2 solta 2 tomates **a cada 2 pulos**; subtítulo "O Rei da Horta".
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

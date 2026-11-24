@@ -28,6 +28,7 @@
 ## Bosses
 - Entrada genérica `boss_intro.tscn` (faixas de cinema, título + subtítulo, câmera lenta) e barra genérica `boss_barra.tscn` (nome, cor, rastro branco, marcador de fase).
 - Invulnerável durante a entrada.
+- **Troca de fase sem texto na tela** (só animação/efeito do boss).
 - Só ataca de novo com o corpo pronto.
 - Janela de ataque clara (ex.: cabeça presa com dano multiplicado).
 

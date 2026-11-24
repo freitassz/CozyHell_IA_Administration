@@ -5,7 +5,7 @@
 ## 🎯 Fase atual: F4 — Progressão ([proposta](docs/jogo/progressao.md))
 Armas V1 prontas (nov/2026). Agora: bosses, santuários, oferendas e máquina por nível.
 1. ✅ [Sistema de progressão](prompts/progressao/PROMPT_ZIVA_PROGRESSAO.md) (63/63) — falta ver ao vivo a explosão do ritual e o santuário final subindo
-2. 🟡 Boss 1 — Tomate Gigante ([proposta da luta](docs/bosses/tomate-boss.md))
+2. 🟡 Boss 1 — Tomate Gigante (luta ✅ aprovada · [prompt](prompts/bosses/PROMPT_ZIVA_TOMATE_GIGANTE.md) · sons depois)
 3. ⏳ Boss 2 — Uva-morcego + inimigo Abóbora
 4. ⏳ Dragão (ligar) → Batata-golem (refazer) → Final (criar)
 
