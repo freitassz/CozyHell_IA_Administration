@@ -5,7 +5,7 @@
 | Boss | Modelo | Animações | Sons | Prompt Ziva | No jogo | Ficha |
 |---|---|---|---|---|---|---|
 | Dragão-Pitaya | ✅ | por código | ✅ | ✅ | ✅ | [dragao-pitaya](dragao-pitaya.md) |
-| Tomate Boss | ✅ | ✅ | ⏳ | ⏳ | ⏳ | [tomate-boss](tomate-boss.md) |
+| Tomate Gigante | ✅ | ✅ | ⏳ | 🟡 luta proposta | ⏳ | [tomate-boss](tomate-boss.md) |
 | Uva-morcego | ✅ | ✅ | ⏳ | ⏳ | ⏳ | [uva-morcego](uva-morcego.md) |
 | Batata-golem | ❌ refazer | ⏳ | ⏳ | ⏳ | ⏳ | [batata-golem](batata-golem.md) |
 

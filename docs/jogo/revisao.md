@@ -67,8 +67,10 @@
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |
-| E08 | **Rework total dos santuários** | 🟡 proposta em [progressao.md](progressao.md) |
-| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar); `dev/test_soco_esquerdo.gd` sem uso | 🔴 baixa |
+| E08 | Rework total dos santuários | ✅ F4 no jogo |
+| E12 | Drop próprio do Milho (hoje é a Batata Frita, igual à batata) · Cebola ganhou "Lágrima de Cebola" · drops ainda são placeholders | 🟡 |
+| E13 | Abóbora: só existe cena antiga provisória (`pumpkin_enemy.tscn`) | 🔴 fazer com a fase 2 |
+| T03 | Erros antigos: UIDs inválidos em `ground_collectible.tscn`; `basis` sombreado em `ground_collectible.gd:113`; visual de graveto/pedra com RNG global; testes `dev/` quebrados ("dawn makes horde flee", `validate_shrines`, `cacaniquel_test`); `dev/validate_soco_esquerdo.gd` antigo sem uso (pode apagar); `dev/test_soco_esquerdo.gd` sem uso; `dev/validate_shrines.gd` quebrado (sistema antigo de sementes) | 🔴 baixa |
 | E09 | Sementes de chefe só saem de chefes → santuários travados fora do criativo (resolver no rework E08) | ⏸️ |
 | C07 | Fundir: nível por cópia + fusão por soma (nv3+nv2=nv5) | 🔧 aprovado, implementar depois |
 | C06 | Superaquecimento de arma | ✅ cristal do sono nas armas contínuas (escurece, R recarrega com Essência) |
