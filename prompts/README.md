@@ -7,6 +7,7 @@
 | Pedido | Assunto | Status |
 |---|---|---|
 | [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | ✅ feito |
+| [PROMPT_BLENDER_SONS_TOMATE](blender/PROMPT_BLENDER_SONS_TOMATE.md) | 12 sons do Tomate Gigante | 🟡 pronto |
 | [PROMPT_BLENDER_REGRAS_ARMAS](blender/PROMPT_BLENDER_REGRAS_ARMAS.md) | **regras comuns** de toda arma (anexar a qualquer pedido) | ✅ |
 | [PROMPT_BLENDER_CORPO_A_CORPO](blender/PROMPT_BLENDER_CORPO_A_CORPO.md) | Cutelo, Facão, Martelo da Vovó (tempos aprovados) | 🟡 pronto |
 | [PROMPT_BLENDER_ARREMESSAVEIS](blender/PROMPT_BLENDER_ARREMESSAVEIS.md) | Machadinha + Espantalho (+ corvo) | 🟡 pronto (depois de testar as mecânicas) |
@@ -46,7 +47,8 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_ESPANTALHO](armas/PROMPT_ZIVA_ESPANTALHO.md) | Espantalho Sonâmbulo (torreta + corvos) | ✅ feito |
 | [PROMPT_ZIVA_INTEGRAR_MODELO](armas/PROMPT_ZIVA_INTEGRAR_MODELO.md) | **modelo de uso geral**: trocar o provisório pelo modelo (colar os dados da modelagem) | ✅ reutilizável |
 | [PROMPT_ZIVA_PROGRESSAO](progressao/PROMPT_ZIVA_PROGRESSAO.md) | F4: santuários com ritual, oferendas, drops, fichas, máquina por nível, fase do pesadelo | ✅ feito (63/63) |
-| [PROMPT_ZIVA_TOMATE_GIGANTE](bosses/PROMPT_ZIVA_TOMATE_GIGANTE.md) | Boss 1: luta do Tomate Gigante | 🟡 entregue |
+| [PROMPT_ZIVA_TOMATE_GIGANTE](bosses/PROMPT_ZIVA_TOMATE_GIGANTE.md) | Boss 1: luta do Tomate Gigante | ✅ feito (52/52) |
+| [PROMPT_ZIVA_SONS_TOMATE](bosses/PROMPT_ZIVA_SONS_TOMATE.md) | ligar os 12 sons do Tomate | 🟡 pronto (depois dos sons) |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |
