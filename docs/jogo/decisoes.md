@@ -116,6 +116,9 @@
 - **Fase 2 dos bosses: sem texto na tela.** A entrada do boss (1ª fase) continua com título; a troca de fase é só animação/efeito.
 - Tomate Gigante: pulo esmagador, investida (bate e atordoa), **linguada** (no lugar do cuspe); fase 2 solta 2 tomates **a cada 2 pulos**; subtítulo "O Rei da Horta".
 
+- **Pimenta Ardente** (PepperBoss2): boss de etapas rígidas — órbita a distância fixa, ciclo 2 ataques + bola de fogo **rebatível só por corpo a corpo**; rebater atordoa. Substitui a Abóbora; posição na cadeia a definir.
+- **Modo econômico (hobby):** pacotes completos de uma vez (ficha + modelagem com sons + Ziva), respostas curtas, Sonnet 5.5.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

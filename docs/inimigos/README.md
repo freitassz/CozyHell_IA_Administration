@@ -4,7 +4,7 @@
 | Fase | Inimigos | Liberada por |
 |---|---|---|
 | 1 | Tomate, Cenoura, Pimentão | início |
-| 2 | Cebola, Milho, Abóbora | Uva-morcego |
+| 2 | Cebola, Milho (a **Abóbora** foi trocada pelo boss [Pimenta Ardente](../bosses/pimenta-boss.md)) | Uva-morcego |
 | 3 | em aberto | — |
 
 Especial: **Vaca-melancia** (CowMellon) espalhada pelo mapa; 10 mortas → boss secreto Totem de Melancia.
