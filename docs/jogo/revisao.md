@@ -25,6 +25,7 @@
 | I06 | Peça mágica lilás (onde a Essência entra) | ✅ **opcional**, criatividade livre |
 | P-01 | **Polimento:** rastro do tiro com mais efeito (hoje melhorou, mas o jogo ainda tem poucos efeitos; fraco mirando o céu) | ⏸️ polir no futuro |
 | P-04 | **Polimento:** animações e visual da Espingarda, Metralhadora (pote grande na recarga) e Rifle de Pressão | ⏸️ polir no futuro |
+| P-08 | **Ajustes de cada boss** (feitos rápido: "feio mas jogável"): Tomate, Uva-morcego, Dragão, Batata-golem, Final — balanceamento, avisos, efeitos, animações e sons | ⏸️ depois |
 | P-07 | **Polimento:** explosão do ritual do santuário está sem graça | ⏸️ polir depois |
 | P-06 | **Polimento das armas V1:** mais efeitos (tiro, impacto, rastro, explosões), ajustes pontuais de design dos modelos existentes | ⏸️ polir depois |
 | P-05 | **Modelos e polimento do corpo a corpo:** Cutelo, Facão e Martelo da Vovó ainda usam bloco provisório; criar modelos/animações com os tempos aprovados e polir pouca coisa (ex.: volta de 2,8 s do Martelo) | ⏸️ depois |
