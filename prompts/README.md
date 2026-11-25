@@ -8,7 +8,7 @@
 |---|---|---|
 | [PROMPT_BLENDER_SOCO_ESQUERDO](blender/PROMPT_BLENDER_SOCO_ESQUERDO.md) | soco da mão esquerda segurando arma (reaproveitável) | ✅ feito |
 | [PROMPT_BLENDER_SONS_TOMATE](blender/PROMPT_BLENDER_SONS_TOMATE.md) | 12 sons do Tomate Gigante | 🟡 pronto |
-| [PROMPT_BLENDER_SONS_UVA](blender/PROMPT_BLENDER_SONS_UVA.md) | 12 sons da Uva-morcego | 🟡 pronto |
+| [PROMPT_BLENDER_SONS_UVA](blender/PROMPT_BLENDER_SONS_UVA.md) | 14 sons da Uva-morcego (com laser) | 🟡 pronto |
 | [PROMPT_BLENDER_REGRAS_ARMAS](blender/PROMPT_BLENDER_REGRAS_ARMAS.md) | **regras comuns** de toda arma (anexar a qualquer pedido) | ✅ |
 | [PROMPT_BLENDER_CORPO_A_CORPO](blender/PROMPT_BLENDER_CORPO_A_CORPO.md) | Cutelo, Facão, Martelo da Vovó (tempos aprovados) | 🟡 pronto |
 | [PROMPT_BLENDER_ARREMESSAVEIS](blender/PROMPT_BLENDER_ARREMESSAVEIS.md) | Machadinha + Espantalho (+ corvo) | 🟡 pronto (depois de testar as mecânicas) |
@@ -50,8 +50,9 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_PROGRESSAO](progressao/PROMPT_ZIVA_PROGRESSAO.md) | F4: santuários com ritual, oferendas, drops, fichas, máquina por nível, fase do pesadelo | ✅ feito (63/63) |
 | [PROMPT_ZIVA_TOMATE_GIGANTE](bosses/PROMPT_ZIVA_TOMATE_GIGANTE.md) | Boss 1: luta do Tomate Gigante | ✅ feito (52/52) |
 | [PROMPT_ZIVA_SONS_TOMATE](bosses/PROMPT_ZIVA_SONS_TOMATE.md) | ligar os 12 sons do Tomate | 🟡 pronto (depois dos sons) |
-| [PROMPT_ZIVA_UVA_MORCEGO](bosses/PROMPT_ZIVA_UVA_MORCEGO.md) | Boss 2: luta da Uva-morcego | 🟡 entregue |
-| [PROMPT_ZIVA_SONS_UVA](bosses/PROMPT_ZIVA_SONS_UVA.md) | ligar os 12 sons da Uva | 🟡 pronto (depois dos sons) |
+| [PROMPT_ZIVA_UVA_MORCEGO](bosses/PROMPT_ZIVA_UVA_MORCEGO.md) | Boss 2: luta da Uva-morcego | ✅ feito (60/60) |
+| [PROMPT_ZIVA_UVA_LASER](bosses/PROMPT_ZIVA_UVA_LASER.md) | laser da Uva de volta, com aviso | 🟡 entregue |
+| [PROMPT_ZIVA_SONS_UVA](bosses/PROMPT_ZIVA_SONS_UVA.md) | ligar os 14 sons da Uva | 🟡 pronto (depois dos sons) |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

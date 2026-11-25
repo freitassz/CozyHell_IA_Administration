@@ -15,7 +15,9 @@ Sons em `res://Blender/<pasta da uva>/sons/`. **Só ligar os sons, não mudar a 
 | `uva_caiu.wav` | `mergulho_errou` | no lugar | 12 / 100 |
 | `uva_tonta_loop.wav` | enquanto caída (para no `levantou`) | preso, loop | 8 / 60 |
 | `uva_levantou.wav` | `levantou` | preso | 8 / 60 |
+| `uva_laser_aviso.wav` | `laser_aviso` | preso | 10 / 80 |
+| `uva_laser_loop.wav` | `laser_inicio` → para no `laser_fim` | preso, loop | 12 / 100 |
 | `uva_fase2.wav` | `fase2` | preso | 12 / 100 |
 | `uva_morte.wav` | `morreu` | no lugar | 12 / 100 |
 
-Checklist: [ ] 12 sons ligados · [ ] loops param na hora certa · Nada além disso foi alterado
+Checklist: [ ] 14 sons ligados · [ ] loops param na hora certa · Nada além disso foi alterado

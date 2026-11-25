@@ -15,6 +15,8 @@
 | `uva_caiu.wav` | `mergulho_errou` / `caiu` | baque no chão + uvas chacoalhando | 0,9 s | −16 |
 | `uva_tonta_loop.wav` | enquanto caída | gemido tonto | 2,0 s **loop** | −24 |
 | `uva_levantou.wav` | `levantou` | revoada | 0,6 s | −21 |
+| `uva_laser_aviso.wav` | `laser_aviso` | zumbido carregando no olho (subindo) | 1,2 s | −20 |
+| `uva_laser_loop.wav` | `laser_inicio` → `laser_fim` | feixe zumbindo/chiando | 1,0 s **loop** (`smpl`) | −18 |
 | `uva_fase2.wav` | `fase2` | grito irritado | 1,2 s | −16 |
 | `uva_morte.wav` | `morreu` | guincho caindo + estouro de suco grande | 2,0 s | −14 |
 

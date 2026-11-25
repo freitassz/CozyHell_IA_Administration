@@ -112,6 +112,7 @@
 - Ficha de raridade = giro garantido na máquina. Reinvocar = 3 drops comuns. Totem secreto: drop especial no futuro.
 
 - **Bosses em modo rápido:** primeiro jogáveis ("feio mas jogável"), ajustes de cada um depois (P-08).
+- **Uva-morcego mantém o laser pelo olho** (com aviso de 1,2 s), além da chuva de uvas e do mergulho.
 - **Fase 2 dos bosses: sem texto na tela.** A entrada do boss (1ª fase) continua com título; a troca de fase é só animação/efeito.
 - Tomate Gigante: pulo esmagador, investida (bate e atordoa), **linguada** (no lugar do cuspe); fase 2 solta 2 tomates **a cada 2 pulos**; subtítulo "O Rei da Horta".
 
