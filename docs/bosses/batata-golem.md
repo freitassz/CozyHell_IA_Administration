@@ -20,8 +20,25 @@ Os outros bosses testam pulo, mergulho, rebater e orbitar. Este testa **moviment
 - **Fase 2 (< 50%, sem texto):** 5 brotos menores no lugar de 3, ⚙️ 25% mais rápido, soco-martelo faz 5 estacas.
 - Entrada: **"Batata-golem / O Tubérculo de Pedra"**, barra cor de batata `#C9A66B`. Vida ⚙️ 2800.
 
-## Visual (para o pedido de modelagem)
-Batata gorda e dourada (`#D9B26F`) com manchas marrom-claras, **braços e pernas de pedra** cinza-azulada clara (`#9FB4C7`), carinha simples com olhos de broto, **brotos verdes** (`#6FCF5A`) nas costas, raízes finas saindo dos pés. ~6 m, facetado, fosco, nada perto do preto. Animações: `Idle`, `Andar`, `Virar`, `Pisao`, `Soco_Martelo`, `Giro`, `Arremesso`, `Brotos_Quebrados`/`Desmoronar` (+ loop caído), `Levantar`, `Fase2`, `Morte`.
+## Visual detalhado (para o pedido de modelagem) — ✅ ideia aprovada pelo Gustavo, visual a avaliar
+**Silhueta:** uma **batata gorda e corcunda**, com **braços e pernas de pedra** e **3 brotos verdes** crescendo nas costas. Reconhecível só pela forma.
+**Tamanho:** ~6 m de altura (7,2 m com os brotos) e ~5 m de largura nos ombros (o jogador tem ~1,7 m).
+
+| Parte | Descrição | Cores |
+|---|---|---|
+| **Tronco** | batata oval, larga na barriga, inclinada para a frente; facetada (~12 lados); "olhinhos" de batata como covinhas facetadas e cicatrizes onde a pedra encosta | dourado `#D9B26F`, manchas chapadas marrom-claro `#B88A4A` |
+| **Rosto** | no alto do tronco: **testa de pedra** grossa (mal-humorado, mas fofo), **dois olhos grandes** redondos com pupila, **nariz de batatinha**, **boca em fenda** larga com 2 dentes quadrados de pedra | olhos creme `#F3E9C8` + pupila marrom `#6B4A2B`; pedra da testa cinza-azulada |
+| **Braços** | de pedra, longos (quase tocam o chão), com **ombros redondos presos na batata como cascos** e **punhos enormes** de 3 blocos grossos; musgo claro nos ombros | pedra `#9FB4C7`, quinas mais claras `#C4D3E0`, musgo `#8FD18A` |
+| **Pernas** | curtas e grossas, **pés largos de tijolo**; **raízes finas** saindo dos pés e se enterrando no chão | pedra igual; raízes bege `#EBDDB8` |
+| **Costas / brotos (pontos fracos)** | **3 brotos grandes** (~1,2 m) em hastes grossas, cada um com 3 folhas largas facetadas e uma ponta brilhante; na base, um "colar" de pedra rachada que **se quebra quando o broto é destruído** | haste `#6FCF5A`, folhas `#4FA84A`, ponta `#B6F06A` (emissiva pulsando) |
+| **Fase 2** | **5 brotos menores**; rachaduras no corpo com brilho verde-limão; olhos com brilho verde | `#B6F06A` |
+| **Desmoronado** | pedras se soltam e rolam, batata caída de lado, raízes soltas, tocos bege no lugar dos brotos | `#EBDDB8` |
+
+- **Estilo do jogo:** facetado, cores chapadas por vértice, **sem textura**, **fosco e sem reflexo**, nada perto do preto (só o contorno).
+- **Efeitos no Godot (não no modelo):** poeira nos passos, lascas de pedra, pulso de brilho dos brotos.
+- **Materiais:** `BatataCorpo`, `Pedra`, `Musgo`, `Broto`, `BrotoBrilho` (emissivo), `Raiz`, `Olho`.
+- **Ossos (rig):** `Raiz > Corpo > BracoE/BracoD` (ombro, antebraço, punho), `PernaE/PernaD`, `Broto1–3` (2 segmentos, balançam), `Olhos`, `Boca`; âncoras `FX_PunhoE/D`, `FX_PeE/D`, `FX_Broto1–3`.
+- **Animações:** `Idle`, `Andar`, `Virar` (lento), `Pisao`, `Soco_Martelo`, `Giro`, `Arremesso`, `Brotos_Quebrados`→`Desmoronar`+`Caido` (loop)→`Levantar`, `Fase2`, `Morte`.
 
 ## Perguntas
 1. Gostou da ideia (pontos fracos nas costas + dar a volta)? Se não, corto ou proponho outra.
