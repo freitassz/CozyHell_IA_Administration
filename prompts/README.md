@@ -57,6 +57,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_PIMENTA_BOSS](bosses/PROMPT_ZIVA_PIMENTA_BOSS.md) | Pimenta Ardente: luta + sons | 🟡 entregue |
 | [PROMPT_ZIVA_PIMENTA_AJUSTE_1](bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_1.md) | Pimenta: escudo, brasas, onda baixa, fogo só nas bordas | 🟡 entregue |
 | [PROMPT_ZIVA_PIMENTA_AJUSTE_2](bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_2.md) | Pimenta: escudo discreto + entra na cadeia (boss 4) | 🟡 entregue |
+| [PROMPT_ZIVA_REMOVER_BATATA](progressao/PROMPT_ZIVA_REMOVER_BATATA.md) | cortar a Batata; Pimenta libera Lendário e ergue o santuário final | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

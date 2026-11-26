@@ -188,7 +188,7 @@ Com a arma na mão, o `BracosFps` fica pausado. Pegar do chão com arma: `_Guard
 
 ## Estado atual dos bosses/objetos
 
-- **Ordem dos bosses (nov/2026):** 1 Tomate → 2 Uva-morcego → 3 Dragão-Pitaya → 4 **Pimenta Ardente** (PepperBoss2; só leva dano atordoado; bola de fogo rebatível) → 5 Batata-golem (refazer) → 6 Final (deus no céu) · ★ secreto: Totem de Melancia. Detalhes: repositório `docs/jogo/progressao.md`.
+- **Ordem dos bosses (nov/2026):** 1 Tomate → 2 Uva-morcego → 3 Dragão-Pitaya → 4 **Pimenta Ardente** (PepperBoss2; só leva dano atordoado; bola de fogo rebatível) → 5 Final (deus no céu, a criar) · ★ secreto: Totem de Melancia. **Batata-golem foi cortada.** Detalhes: repositório `docs/jogo/progressao.md`.
 - **Santuários** (`SHRINE_DEFS`, pilares de boss): Tomate Gigante, Hidra Picante (placeholder), Golem de Raiz (**não** é o Batata-golem), Espantalho Vulcânico, Deus da Colheita Abissal. Hoje exigem 3 sementes de chefe (tier 1, `# TEMP`) e **ficam no mapa** para reinvocar (bloqueado com o boss vivo). **Rework total pendente (E08).** Todos os bosses registram derrota em `defeated_bosses` (Totem sem subir o tier).
 - **Caça-níquel de pedra** (`caçaniqueis\`): roleta de armas, fogo por raridade, 4 explosões e sons. Pronto. Hoje sorteia só o revólver (Comum).
 - **Bigorna:** abas Fabricação, **Fundir**, **Desmanchar**. **Barraca de Venda:** construída na bancada (20 madeira + 10 pedra).
@@ -201,6 +201,6 @@ Com a arma na mão, o `BracosFps` fica pausado. Pegar do chão com arma: `_Guard
   - Escudo de campo elétrico: bater fora da janela é bloqueado e solta o campo.
   - Entrada com título "O Devorador do Pomar", barra rosa `#E0337E` e drops.
   - Prompts já entregues: `PROMPT_ZIVA`, `_SONS`, `_AJUSTES`, `_FASES`, `_SONS_FASES`, `_XADREZ`, `_XADREZ_AJUSTE`, `_XADREZ_REDONDO` e `_XADREZ_FINAL`.
-- **Pendentes:** Tomate Boss, Uva-morcego, Milho e Batata-golem (refazer), cada um com sons + prompt Ziva. A **entrada de boss** deve ser aplicada a todos os bosses. Rework dos santuários. Como mostrar dano em inimigos comuns (I05). Revólver v2 no guia de estilo (em produção no chat de modelagem).
+- **Pendentes:** Tomate Boss, Uva-morcego, Milho e (Batata-golem cortada), cada um com sons + prompt Ziva. A **entrada de boss** deve ser aplicada a todos os bosses. Rework dos santuários. Como mostrar dano em inimigos comuns (I05). Revólver v2 no guia de estilo (em produção no chat de modelagem).
 
 Atualize esta seção (e o repositório) quando algo mudar.

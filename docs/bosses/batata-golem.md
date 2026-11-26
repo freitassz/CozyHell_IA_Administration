@@ -1,7 +1,7 @@
 # Batata-golem — "O Tubérculo de Pedra"
 
-- **Boss 5** da cadeia (Tomate → Uva → Dragão → Pimenta → **Batata** → Deus). Santuário na **Pedreira**.
-- **Status:** 🟡 **proposta do Claude** (se o Gustavo não gostar, pode ser cortado). Modelo antigo e folha de referência foram reprovados; começa do zero.
+- Era o boss 5 da cadeia (Tomate → Uva → Dragão → Pimenta → **Batata** → Deus). Santuário na Pedreira.
+- **Status:** ❌ **CORTADO do jogo** (nov/2026: "não está fluindo"). Mantido aqui só como arquivo. A ideia dos **pontos fracos nas costas / dar a volta no inimigo** pode ser reaproveitada em outro boss.
 - Progressão: 1ª oferenda **Brasa Eterna + Minério de Ferro + Lágrima de Cebola** · dropa **Ficha Épica + Raiz de Pedra** · libera **Lendário** e **ergue o santuário final**.
 
 ## Ideia central: **pontos fracos nas costas**

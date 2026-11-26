@@ -119,7 +119,7 @@
 - **Pimenta Ardente** (PepperBoss2): boss de etapas rígidas — órbita a distância fixa, ciclo 2 ataques + bola de fogo **rebatível só por corpo a corpo**; rebater atordoa. Substitui a Abóbora; posição na cadeia a definir.
 - **Modo econômico (hobby):** pacotes completos de uma vez (ficha + modelagem com sons + Ziva), respostas curtas, Sonnet 5.5.
 
-- **Ordem final dos bosses (nov/2026): Tomate → Uva → Dragão-Pitaya → Pimenta Ardente → Batata-golem → Deus (final)** — 6 bosses + Totem secreto. A Pimenta saiu da condição de "boss extra". O inimigo comum Pimenta/Pimentão continua. **Só leva dano atordoado**: fora disso nega todo dano, e o escudo **só aparece (rápido e fino) quando tentam feri-lo**.
+- **Ordem final dos bosses (nov/2026): Tomate → Uva → Dragão-Pitaya → Pimenta Ardente → Deus (final)** + Totem secreto. **Batata-golem cortada** ("não está fluindo"). A Pimenta libera o **Lendário** e ergue o santuário final. O inimigo comum Pimenta/Pimentão continua.
 - **Queimar no jogador:** efeito só nas bordas da tela, nunca cobrindo o centro.
 
 ## Armas

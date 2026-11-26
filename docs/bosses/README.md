@@ -1,13 +1,13 @@
 # Bosses
 
-**Ordem ✅:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, fase 2) → 3 Dragão-Pitaya (Planície) → 4 **Pimenta Ardente** (Floresta, fase 3) → 5 Batata-golem (Pedreira) → 6 Final (deus no céu, a criar) · ★ secreto: Totem de Melancia. Ver [progressao](../jogo/progressao.md).
+**Ordem ✅:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, fase 2) → 3 Dragão-Pitaya (Planície) → 4 **Pimenta Ardente** (Floresta; libera Lendário e ergue o santuário final) → 5 Final (deus no céu, a criar) · ★ secreto: Totem de Melancia. ❌ Batata-golem cortada. Ver [progressao](../jogo/progressao.md).
 
 | Boss | Modelo | Animações | Sons | Prompt Ziva | No jogo | Ficha |
 |---|---|---|---|---|---|---|
 | Dragão-Pitaya | ✅ | por código | ✅ | ✅ | ✅ | [dragao-pitaya](dragao-pitaya.md) |
 | Tomate Gigante | ✅ | ✅ | 🟡 pedido pronto | ✅ luta | 🟡 testar na ilha | [tomate-boss](tomate-boss.md) |
 | Uva-morcego | ✅ | ✅ | 🟡 pedido pronto | 🟡 luta | ⏳ | [uva-morcego](uva-morcego.md) |
-| Batata-golem | ❌ refazer | ⏳ | ⏳ | ⏳ | ⏳ | [batata-golem](batata-golem.md) (proposta) |
+| Batata-golem | ❌ refazer | ⏳ | ⏳ | ⏳ | ⏳ | [batata-golem](batata-golem.md) ❌ cortada |
 
 Modelos antigos (não feitos pelo Claude) que podem virar boss: PepperBoss (+ Fireball/FireBarrier), CowMellonBossTikiTiki.
 
