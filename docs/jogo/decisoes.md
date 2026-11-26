@@ -119,6 +119,9 @@
 - **Pimenta Ardente** (PepperBoss2): boss de etapas rígidas — órbita a distância fixa, ciclo 2 ataques + bola de fogo **rebatível só por corpo a corpo**; rebater atordoa. Substitui a Abóbora; posição na cadeia a definir.
 - **Modo econômico (hobby):** pacotes completos de uma vez (ficha + modelagem com sons + Ziva), respostas curtas, Sonnet 5.5.
 
+- **Pimenta Ardente é boss extra** (fora da progressão, dropa itens fortes, invocação a definir). O inimigo comum Pimenta/Pimentão continua. **Só leva dano atordoado**: fora disso tem barreira de fogo que bloqueia tudo.
+- **Queimar no jogador:** efeito só nas bordas da tela, nunca cobrindo o centro.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

@@ -55,6 +55,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_UVA_LASER](bosses/PROMPT_ZIVA_UVA_LASER.md) | laser da Uva de volta, com aviso | 🟡 entregue |
 | [PROMPT_ZIVA_SONS_UVA](bosses/PROMPT_ZIVA_SONS_UVA.md) | ligar os 14 sons da Uva | 🟡 pronto (depois dos sons) |
 | [PROMPT_ZIVA_PIMENTA_BOSS](bosses/PROMPT_ZIVA_PIMENTA_BOSS.md) | Pimenta Ardente: luta + sons | 🟡 entregue |
+| [PROMPT_ZIVA_PIMENTA_AJUSTE_1](bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_1.md) | Pimenta: escudo, brasas, onda baixa, fogo só nas bordas | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

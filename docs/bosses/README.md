@@ -26,7 +26,7 @@ Modelos antigos (não feitos pelo Claude) que podem virar boss: PepperBoss (+ Fi
 - 🔴 **Rework total** dos santuários pendente (E08).
 - Posições com a seed fixa `556677869`: 197–329 m do spawn.
 
-| Pimenta Ardente (PepperBoss2) | ✅ modelo atual | 🟡 pedido pronto | 🟡 pedido pronto | 🟡 prompt pronto | ⏳ | [pimenta-boss](pimenta-boss.md) |
+| Pimenta Ardente (PepperBoss2) | ✅ modelo atual | 🟡 pedido pronto | 🟡 pedido pronto | 🟡 prompt pronto | ⏳ | [pimenta-boss](pimenta-boss.md) (boss extra) |
 
 ## Pacote padrão de cada boss
 1. Modelo + rig + animações em etapas, verificadas.
