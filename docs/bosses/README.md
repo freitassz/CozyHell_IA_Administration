@@ -7,7 +7,7 @@
 | Dragão-Pitaya | ✅ | por código | ✅ | ✅ | ✅ | [dragao-pitaya](dragao-pitaya.md) |
 | Tomate Gigante | ✅ | ✅ | 🟡 pedido pronto | ✅ luta | 🟡 testar na ilha | [tomate-boss](tomate-boss.md) |
 | Uva-morcego | ✅ | ✅ | 🟡 pedido pronto | 🟡 luta | ⏳ | [uva-morcego](uva-morcego.md) |
-| Batata-golem | ❌ refazer | ⏳ | ⏳ | ⏳ | ⏳ | [batata-golem](batata-golem.md) |
+| Batata-golem | ❌ refazer | ⏳ | ⏳ | ⏳ | ⏳ | [batata-golem](batata-golem.md) (proposta) |
 
 Modelos antigos (não feitos pelo Claude) que podem virar boss: PepperBoss (+ Fireball/FireBarrier), CowMellonBossTikiTiki.
 
