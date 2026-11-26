@@ -22,6 +22,7 @@ Boss de **etapas rígidas**. Fica **no ar a distância fixa** do jogador (nem ma
 - Entrada: **"Pimenta Ardente" / "A Brasa do Sonho"**, barra laranja-fogo `#FF6A1F`, vida 2000 (ajustáveis).
 
 ## Ajuste 1 (teste do Gustavo) — [prompt](../../prompts/bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_1.md)
+- **Tamanho dobrado** (`escala` 2,0).
 - Brasas: área maior (raio 2,6 m) e queda mais rápida (0,45 s; aviso continua 1,2 s).
 - Onda de fogo: altura 0,35 m para dar para pular.
 - Queimar no jogador: só moldura fina nas bordas da tela, sem tampar o centro (vale para todas as fontes de fogo).

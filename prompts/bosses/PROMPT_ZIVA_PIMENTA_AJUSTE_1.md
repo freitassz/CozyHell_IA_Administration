@@ -10,6 +10,12 @@ Testando a Pimenta Ardente, o Gustavo pediu 4 ajustes. Modo rápido: tudo de uma
 - Como só dá para bater na janela, **reajuste a vida**: ⚙️ 1200 (e o dano ×2 no atordoado continua). Me diga quantos ciclos (bolas rebatidas) leva para matar com o revólver.
 - Sinais: `barreira_bloqueou(pos)`, `barreira_quebrou`, `barreira_refeita`.
 
+## 1b. Boss com o dobro do tamanho
+- Dobre o tamanho do boss: **`escala` = 2,0** (a variável que já existe). Isso vale para o modelo, a barreira, as mãos e o hitbox, e para o que o prompt original diz que multiplica por `escala`.
+- **Não dobre** as distâncias de jogo que não dependem do tamanho dele: órbita (14 m) e altura (9 m) ficam como estão, mas **confira que o corpo maior não atrapalha a visão** (se cobrir demais, suba a altura para ⚙️ 11 m e me avise).
+- Raios de brasas e da onda de fogo continuam os valores novos pedidos aqui (2,6 m e 0,35 m): **não** os multiplique de novo por 2 além do que `escala` já faz, e **confira que o resultado final** fica com raio de brasa ≈ 2,6 m e onda a 0,35 m de altura (se a `escala` mudar isso, use valores base que deem esses números finais).
+- A bola de fogo sai da boca (`FX_Boca`), então ela nasce maior; mantenha o raio final da bola em ⚙️ 0,8 m para o rebate continuar justo.
+
 ## 2. Chuva de brasas mais forte
 - **Área maior:** raio de cada brasa ⚙️ 1,5 → **2,6 m** × `escala` (o círculo de aviso no chão cresce junto).
 - **Mais rápidas:** o aviso no chão continua com **1,2 s** (continua escapável), mas a **queda** das brasas depois do aviso passa a ⚙️ **0,45 s** (hoje é mais lenta). Dano e Queimar iguais.
@@ -26,9 +32,9 @@ Testando a Pimenta Ardente, o Gustavo pediu 4 ajustes. Modo rápido: tudo de uma
 - Se existir um efeito antigo de fogo em tela cheia, remova-o.
 
 ## Teste
-Atualize `dev/validate_pimenta`: barreira bloqueia tiro/golpe/soco/Queimar; rebater quebra e abre a janela; barreira refaz; brasas com raio 2,6 e queda de 0,45 s; onda de 0,35 m não acerta quem pula; moldura de fogo sem cobrir o centro. Placar.
+Atualize `dev/validate_pimenta`: barreira bloqueia tiro/golpe/soco/Queimar; rebater quebra e abre a janela; barreira refaz; escala 2,0 com raios finais corretos; brasas com raio 2,6 e queda de 0,45 s; onda de 0,35 m não acerta quem pula; moldura de fogo sem cobrir o centro. Placar.
 
 ## Checklist
 - [ ] Barreira (bloqueia tudo, quebra ao rebater, refaz) · [ ] Vida reajustada + ciclos para matar
-- [ ] Brasas: raio 2,6 e queda 0,45 s (aviso 1,2 s) · [ ] Onda 0,35 m, dá para pular
+- [ ] Boss com `escala` 2,0 (distâncias e raios finais conferidos) · [ ] Brasas: raio 2,6 e queda 0,45 s (aviso 1,2 s) · [ ] Onda 0,35 m, dá para pular
 - [ ] Fogo só nas bordas · [ ] Validador · Nada além disso foi alterado
