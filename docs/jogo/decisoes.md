@@ -124,6 +124,8 @@
 
 - **Minérios/armaduras/NPCs (nov/2026):** 4 minérios (Ferro, Cobre, Ouro, Cristal do Sonho) travados por picareta por nível; 6 conjuntos de armadura com bônus; NPCs **Guia dos Sonhos** (perto do spawn), **Trader** (2 trocas de material por ficha a cada 2 dias) e **Andarilho** (aparece perto do jogador; vende/compra armaduras, ferramentas e drops). Casa/celeiro/mina adiados. Modelos depois (Gustavo).
 
+- **Pós-playtest (nov/2026):** 28 ajustes em 7 lotes ([backlog](backlog-playtest.md)). Direção: HUD e mundo **sem textos em cima das coisas**; **sound design** e visual (outline/shader/modelos) serão refeitos depois; **multiplayer + corpo do jogador** por último. Jogador morreu → o boss vai embora e reinvocar usa só itens comuns.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

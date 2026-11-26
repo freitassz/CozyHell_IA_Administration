@@ -61,6 +61,7 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_MINERIOS_ARMADURAS](mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) | 4 minérios, picaretas, Fornalha, 24 peças de armadura | ✅ feito |
 | [PROMPT_ZIVA_NPCS_GUIA_TRADER](mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) | base de NPC, Guia dos Sonhos, Trader | ✅ feito |
 | [PROMPT_ZIVA_ANDARILHO](mundo/PROMPT_ZIVA_ANDARILHO.md) | Andarilho (depois do prompt de NPCs) | ✅ feito |
+| [PROMPT_ZIVA_LOTE1_FLUIDEZ](mundo/PROMPT_ZIVA_LOTE1_FLUIDEZ.md) | playtest lote 1: recursos, alcance, economia, boss some ao morrer, stamina/deslize, sem respawn em construção | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

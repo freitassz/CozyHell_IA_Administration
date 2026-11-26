@@ -53,6 +53,8 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 
 As etapas abaixo ficam **em espera** até F1 terminar; serão reordenadas pela ordem dos bosses.
 
+## 🎮 Pós-playtest: [backlog em 7 lotes](docs/jogo/backlog-playtest.md) — Lote 1 (fluidez): [prompt](prompts/mundo/PROMPT_ZIVA_LOTE1_FLUIDEZ.md)
+
 ## 🧰 Minérios, armaduras e NPCs: ✅ no jogo (nov/2026) — falta conferir o visual e o equilíbrio jogando
 [Aprovado](docs/jogo/equipamento-e-mundo.md) → 3 prompts do Ziva, nesta ordem: 1) [minérios+armaduras](prompts/mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) 2) [NPCs Guia+Trader](prompts/mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) 3) [Andarilho](prompts/mundo/PROMPT_ZIVA_ANDARILHO.md). Boss final (Deus): por último (decisão do Gustavo).
 
