@@ -66,7 +66,10 @@
 | P08 | Armas exclusivas de boss | ✅ ideia |
 | P09 | Reinvocar boss com oferenda simples | ✅ |
 | P10 | Sistema de armaduras e minérios | ✅ prompts prontos ([equipamento-e-mundo.md](equipamento-e-mundo.md)) |
-| W01 | NPCs e estruturas: Guia dos Sonhos, Trader, Andarilho | ✅ prompts prontos |
+| W01 | NPCs e estruturas: Guia dos Sonhos, Trader, Andarilho | ✅ no jogo (conferir visual) |
+| W02 | Renomear o NPC do Trader para "Espantalho Trocador" (hoje aparece como "Andarilho") | 🔴 pequeno |
+| W03 | Mundos antigos: veios em posições diferentes depois da mudança dos minérios (usar mundo novo) | 🟡 aviso |
+| W04 | Bônus +15% de R$ do Ouro só vale na Barraca de Venda e no Andarilho | ✅ |
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |

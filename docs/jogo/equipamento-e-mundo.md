@@ -1,6 +1,6 @@
 # Minérios, armaduras, NPCs e estruturas do mundo — proposta v1
 
-> Status: ✅ **aprovado pelo Gustavo** (nov/2026). **3 prompts do Ziva:** [minérios+armaduras](../../prompts/mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) → [NPCs: Guia + Trader](../../prompts/mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) → [Andarilho](../../prompts/mundo/PROMPT_ZIVA_ANDARILHO.md). Placeholders agora; modelos depois (Gustavo).
+> Status: ✅ **no jogo** (validadores 79/79, 84/84 e 51/51; visual ainda não conferido na tela). Aprovado pelo Gustavo (nov/2026). **3 prompts do Ziva:** [minérios+armaduras](../../prompts/mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) → [NPCs: Guia + Trader](../../prompts/mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) → [Andarilho](../../prompts/mundo/PROMPT_ZIVA_ANDARILHO.md). Placeholders agora; modelos depois (Gustavo).
 > Hoje: 1 minério (Ferro); armaduras de Madeira/Pedra/Ferro (4 peças cada) com 5/10/16% **por peça**; 5 acessórios; estações Bancada, Bigorna, Fornalha, Baú, Cama, Fogueira.
 
 ## 1. Minérios (4) e picaretas — ganham propósito
@@ -45,3 +45,13 @@ Conjunto completo reduz o dano total de ⚙️: **Madeira 15% · Pedra 30% · Fe
 1. Os 4 minérios (Ferro, Cobre, Ouro, Cristal do Sonho) e a regra "picareta pede drops da fase" estão bons?
 2. Armaduras: totais por conjunto (15 → 75%) e os bônus de conjunto ok?
 3. As 3 estruturas e os 2 NPCs ok? Cortar ou trocar alguma?
+
+## Como ficou (Ziva, nov/2026)
+- **Minérios:** nível mínimo de picareta 1/2/3/4 (Ferro/Cobre/Ouro/Cristal); sem picareta suficiente nada cai ("Precisa de uma picareta melhor"). **Ferro agora também exige picareta** (antes dava com a mão). Pedreira: 40 Ferro, 24 Cobre, 8 Ouro, 4 Cristal; Planície/Floresta só Ferro e Cobre (15%).
+- **Picaretas** velocidade 1,0/1,4/1,8/2,2×, todas na Bancada. Fornalha funde Cobre e Ouro (continua gastando 1 combustível a cada 15 s). Cristal Lapidado = 3 Cristais.
+- **Armaduras:** 24 peças, teto 75%, bônus de conjunto (HUD mostra "Conjunto: Ferro ✓"). Madeira e Pedra não pedem mais Fibra.
+- **Guia dos Sonhos:** cabana a 30–45 m do spawn; dicas em `resources/guia/dicas.json`.
+- **Trader:** tenda na Planície; sem ficha liberada (antes do Tomate) não há trocas. Não filtra minérios por picareta (só por fase).
+- **Andarilho Itinerante:** vende Machado (150), Picareta (250), Machado de Ferro (450); **não** vende a Picareta de Ferro (abre o Cobre).
+- ⚠️ Mundos salvos antes dessa mudança podem ter recursos em posições diferentes (a ordem do sorteio mudou): **prefira um mundo novo**.
+- ⚠️ O NPC do Trader aparece como "Andarilho" e o outro como "Andarilho Itinerante": **renomear o Trader** (ver revisão).

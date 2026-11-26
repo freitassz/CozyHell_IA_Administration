@@ -58,9 +58,9 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_PIMENTA_AJUSTE_1](bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_1.md) | Pimenta: escudo, brasas, onda baixa, fogo só nas bordas | 🟡 entregue |
 | [PROMPT_ZIVA_PIMENTA_AJUSTE_2](bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_2.md) | Pimenta: escudo discreto + entra na cadeia (boss 4) | 🟡 entregue |
 | [PROMPT_ZIVA_REMOVER_BATATA](progressao/PROMPT_ZIVA_REMOVER_BATATA.md) | cortar a Batata; Pimenta libera Lendário e ergue o santuário final | 🟡 entregue |
-| [PROMPT_ZIVA_MINERIOS_ARMADURAS](mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) | 4 minérios, picaretas, Fornalha, 24 peças de armadura | 🟡 entregue |
-| [PROMPT_ZIVA_NPCS_GUIA_TRADER](mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) | base de NPC, Guia dos Sonhos, Trader | 🟡 entregue |
-| [PROMPT_ZIVA_ANDARILHO](mundo/PROMPT_ZIVA_ANDARILHO.md) | Andarilho (depois do prompt de NPCs) | 🟡 entregue |
+| [PROMPT_ZIVA_MINERIOS_ARMADURAS](mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) | 4 minérios, picaretas, Fornalha, 24 peças de armadura | ✅ feito |
+| [PROMPT_ZIVA_NPCS_GUIA_TRADER](mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) | base de NPC, Guia dos Sonhos, Trader | ✅ feito |
+| [PROMPT_ZIVA_ANDARILHO](mundo/PROMPT_ZIVA_ANDARILHO.md) | Andarilho (depois do prompt de NPCs) | ✅ feito |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |
