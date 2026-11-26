@@ -20,35 +20,34 @@ Os outros bosses testam pulo, mergulho, rebater e orbitar. Este testa **moviment
 - **Fase 2 (< 50%, sem texto):** 5 brotos menores no lugar de 3, ⚙️ 25% mais rápido, soco-martelo faz 5 estacas.
 - Entrada: **"Batata-golem / O Tubérculo de Pedra"**, barra cor de batata `#C9A66B`. Vida ⚙️ 2800.
 
-## Visual detalhado — v2 (ajuste do Gustavo: mais simples, mais geométrico, assimétrico, manco)
-> A 1ª versão gerada em imagem ficou "cartunesca demais" (rosto pintado, cicatrizes, simétrica, 3 brotos como coroa na cabeça). **A v2 troca detalhe "desenhado" por detalhe de formas geométricas.**
+## Visual — v3 (segue o **desenho do Gustavo**; anexar o desenho como referência no pedido de modelagem)
+> Ainda mais simples que a v2: o desenho manda. Formas **geométricas facetadas**, cor chapada, nada pintado.
 
-**Princípios**
-- **Simples de longe, detalhado de perto em formas geométricas:** tudo feito de **blocos, prismas, pirâmides e poliedros facetados**, com **chanfros, encaixes, placas e "rebites" em cubinho**. **Nada pintado** (sem cicatriz desenhada, sem sombra pintada, sem degradê): só cor chapada por face.
-- **Assimétrico:** **um braço enorme** e **um braço pequeno**; **pernas curtas e desiguais** → ele anda **mancando**.
-- Estilo do jogo: facetado, fosco, sem textura, nada perto do preto (só o contorno).
+**O que o desenho mostra**
+- **Corpo:** uma batata **muito irregular e quadradona**, quase tão larga quanto alta, cheia de **calombos** (um nos cantos de cima, outro na lateral), sem pescoço nem cabeça separada.
+- **Braço grande:** pende de um lado como uma **clava/presunto**: **fino no ombro e bem grosso embaixo (o punho)**, e **passa da base do corpo, chegando ao chão**.
+- **Bracinho:** do outro lado, **curto e fino**, só pende até a altura da cintura, com a pontinha arredondada.
+- **Pernas:** **dois tocos minúsculos** embaixo, curtos e estreitos, quase sem perna — o corpo fica **rente ao chão**. (Para o manco: uma é **um pouco mais curta** que a outra.)
+- **Rosto:** **dois olhos chatos e largos** (retângulos de cantos arredondados, olhar cansado) sob **uma sobrancelha grossa e inclinada** que cruza os dois (cara de mal-humorado); **boca = uma linha reta curta**. Nada de nariz nem dentes.
+- **Brotos:** as **pontas dos brotos aparecem nos cantos de cima**; eles **nascem nas costas** (corcunda), 3 no total.
 
-**Silhueta:** tronco gigante e baixo, **corcunda** inclinada para a frente, **braço direito enorme** quase no chão, **braço esquerdo curto**, **pernas curtas** (a esquerda menor), **3 brotos nascendo da corcunda das costas** (não da cabeça: ficam atrás e abaixo da linha da cabeça, para dar para acertar por trás).
-**Tamanho:** ~5 m de altura (6,2 m com os brotos), ~5 m de largura (ombros). Pernas ≈ 1/5 da altura: o corpo "senta" baixo e pesado.
-
+**Tradução para o modelo**
 | Parte | Descrição (geométrica) | Cores |
 |---|---|---|
-| **Tronco (batata)** | oval largo montado em **grandes facetas planas** (~10 faces visíveis); **"olhos de batata" = 5–6 poços hexagonais rasos** (inset) espalhados; **3 sulcos retos** talhados (em vez de cicatrizes); uma **placa de pedra** presa no peito com 4 rebites cúbicos | `#D9B26F`; poços `#B88A4A`; placa `#9FB4C7` |
-| **Rosto (5 peças)** | **sobrancelha = 1 bloco trapezoidal** de pedra; **2 olhos = octógonos creme** com **pupila quadrada**; **nariz = pirâmide pequena**; **boca = fenda reta** (caixa rebaixada) com **2 dentes quadrados**. Sem expressões desenhadas: a cara de mal-humorado vem só da sobrancelha inclinada | olhos `#F3E9C8`, pupila `#6B4A2B` |
-| **Braço direito (GRANDE)** | ~3× a massa do outro, chega ao chão: **ombro = poliedro (dodecaedro) grande** preso por 2 placas; **antebraço = 3 lajes empilhadas em degraus**; **punho = 4 blocos** com **placas de "nó dos dedos"** e rebites cúbicos. **Serve de muleta**: ele apoia o punho no chão ao andar | pedra `#9FB4C7`, quinas `#C4D3E0`, musgo `#8FD18A` só em 2 blocos |
-| **Braço esquerdo (CURTO)** | ~60% do comprimento e fino: **ombro pequeno + 2 blocos + mão de 3 cubos**; pende junto ao quadril, meio torto | mesma pedra |
-| **Pernas (CURTAS e DESIGUAIS)** | **direita:** coxa-cubo + bota larga (trapézio); **esquerda ~60% do tamanho**, mais grossa, com **cunha de pedra** (calço) sob o pé; 3 raízes finas (prismas longos) em cada pé | pedra; calço `#C4D3E0`; raízes `#EBDDB8` |
-| **Costas / brotos (pontos fracos)** | **corcunda** com **3 brotos** em hastes grossas (prismas) de ~1 m, **3 folhas triangulares** cada e **ponta em cristal verde** (poliedro, emissivo pulsando); na base, um **"colar" de 4–5 placas de pedra** que se solta quando o broto é destruído | haste `#6FCF5A`, folhas `#4FA84A`, ponta `#B6F06A` |
-| **Fase 2** | 5 brotos menores; **3 fendas retas** brilhando no tronco; olhos com brilho verde | `#B6F06A` |
-| **Desmoronado** | placas e blocos soltos rolando; batata caída de lado; tocos bege no lugar dos brotos | `#EBDDB8` |
+| **Corpo** | bloco-batata de **grandes facetas planas e irregulares** (~8–10 faces), **2–3 calombos** como poliedros colados; **3 sulcos retos** e **4 poços hexagonais rasos** como únicos detalhes | `#D9B26F`; poços/sulcos `#B88A4A` |
+| **Rosto (3 peças)** | **2 placas largas de cantos chanfrados** (olhos, creme) + **1 laje de sobrancelha** inclinada cobrindo as duas + **1 caixa rebaixada** fina (boca). Pupila = um quadradinho em cada olho (opcional) | olhos `#F3E9C8`, pupila `#6B4A2B`, sobrancelha pedra `#9FB4C7` |
+| **Braço grande** | **ombro estreito** que **engrossa em degraus**: 3 lajes empilhadas cada vez maiores até um **punho-bloco enorme** (3–4 blocos), com 2–3 placas e rebites cúbicos; chega ao chão (**vira muleta**) | pedra `#9FB4C7`, quinas `#C4D3E0`, musgo `#8FD18A` em 1–2 blocos |
+| **Bracinho** | **2 blocos finos + uma mão de 2–3 cubinhos**, pendendo torto | mesma pedra |
+| **Pernas** | **2 tocos** de bloco (um mais curto, com **cunha** sob o pé), 2–3 raízes finas em cada | pedra; raízes `#EBDDB8` |
+| **Brotos** | 3 hastes de prisma saindo da **corcunda**, 3 folhas triangulares cada, **ponta em cristal verde** (emissivo pulsando); na base, **colar de 4–5 placas** que se solta ao quebrar | haste `#6FCF5A`, folhas `#4FA84A`, ponta `#B6F06A` |
+| **Fase 2** | 5 brotos menores + 3 fendas retas brilhando no corpo | `#B6F06A` |
+| **Desmoronado** | blocos soltos, batata caída, tocos bege no lugar dos brotos | `#EBDDB8` |
 
-**Movimento (para as animações)**
-- **Andar manco:** `tum` (punho direito apoia) → `tum` (perna direita passa) → **arrasta a esquerda curta** (pausa) — ritmo lento e irregular. **Idle** com o corpo **inclinado ~8° para o lado da perna curta** e respirando devagar.
-- **Virar:** pivota pesado sobre a perna direita, arrastando a esquerda. Soco-martelo/giro usam o **braço grande**; o pequeno só balança.
-
+**Proporções:** corpo ~4,5 m de largura × ~4 m de altura; braço grande ~5 m (toca o chão) com punho de ~1,8 m; bracinho ~1,5 m; pernas ~0,8 m; **total ~5 m** (6 m com os brotos).
+**Movimento:** **andar manco** (punho grande apoia, perna passa, arrasta a curta, pausa); parado, **inclinado ~8°** para o lado da perna curta. Ataques fortes usam o **braço grande**; o bracinho só balança.
 **Materiais:** `BatataCorpo`, `Pedra`, `Musgo`, `Broto`, `BrotoBrilho` (emissivo), `Raiz`, `Olho`.
-**Ossos:** `Raiz > Corpo > BracoD` (ombro, antebraço, punho), `BracoE` (2 segmentos), `PernaD`, `PernaE`, `Broto1–3` (2 segmentos), `Olhos`, `Boca`; âncoras `FX_PunhoD`, `FX_PeD/E`, `FX_Broto1–3`.
-**Animações:** `Idle`, `Andar` (manco), `Virar`, `Pisao`, `Soco_Martelo`, `Giro`, `Arremesso`, `Brotos_Quebrados`→`Desmoronar`+`Caido` (loop)→`Levantar`, `Fase2`, `Morte`.
+**Ossos:** `Raiz > Corpo > BracoGrande` (ombro, antebraço, punho), `BracoPequeno`, `PernaD`, `PernaE`, `Broto1–3` (2 segmentos), `Olhos`; âncoras `FX_Punho`, `FX_PeD/E`, `FX_Broto1–3`.
+**Animações:** `Idle`, `Andar` (manco), `Virar`, `Pisao`, `Soco_Martelo`, `Giro`, `Arremesso`, `Brotos_Quebrados`→`Desmoronar`+`Caido`(loop)→`Levantar`, `Fase2`, `Morte`.
 **Efeitos no Godot:** poeira nos passos e no apoio do punho, lascas, pulso dos brotos.
 
 ## Perguntas
