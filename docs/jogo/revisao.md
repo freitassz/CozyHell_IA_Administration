@@ -65,8 +65,8 @@
 | P07 | Minérios e picaretas travados por fase do pesadelo | ✅ ideia (falta uso dos minérios) |
 | P08 | Armas exclusivas de boss | ✅ ideia |
 | P09 | Reinvocar boss com oferenda simples | ✅ |
-| P10 | Sistema de armaduras (uso dos minérios) | 🟡 proposta em [equipamento-e-mundo.md](equipamento-e-mundo.md) |
-| W01 | **Estruturas e NPCs** gerados no mundo (casa abandonada, celeiro, mina; Espantalho Trocador, Andarilho) | 🟡 proposta |
+| P10 | Sistema de armaduras e minérios | ✅ prompts prontos ([equipamento-e-mundo.md](equipamento-e-mundo.md)) |
+| W01 | NPCs e estruturas: Guia dos Sonhos, Trader, Andarilho | ✅ prompts prontos |
 | P11 | Nome da Essência do Sonho / conflito do nome "Pesadelo" | 🔴 |
 | A01 | Inventário do que já existe no jogo | ✅ |
 | E07 | Arma repetida | ✅ Fundir (até 5) ou Desmanchar na bigorna |

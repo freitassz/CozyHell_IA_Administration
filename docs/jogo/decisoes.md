@@ -122,6 +122,8 @@
 - **Ordem final dos bosses (nov/2026): Tomate → Uva → Dragão-Pitaya → Pimenta Ardente → Deus (final)** + Totem secreto. **Batata-golem cortada** ("não está fluindo"). A Pimenta libera o **Lendário** e ergue o santuário final. O inimigo comum Pimenta/Pimentão continua.
 - **Queimar no jogador:** efeito só nas bordas da tela, nunca cobrindo o centro.
 
+- **Minérios/armaduras/NPCs (nov/2026):** 4 minérios (Ferro, Cobre, Ouro, Cristal do Sonho) travados por picareta por nível; 6 conjuntos de armadura com bônus; NPCs **Guia dos Sonhos** (perto do spawn), **Trader** (2 trocas de material por ficha a cada 2 dias) e **Andarilho** (aparece perto do jogador; vende/compra armaduras, ferramentas e drops). Casa/celeiro/mina adiados. Modelos depois (Gustavo).
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

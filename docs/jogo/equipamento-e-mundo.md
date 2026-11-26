@@ -1,6 +1,6 @@
 # Minérios, armaduras, NPCs e estruturas do mundo — proposta v1
 
-> Status: 🟡 proposta do Claude (nov/2026) para aprovar/ajustar. Depois vira **2 prompts do Ziva**: (1) minérios + picaretas + fornalha + armaduras; (2) estruturas + NPCs.
+> Status: ✅ **aprovado pelo Gustavo** (nov/2026). **3 prompts do Ziva:** [minérios+armaduras](../../prompts/mundo/PROMPT_ZIVA_MINERIOS_ARMADURAS.md) → [NPCs: Guia + Trader](../../prompts/mundo/PROMPT_ZIVA_NPCS_GUIA_TRADER.md) → [Andarilho](../../prompts/mundo/PROMPT_ZIVA_ANDARILHO.md). Placeholders agora; modelos depois (Gustavo).
 > Hoje: 1 minério (Ferro); armaduras de Madeira/Pedra/Ferro (4 peças cada) com 5/10/16% **por peça**; 5 acessórios; estações Bancada, Bigorna, Fornalha, Baú, Cama, Fogueira.
 
 ## 1. Minérios (4) e picaretas — ganham propósito
@@ -27,25 +27,19 @@ Conjunto completo reduz o dano total de ⚙️: **Madeira 15% · Pedra 30% · Fe
 - **Sem modelos 3D por enquanto:** na primeira pessoa não se vê a armadura; só ícones e a **Defesa** no HUD. (Visual só no multiplayer, no futuro.)
 - Armaduras de boss (com Brasa Eterna, Escama de Pitaya etc.): **futuro**, junto com as armas exclusivas de boss.
 
-## 3. Estruturas geradas no mundo (pela seed)
-| Estrutura | Onde | O que tem | Modelo |
-|---|---|---|---|
-| **Casa abandonada** | Planície / Floresta | 1–2 **baús** com recursos, drops, R$; chance pequena de ficha Rara; ao abrir, uma **mini-horda** | `House` (já existe) |
-| **Celeiro assombrado** | Floresta | horda maior ao entrar; **baú melhor**: acessório ou ficha | `House` ampliada (provisório) |
-| **Mina abandonada** | Pedreira | entrada (`hole`) + **veios concentrados** de minério + inimigos + baú | `hole` + pedras (já existem) |
-- Já existem e continuam: **Monumento** (pilar de inimigos), **santuários**, **caça-níquel** de armas e de acessórios, vacas-melancia.
-- Quantidade e distância pela seed (⚙️ ~4 casas, 2 celeiros, 2 minas por mapa). **Saque do baú** salvo no save (como os outros baús).
-
-## 4. NPCs (parados no mundo, por seed)
-| NPC | Onde | O que faz |
+## 3. Estruturas e NPCs — ✅ definidos pelo Gustavo
+| NPC / estrutura | Onde | O que faz |
 |---|---|---|
-| **Espantalho Trocador** | Planície, perto do spawn | troca itens por **fichas** de raridade (⚙️ 15 drops comuns + 50 R$ = Ficha Rara; só raridades já liberadas). É o "NPC das fichas" que o Gustavo aprovou |
-| **Andarilho** | aparece num ponto da Floresta a cada ⚙️ 3 dias, fica 1 dia | **vende** peças de armadura e acessórios aleatórios por R$ (estoque muda a cada visita) |
-- Diálogo mínimo: 1 frase + menu de troca/compra (sem texto longo). Modelo provisório (bloco/espantalho simples) até haver arte.
+| **Guia dos Sonhos** (cabana) | **perto do spawn** | todas as **dicas** do jogo (como o Guia do Terraria): "o que fazer agora" dinâmico + tópicos |
+| **Trader** (tenda) | Planície, 150–250 m do spawn | a cada **2 dias** (ciclo do jogo) oferece **2 trocas diferentes** de **materiais por fichas** das raridades já liberadas, sorteadas |
+| **Andarilho** | **chega do nada perto do jogador** | vende/compra **armaduras, ferramentas e drops de monstros** por R$; fica até o anoitecer |
+- ❌ Casa abandonada, celeiro assombrado e mina abandonada: **adiados** (não eram o que o Gustavo queria dizer com "estruturas").
+- Já existem: Monumento, santuários, caça-níquel (armas e acessórios), vacas-melancia.
 
 ## Ordem de prompts do Ziva
-1. **Minérios, picaretas, Fornalha, armaduras** (inclui bônus de conjunto e Cristal Lapidado).
-2. **Estruturas e NPCs** (usa os baús e o save que já existem).
+1. **Minérios, picaretas, Fornalha, armaduras**.
+2. **NPCs: base + Guia dos Sonhos + Trader**.
+3. **Andarilho** (depois do 2).
 
 ## Para decidir (se não responder, eu assumo as propostas)
 1. Os 4 minérios (Ferro, Cobre, Ouro, Cristal do Sonho) e a regra "picareta pede drops da fase" estão bons?
