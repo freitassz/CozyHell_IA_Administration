@@ -53,6 +53,9 @@ Ver o que já existe, o que tirar, o que colocar e o que ajustar — antes de se
 
 As etapas abaixo ficam **em espera** até F1 terminar; serão reordenadas pela ordem dos bosses.
 
+## 🧰 Agora: minérios, armaduras, NPCs e estruturas
+[Proposta](docs/jogo/equipamento-e-mundo.md) → 2 prompts do Ziva. Boss final (Deus): por último (decisão do Gustavo).
+
 ## Conteúdo (em espera)
 
 | Etapa | Assunto | Status | Ficha |
