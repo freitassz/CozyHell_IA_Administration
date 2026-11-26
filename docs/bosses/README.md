@@ -1,6 +1,6 @@
 # Bosses
 
-**Ordem ✅:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, libera pesadelo fase 2) → 3 Dragão-Pitaya → 4 Batata-golem (Pedreira) → 5 Final (a criar; ideia: deus no céu) · ★ secreto: Totem de Melancia (10 vacas-melancia). Ver [loop.md](../jogo/loop.md).
+**Ordem ✅:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, fase 2) → 3 Dragão-Pitaya (Planície) → 4 **Pimenta Ardente** (Floresta, fase 3) → 5 Batata-golem (Pedreira) → 6 Final (deus no céu, a criar) · ★ secreto: Totem de Melancia. Ver [progressao](../jogo/progressao.md).
 
 | Boss | Modelo | Animações | Sons | Prompt Ziva | No jogo | Ficha |
 |---|---|---|---|---|---|---|
@@ -26,7 +26,7 @@ Modelos antigos (não feitos pelo Claude) que podem virar boss: PepperBoss (+ Fi
 - 🔴 **Rework total** dos santuários pendente (E08).
 - Posições com a seed fixa `556677869`: 197–329 m do spawn.
 
-| Pimenta Ardente (PepperBoss2) | ✅ modelo atual | 🟡 pedido pronto | 🟡 pedido pronto | 🟡 prompt pronto | ⏳ | [pimenta-boss](pimenta-boss.md) (boss extra) |
+| Pimenta Ardente (PepperBoss2) | ✅ modelo atual | 🟡 pedido pronto | 🟡 pedido pronto | 🟡 prompt pronto | ⏳ | [pimenta-boss](pimenta-boss.md) (boss 4) |
 
 ## Pacote padrão de cada boss
 1. Modelo + rig + animações em etapas, verificadas.

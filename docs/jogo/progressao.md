@@ -1,5 +1,6 @@
 # F4 — Progressão: bosses, santuários, oferendas e máquina (proposta v1)
 
+> ⚠️ **Ordem atual: Tomate → Uva → Dragão → Pimenta → Batata → Final (6 bosses).** A Pimenta entrou na cadeia (nov/2026); ver ajuste no [prompt](../../prompts/bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_2.md).
 > Status: ✅ aprovado com ajustes (nov/2026) · Prompt: [PROMPT_ZIVA_PROGRESSAO](../../prompts/progressao/PROMPT_ZIVA_PROGRESSAO.md). Base: `loop.md` e `decisoes.md`.
 > Objetivo: a "espinha dorsal" do jogo — o que cada boss pede, o que dá e o que libera. Depois vira prompts do Ziva (sistema) e, boss por boss, o conteúdo.
 
@@ -11,8 +12,9 @@ A coluna **Santuário** diz **em que bioma do mapa** fica o santuário daquele b
 | 1 | **Tomate Gigante** | Planície | drop do Tomate + drop da Cenoura + drop do Pimentão | 3× drop do Tomate | **Ficha Rara** + **Casca do Tomate** | **Raro** na máquina |
 | 2 | **Uva-morcego** | Floresta | **Casca do Tomate** + drop da Cenoura + drop do Pimentão | 3× drop da Cenoura | **Ficha Rara** + **Semente de Uva Sombria** | **Fase 2 do pesadelo** (Cebola, Milho, Abóbora) |
 | 3 | **Dragão-Pitaya** | Planície (área aberta para o tabuleiro de raios) | **Semente de Uva Sombria** + drop da Cebola + drop do Milho | 3× drop do Milho | **Ficha Épica** + **Escama de Pitaya** | **Épico** na máquina |
-| 4 | **Batata-golem** | Pedreira | **Escama de Pitaya** + Minério de Ferro + drop da Cebola | 3× drop da Cebola | **Ficha Épica** + **Raiz de Pedra** | **Lendário** na máquina + o santuário final se ergue |
-| 5 | **Final** (deus no céu — a criar) | **existe desde o início, meio enterrado** (local a definir; sugestão: centro do mapa) | **Raiz de Pedra** + **Escama de Pitaya** + **Semente de Uva Sombria** | a decidir | **Ficha Lendária** + material final | fim da "campanha"; mundo continua |
+| 4 | **Pimenta Ardente** (PepperBoss2) | Floresta (clareira aberta) | **Escama de Pitaya** + Molho de Pimenta + Lágrima de Cebola | 3× Molho de Pimenta | **Ficha Épica** + **Brasa Eterna** | **fase 3 do pesadelo** (a definir) |
+| 5 | **Batata-golem** | Pedreira | **Brasa Eterna** + Minério de Ferro + Lágrima de Cebola | 3× Lágrima de Cebola | **Ficha Épica** + **Raiz de Pedra** | **Lendário** na máquina + o santuário final se ergue |
+| 6 | **Final** (deus no céu — a criar) | **existe desde o início, meio enterrado** (local a definir; sugestão: centro do mapa) | **Raiz de Pedra** + **Brasa Eterna** + **Escama de Pitaya** | a decidir | **Ficha Lendária** + material final | fim da "campanha"; mundo continua |
 | ★ | **Totem de Melancia** (secreto) | — (10 vacas-melancia) | — | matar 10 vacas de novo | **Ficha Épica** (no futuro: drop especial, ver armas futuras) | nada |
 
 Os nomes dos materiais são provisórios. Os "drops" de inimigos hoje são placeholders (comidas) e serão renomeados depois.

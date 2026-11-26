@@ -22,7 +22,7 @@ O pesadelo é mostrado como **progressão de jogo** (inimigos novos), não como 
    - **Fases de inimigos ✅:** fase 1 = Tomate, Cenoura, Pimentão · fase 2 (pós Uva-morcego) = Cebola, Milho, Abóbora · fase 3 = em aberto. Sem variantes Mutante/Ancestral (descontinuadas): cada fase traz inimigos **diferentes**, não versões mais fortes.
    - O avanço é anunciado com **uma animação pelo mundo + mensagem na tela** ✅, para o jogador perceber.
 
-## Ordem dos bosses ✅
+## Ordem dos bosses ✅ (atualizada nov/2026: Tomate → Uva → Dragão → Pimenta → Batata → Final; ver `progressao.md`)
 | # | Boss | Bioma | Libera |
 |---|---|---|---|
 | 1 | Tomate | Planície | ficha + **Raro** na máquina |

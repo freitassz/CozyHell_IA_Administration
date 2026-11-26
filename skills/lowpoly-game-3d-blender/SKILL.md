@@ -365,7 +365,7 @@ O **pulo não é animação**: é uma mola no código, aplicada no `HandModels`.
 
 O roteiro oficial está no `ROADMAP.md` do repositório. Resumo (nov/2026):
 - Fase do **tiro** (F2) fechada. Fase atual: **F3 — guia de estilo**, com o **revólver v2** como primeira arma.
-- **Ordem dos bosses:** 1 Tomate → 2 Uva-morcego → 3 Dragão-Pitaya → 4 Batata-golem (refazer) → 5 Final (ideia: um deus no céu) · ★ secreto: Totem de Melancia (10 vacas-melancia).
+- **Ordem dos bosses (nov/2026):** 1 Tomate → 2 Uva-morcego → 3 Dragão-Pitaya → 4 **Pimenta Ardente** (PepperBoss2; só leva dano atordoado; bola de fogo rebatível) → 5 Batata-golem (refazer) → 6 Final (deus no céu) · ★ secreto: Totem de Melancia. Detalhes: repositório `docs/jogo/progressao.md`.
 - **Inimigos por fase:** 1 = Tomate, Cenoura, Pimentão · 2 = Cebola, Milho, **Abóbora (ainda não existe)** · 3 em aberto. Variantes Mutante/Ancestral foram removidas.
 - Pendentes de modelagem: revólver v2; ajuste do `Soco_Esquerdo_Arma` (C16); coronhada quando houver arma de duas mãos; armas da lista oficial (depois da revisão da planilha); Batata-golem; Abóbora.
 

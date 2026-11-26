@@ -2,7 +2,7 @@
 
 - **Tipo:** boss · **Modelo:** `PepperBoss2` (já existe: corpo vermelho de abóbora/pimenta com chifres, cabo verde, olhos e boca de fogo, duas mãos flutuantes) · **Animações atuais:** `IDLE`, `ATTACK_FIREBALL`, `DEFENSE_FIRE`, `HURT`
 - **Status:** 🟡 pacote pronto: [pedido de modelagem + sons](../../prompts/blender/PROMPT_BLENDER_PIMENTA_BOSS.md) · [prompt do Ziva](../../prompts/bosses/PROMPT_ZIVA_PIMENTA_BOSS.md)
-- **Posição na progressão:** ✅ **boss extra**: não afeta a progressão, **dropa itens fortes**, e será invocado de **outra forma** (a definir). Hoje: só pelo **ovo do F3**. O inimigo comum Pimenta/Pimentão **continua** no jogo.
+- **Posição na progressão:** ✅ **boss 4 da cadeia** (Tomate → Uva → Dragão → **Pimenta** → Batata → Final). Santuário na Floresta; dropa Ficha Épica + Brasa Eterna; libera a fase 3 do pesadelo (a definir). O inimigo comum Pimenta/Pimentão **continua** no jogo.
 
 ## Ideia do Gustavo
 Boss de **etapas rígidas**. Fica **no ar a distância fixa** do jogador (nem mais perto, nem mais longe) e **dá a volta nele**. A cada ciclo faz **2 ataques sorteados** e, no 3º, solta uma **bola de fogo**. O jogador **rebate** a bola (golpe corpo a corpo): ela volta, acerta o boss e ele fica **atordoado** (hora de bater ou atirar). Se o jogador **erra**, ele **continua lançando bolas** até uma ser rebatida.
@@ -26,3 +26,7 @@ Boss de **etapas rígidas**. Fica **no ar a distância fixa** do jogador (nem ma
 - Brasas: área maior (raio 2,6 m) e queda mais rápida (0,45 s; aviso continua 1,2 s).
 - Onda de fogo: altura 0,35 m para dar para pular.
 - Queimar no jogador: só moldura fina nas bordas da tela, sem tampar o centro (vale para todas as fontes de fogo).
+
+## Ajuste 2 — [prompt](../../prompts/bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_2.md)
+- **Escudo discreto:** invisível; só aparece (casca fina colada ao corpo, 0,05 s / 0,2 s) quando alguém tenta feri-lo. Continua negando todo dano fora do atordoado.
+- **Entra na cadeia de bosses** como boss 4 (ver acima).

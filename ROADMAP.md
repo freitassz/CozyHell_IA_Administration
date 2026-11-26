@@ -8,7 +8,7 @@ Armas V1 prontas (nov/2026). Agora: bosses, santuários, oferendas e máquina po
 2. ✅ Boss 1 — Tomate Gigante (jogável; sons: [pedido](prompts/blender/PROMPT_BLENDER_SONS_TOMATE.md) → [Ziva](prompts/bosses/PROMPT_ZIVA_SONS_TOMATE.md))
 3. 🟡 Boss 2 — Uva-morcego ([luta](prompts/bosses/PROMPT_ZIVA_UVA_MORCEGO.md) · sons: [pedido](prompts/blender/PROMPT_BLENDER_SONS_UVA.md) → [Ziva](prompts/bosses/PROMPT_ZIVA_SONS_UVA.md)) → depois inimigo Abóbora
 > Modo rápido: bosses jogáveis primeiro; ajustes de cada um depois (P-08).
-4. 🟡 Pimenta Ardente (PepperBoss2) — pacote pronto: [modelagem+sons](prompts/blender/PROMPT_BLENDER_PIMENTA_BOSS.md) · [Ziva](prompts/bosses/PROMPT_ZIVA_PIMENTA_BOSS.md)
+4. 🟡 Pimenta Ardente (**boss 4 da cadeia**; [ajuste 2](prompts/bosses/PROMPT_ZIVA_PIMENTA_AJUSTE_2.md)) — pacote: [modelagem+sons](prompts/blender/PROMPT_BLENDER_PIMENTA_BOSS.md) · [Ziva](prompts/bosses/PROMPT_ZIVA_PIMENTA_BOSS.md)
 4. ⏳ Dragão (ligar) → Batata-golem (refazer) → Final (criar)
 
 > O projeto virou **hobby** do Gustavo (tempo livre): o ritmo é mais lento, o método é o mesmo.

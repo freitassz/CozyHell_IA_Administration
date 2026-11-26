@@ -188,7 +188,7 @@ Com a arma na mão, o `BracosFps` fica pausado. Pegar do chão com arma: `_Guard
 
 ## Estado atual dos bosses/objetos
 
-- **Ordem dos bosses:** 1 Tomate (Planície) → 2 Uva-morcego (Floresta, libera fase 2) → 3 Dragão-Pitaya → 4 Batata-golem (Pedreira, refazer) → 5 Final (ideia: **deus no céu**; existe a cena `deus_colheita.tscn`; reserva: Espantalho Vulcânico) · ★ secreto: Totem de Melancia.
+- **Ordem dos bosses (nov/2026):** 1 Tomate → 2 Uva-morcego → 3 Dragão-Pitaya → 4 **Pimenta Ardente** (PepperBoss2; só leva dano atordoado; bola de fogo rebatível) → 5 Batata-golem (refazer) → 6 Final (deus no céu) · ★ secreto: Totem de Melancia. Detalhes: repositório `docs/jogo/progressao.md`.
 - **Santuários** (`SHRINE_DEFS`, pilares de boss): Tomate Gigante, Hidra Picante (placeholder), Golem de Raiz (**não** é o Batata-golem), Espantalho Vulcânico, Deus da Colheita Abissal. Hoje exigem 3 sementes de chefe (tier 1, `# TEMP`) e **ficam no mapa** para reinvocar (bloqueado com o boss vivo). **Rework total pendente (E08).** Todos os bosses registram derrota em `defeated_bosses` (Totem sem subir o tier).
 - **Caça-níquel de pedra** (`caçaniqueis\`): roleta de armas, fogo por raridade, 4 explosões e sons. Pronto. Hoje sorteia só o revólver (Comum).
 - **Bigorna:** abas Fabricação, **Fundir**, **Desmanchar**. **Barraca de Venda:** construída na bancada (20 madeira + 10 pedra).
