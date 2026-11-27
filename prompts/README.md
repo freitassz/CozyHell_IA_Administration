@@ -66,6 +66,8 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_LOTE2B_MUNDO_SEM_TEXTO](mundo/PROMPT_ZIVA_LOTE2B_MUNDO_SEM_TEXTO.md) | playtest lote 2B: sem texto no mundo, caça-níquel escuro, auras dos santuários, bug da cama | 🟡 entregue |
 | [PROMPT_ZIVA_LOTE3A_NATUREZA_DROPS](mundo/PROMPT_ZIVA_LOTE3A_NATUREZA_DROPS.md) | lote 3A: árvores que caem, pedras/arbustos, drops com forma | 🟡 entregue |
 | [PROMPT_ZIVA_LOTE3B_FAUNA](mundo/PROMPT_ZIVA_LOTE3B_FAUNA.md) | lote 3B: vaca-melancia, porcos, pássaros | 🟡 entregue |
+| [PROMPT_ZIVA_LOTE4A_TERRENO_GRAMA](mundo/PROMPT_ZIVA_LOTE4A_TERRENO_GRAMA.md) | lote 4A: blend do terreno, montanhas variadas, grama sem flutuar, grama cortável | 🟡 entregue |
+| [PROMPT_ZIVA_LOTE4B_AGUA](mundo/PROMPT_ZIVA_LOTE4B_AGUA.md) | lote 4B: água stylizada, nadar, fôlego, Guardião das Águas | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

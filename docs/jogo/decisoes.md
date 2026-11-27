@@ -128,6 +128,8 @@
 
 - **Fauna (nov/2026):** animais **pacíficos** (vaca-melancia reformulada, porcos, pássaros no céu) dão vida ao mundo; vaca e porco dropam **consumíveis de cura** (Fatia de Melancia, Carne de Porco). Árvores caem na direção do golpe, sem cepo.
 
+- **Água e terreno (nov/2026):** água stylizada leve com 3 níveis de qualidade (por causa do PC fraco); sair nadando da ilha invoca o **Guardião das Águas**; grama cortável e relevo variado. Mudar o relevo exige **mundo novo**.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.

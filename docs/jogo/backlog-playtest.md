@@ -22,7 +22,7 @@
 | 20 | **Totem/santuário** de cada boss reconhecível (**aura** do boss em vez de só estátua) | M |
 | B1 | 🐞 Texto gigante "**Cama (recarregando…)**" cobrindo a tela (print 2) | P |
 
-## Lote 3 — Natureza viva 🟡 prompts: [3A árvores/pedras/arbustos/drops](../../prompts/mundo/PROMPT_ZIVA_LOTE3A_NATUREZA_DROPS.md) (#1, #21, #3) · [3B fauna](../../prompts/mundo/PROMPT_ZIVA_LOTE3B_FAUNA.md) (#6)
+## Lote 3 — Natureza viva ✅ prompts: [3A árvores/pedras/arbustos/drops](../../prompts/mundo/PROMPT_ZIVA_LOTE3A_NATUREZA_DROPS.md) (#1, #21, #3) · [3B fauna](../../prompts/mundo/PROMPT_ZIVA_LOTE3B_FAUNA.md) (#6)
 | # | Item | Tam. |
 |---|---|---|
 | 1 | **Árvores:** copa maior sem engrossar o tronco; **animação de cair** para o lado em que bate; sem **cepo** | M |
@@ -30,7 +30,7 @@
 | 6 | **Vaca-melancia:** drop + rework; novos animais pacíficos (**porcos**, **pássaros no céu**) | G |
 | 3 | **Drops** não são blocos amarelos: dar forma/ícone a cada drop | M |
 
-## Lote 4 — Terreno, grama e água ⏳
+## Lote 4 — Terreno, grama e água 🟡 prompts: [4A terreno+grama](../../prompts/mundo/PROMPT_ZIVA_LOTE4A_TERRENO_GRAMA.md) (#25, #27, #18, #19) · [4B água](../../prompts/mundo/PROMPT_ZIVA_LOTE4B_AGUA.md) (#22)
 | # | Item | Tam. |
 |---|---|---|
 | 18 | Grama **flutuando em penhascos** | P |
