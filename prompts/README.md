@@ -64,6 +64,8 @@ Cada prompt fica em `prompts/<assunto>/PROMPT_ZIVA_<ASSUNTO>.md`.
 | [PROMPT_ZIVA_LOTE1_FLUIDEZ](mundo/PROMPT_ZIVA_LOTE1_FLUIDEZ.md) | playtest lote 1: recursos, alcance, economia, boss some ao morrer, stamina/deslize, sem respawn em construção | ✅ feito |
 | [PROMPT_ZIVA_LOTE2A_HUD_INVENTARIO](mundo/PROMPT_ZIVA_LOTE2A_HUD_INVENTARIO.md) | playtest lote 2A: ícones de itens, HUD, inventário com descrições, crafting | 🟡 entregue |
 | [PROMPT_ZIVA_LOTE2B_MUNDO_SEM_TEXTO](mundo/PROMPT_ZIVA_LOTE2B_MUNDO_SEM_TEXTO.md) | playtest lote 2B: sem texto no mundo, caça-níquel escuro, auras dos santuários, bug da cama | 🟡 entregue |
+| [PROMPT_ZIVA_LOTE3A_NATUREZA_DROPS](mundo/PROMPT_ZIVA_LOTE3A_NATUREZA_DROPS.md) | lote 3A: árvores que caem, pedras/arbustos, drops com forma | 🟡 entregue |
+| [PROMPT_ZIVA_LOTE3B_FAUNA](mundo/PROMPT_ZIVA_LOTE3B_FAUNA.md) | lote 3B: vaca-melancia, porcos, pássaros | 🟡 entregue |
 
 ## Antigos (cópia ainda não está no repo)
 | Assunto | Prompts |

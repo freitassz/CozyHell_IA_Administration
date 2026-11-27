@@ -126,6 +126,8 @@
 
 - **Pós-playtest (nov/2026):** 28 ajustes em 7 lotes ([backlog](backlog-playtest.md)). Direção: HUD e mundo **sem textos em cima das coisas**; **sound design** e visual (outline/shader/modelos) serão refeitos depois; **multiplayer + corpo do jogador** por último. Jogador morreu → o boss vai embora e reinvocar usa só itens comuns.
 
+- **Fauna (nov/2026):** animais **pacíficos** (vaca-melancia reformulada, porcos, pássaros no céu) dão vida ao mundo; vaca e porco dropam **consumíveis de cura** (Fatia de Melancia, Carne de Porco). Árvores caem na direção do golpe, sem cepo.
+
 ## Armas
 - Raridade é **só etiqueta**, sem multiplicador; a força está nos números da arma.
 - Golpe normal **não gasta stamina**; só o ataque especial gasta.
