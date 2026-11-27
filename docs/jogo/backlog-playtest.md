@@ -2,7 +2,7 @@
 
 > 28 itens + 1 bug visto nos prints. Agrupados em **lotes** (1 prompt do Ziva por lote, ou pedido de modelagem/arte). Tamanho: P pequeno · M médio · G grande. Status: ⏳ pendente · 🟡 prompt pronto · ✅ feito.
 
-## Lote 1 — Fluidez de gameplay 🟡 [prompt](../../prompts/mundo/PROMPT_ZIVA_LOTE1_FLUIDEZ.md)
+## Lote 1 — Fluidez de gameplay ✅ [prompt](../../prompts/mundo/PROMPT_ZIVA_LOTE1_FLUIDEZ.md)
 | # | Item | Tam. |
 |---|---|---|
 | 7 | Recursos mais difíceis de quebrar (árvore/pedra) para dar vontade de fazer machado e picareta | P |
@@ -12,7 +12,7 @@
 | 24 | **Stamina** de movimento + **pulo no deslize mantém o momentum, gastando stamina** (sem agachar+pular infinito) | M |
 | 2 | **Nenhum recurso renasce perto de construções** (ex.: árvore no meio da casa) | P |
 
-## Lote 2 — HUD e telas ⏳
+## Lote 2 — HUD e telas 🟡 prompts: [2A HUD+inventário+crafting](../../prompts/mundo/PROMPT_ZIVA_LOTE2A_HUD_INVENTARIO.md) (#4, #14) · [2B mundo sem texto, caça-níquel, auras, bug](../../prompts/mundo/PROMPT_ZIVA_LOTE2B_MUNDO_SEM_TEXTO.md) (#8, #5, #20, B1)
 | # | Item | Tam. |
 |---|---|---|
 | 4 | **HUD intuitivo** (vida, dinheiro claro, inventário, crafting) | G |
